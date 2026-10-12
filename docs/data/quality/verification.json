@@ -1,0 +1,11 @@
+{
+  "raw_sha256": "pass",
+  "sqlite_integrity": "pass",
+  "unique_climate_keys": "pass",
+  "temporal_feature_order": "pass",
+  "fixed_splits": "pass",
+  "core_test_available_both_trace_policies": "pass",
+  "rainfall_nonnegative_or_missing": "pass",
+  "source_to_feature_numeric_checks": 72,
+  "source_to_feature_numeric_result": "pass"
+}

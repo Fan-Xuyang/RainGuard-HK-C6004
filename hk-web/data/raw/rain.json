@@ -1,0 +1,221 @@
+{
+    "obsTime": "2026-10-12T13:00:00+08:00",
+    "hourlyRainfall": [
+        {
+            "automaticWeatherStation": "流浮山",
+            "automaticWeatherStationID": "RF001",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "濕地公園",
+            "automaticWeatherStationID": "RF002",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "水邊圍",
+            "automaticWeatherStationID": "N12",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "石崗",
+            "automaticWeatherStationID": "RF003",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "大美督",
+            "automaticWeatherStationID": "RF004",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "大埔墟",
+            "automaticWeatherStationID": "RF005",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "北潭涌",
+            "automaticWeatherStationID": "RF006",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "滘西洲",
+            "automaticWeatherStationID": "RF007",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "西貢",
+            "automaticWeatherStationID": "N15",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "將軍澳",
+            "automaticWeatherStationID": "RF008",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "清水灣",
+            "automaticWeatherStationID": "RF009",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "橫瀾島",
+            "automaticWeatherStationID": "RF010",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "長洲",
+            "automaticWeatherStationID": "RF011",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "坪洲",
+            "automaticWeatherStationID": "RF012",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "昂坪",
+            "automaticWeatherStationID": "RF013",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "香港國際機場",
+            "automaticWeatherStationID": "RF014",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "打鼓嶺",
+            "automaticWeatherStationID": "RF015",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "上水",
+            "automaticWeatherStationID": "RF016",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "大隴",
+            "automaticWeatherStationID": "RF017",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "荃灣可觀",
+            "automaticWeatherStationID": "RF018",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "屯門",
+            "automaticWeatherStationID": "RF019",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "沙田",
+            "automaticWeatherStationID": "RF020",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "長青",
+            "automaticWeatherStationID": "RF021",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "深水埗",
+            "automaticWeatherStationID": "RF022",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "香港天文台",
+            "automaticWeatherStationID": "RF023",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "京士柏",
+            "automaticWeatherStationID": "RF024",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "廣播道",
+            "automaticWeatherStationID": "K02",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "啟德",
+            "automaticWeatherStationID": "RF025",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "新蒲崗",
+            "automaticWeatherStationID": "K09",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "觀塘",
+            "automaticWeatherStationID": "K03",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "筲箕灣",
+            "automaticWeatherStationID": "RF026",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "跑馬地",
+            "automaticWeatherStationID": "RF027",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "山頂",
+            "automaticWeatherStationID": "RF028",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "馬己仙峽",
+            "automaticWeatherStationID": "H17",
+            "value": "M",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "赤柱",
+            "automaticWeatherStationID": "H15",
+            "value": "0",
+            "unit": "mm"
+        },
+        {
+            "automaticWeatherStation": "黃竹坑",
+            "automaticWeatherStationID": "H24",
+            "value": "0",
+            "unit": "mm"
+        }
+    ]
+}

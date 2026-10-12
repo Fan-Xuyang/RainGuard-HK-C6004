@@ -1,0 +1,12 @@
+* text=auto
+*.mjs text eol=lf
+*.js text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.pdf binary
+*.zip binary
+hk-web/data/** -text
+docs/data/** -text
+
