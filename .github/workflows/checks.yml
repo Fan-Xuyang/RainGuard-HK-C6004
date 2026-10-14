@@ -21,4 +21,4 @@ jobs:
         with:
           python-version: '3.11'
       - name: Check Python syntax
-        run: python -m py_compile download_hk.py prepare-plus.py train_hk.py datasets/collect_dataset.py scripts/download_dataset.py
+        run: python -m py_compile download_hk.py prepare-plus.py train_hk.py datasets/collect_dataset.py scripts/download_dataset.py scripts/sync_knowledge.py scripts/run_experiments.py

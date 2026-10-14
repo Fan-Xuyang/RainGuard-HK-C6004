@@ -14,4 +14,5 @@ datasets/RainGuard_HK_Dataset/
 *.log
 .DS_Store
 Thumbs.db
+runtime/
 

@@ -41,7 +41,7 @@ git push -u origin feature/your-change
 - `.env.local`、模型密钥、个人巡检照片、未经授权的设施联系人不提交。
 - `datasets/RainGuard_HK_Dataset/`、node_modules、生成的 worker/dist 已忽略。完整数据用 Release 分发，若官方源更新，应保留新采集批次、更新哈希及说明。
 - 更新数据包后，清单和发布资产应一起版本化，不要把 README 中旧快照的统计误写成新统计。
-- 应用业务数据目前保存在各自浏览器；GitHub 共享源代码不会自动同步组员的设施/任务记录。
+- GitHub 共享代码与运行中的业务数据独立。组员需要连接同一台配置了 WORKSPACE_TOKEN 的 Node 服务，使用页面的载入/上传操作共享设施、工单及现场记录；尚未提供自动合并。
 
 ## 本地检查
 
