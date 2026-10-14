@@ -1,0 +1,154 @@
+{
+  "additional_climate_rows": 1199668,
+  "additional_station_variable_series": 135,
+  "additional_weather_stations": 36,
+  "combined_climate_rows": 1871392,
+  "additional_knowledge_documents": 13,
+  "combined_knowledge_documents": 22,
+  "failed_sources": [
+    {
+      "id": "cold",
+      "url": "https://www.hko.gov.hk/sc/wservice/warning/cold.htm",
+      "category": "knowledge",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "title": "寒冷天气警告",
+      "publisher": "香港天文台"
+    },
+    {
+      "id": "very-hot",
+      "url": "https://www.hko.gov.hk/sc/wservice/warning/vhot.htm",
+      "category": "knowledge",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "title": "酷热天气警告",
+      "publisher": "香港天文台"
+    },
+    {
+      "id": "frost",
+      "url": "https://www.hko.gov.hk/sc/wservice/warning/frost.htm",
+      "category": "knowledge",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "title": "霜冻警告",
+      "publisher": "香港天文台"
+    },
+    {
+      "id": "fire",
+      "url": "https://www.hko.gov.hk/sc/wservice/warning/fire.htm",
+      "category": "knowledge",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "title": "火灾危险警告",
+      "publisher": "香港天文台"
+    },
+    {
+      "id": "monsoon",
+      "url": "https://www.hko.gov.hk/sc/wservice/warning/sms.htm",
+      "category": "knowledge",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "title": "强烈季候风信号",
+      "publisher": "香港天文台"
+    },
+    {
+      "id": "tsunami",
+      "url": "https://www.hko.gov.hk/sc/wservice/warning/tsunami.htm",
+      "category": "knowledge",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "title": "海啸警告",
+      "publisher": "香港天文台"
+    },
+    {
+      "id": "cyclone-signals",
+      "url": "https://www.hko.gov.hk/sc/informtc/tcsignal.htm",
+      "category": "knowledge",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "title": "热带气旋警告信号",
+      "publisher": "香港天文台"
+    },
+    {
+      "id": "uv",
+      "url": "https://www.hko.gov.hk/sc/wxinfo/uvindex/uvindex.htm",
+      "category": "knowledge",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "title": "紫外线指数与预报",
+      "publisher": "香港天文台"
+    },
+    {
+      "id": "rainfall-notes",
+      "url": "https://www.hko.gov.hk/sc/wxinfo/ts/explain.htm",
+      "final_url": "https://www.hko.gov.hk/sc/wxinfo/ts/explain.htm",
+      "category": "knowledge",
+      "format": "html",
+      "fetched_at_utc": "2026-10-14T09:00:54.037060+00:00",
+      "path": "raw/20261014T085640Z/knowledge/rainfall-notes.html",
+      "sha256": "6e88990b8ebe09e2c3793b2dc05ea84572355b2a6723d9e90e314106dd3e1b9e",
+      "bytes": 10810,
+      "http_status": 200,
+      "http_date": "Wed, 14 Oct 2026 09:00:50 GMT",
+      "last_modified": "Thu, 09 Jul 2026 02:00:08 GMT",
+      "content_type": "text/html; charset=utf-8",
+      "publisher": "香港天文台",
+      "title": "地区天气产品解释",
+      "extraction_error": "Insufficient readable text"
+    },
+    {
+      "id": "heat-index",
+      "url": "https://www.hko.gov.hk/sc/wxinfo/ts/heatindex.htm",
+      "category": "knowledge",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "title": "香港暑热指数",
+      "publisher": "香港天文台"
+    },
+    {
+      "id": "climate-change",
+      "url": "https://www.hko.gov.hk/sc/climate_change/climate_change_hk.htm",
+      "final_url": "https://www.hko.gov.hk/sc/climate_change/climate_change_hk.htm",
+      "category": "knowledge",
+      "format": "html",
+      "fetched_at_utc": "2026-10-14T09:00:54.259178+00:00",
+      "path": "raw/20261014T085640Z/knowledge/climate-change.html",
+      "sha256": "72e30aac39d50637f4a158040dbeeba35f6f17866e07993db70d80b5143057cf",
+      "bytes": 16753,
+      "http_status": 200,
+      "http_date": "Wed, 14 Oct 2026 09:00:50 GMT",
+      "last_modified": "Fri, 05 Sep 2025 03:50:02 GMT",
+      "content_type": "text/html; charset=utf-8",
+      "publisher": "香港天文台",
+      "title": "香港气候变化",
+      "extraction_error": "Insufficient readable text"
+    },
+    {
+      "id": "rainstorm-faq",
+      "url": "https://www.hko.gov.hk/sc/faq/faq1.htm",
+      "category": "knowledge",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "title": "暴雨警告常见问题",
+      "publisher": "香港天文台"
+    },
+    {
+      "id": "uv-definition",
+      "url": "https://www.hko.gov.hk/tc/wxinfo/uvindex/wisuvindex.htm",
+      "category": "knowledge",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "title": "紫外线指数定义",
+      "publisher": "香港天文台"
+    },
+    {
+      "id": "warning-legend",
+      "url": "https://www.hko.gov.hk/tc/wxinfo/dailywx/warnlegend.htm",
+      "final_url": "https://www.hko.gov.hk/tc/wxinfo/dailywx/warnlegend.htm",
+      "category": "knowledge",
+      "format": "html",
+      "fetched_at_utc": "2026-10-14T09:02:53.539176+00:00",
+      "path": "raw/20261014T090249Z/knowledge/warning-legend.html",
+      "sha256": "baee06c42128ff84c60a17c48669bcb0dd8e76b16b2cdeed899f5b56c09b049a",
+      "bytes": 12074,
+      "http_status": 200,
+      "http_date": "Wed, 14 Oct 2026 09:02:49 GMT",
+      "last_modified": "Tue, 17 Aug 2021 03:50:02 GMT",
+      "content_type": "text/html; charset=utf-8",
+      "publisher": "香港天文台",
+      "title": "各类天气警告图示",
+      "extraction_error": "Insufficient readable text"
+    }
+  ],
+  "source_sha256_verified": true,
+  "sqlite_integrity": "ok"
+}

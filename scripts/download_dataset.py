@@ -10,12 +10,14 @@ import zipfile
 
 def main():
     repo=Path(__file__).resolve().parents[1]
-    metadata=json.loads((repo/'datasets/release.json').read_text(encoding='utf-8'))
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--archive',type=Path,help='Use an already-downloaded release ZIP')
+    parser.add_argument('--extended',action='store_true',help='Download the additional official weather and knowledge package')
     args=parser.parse_args()
+    metadata=json.loads((repo/('datasets/extended-release.json' if args.extended else 'datasets/release.json')).read_text(encoding='utf-8'))
+    prefix='Extended_Weather_Dataset' if args.extended else 'RainGuard_HK_Dataset'
     target=repo/'datasets'
-    existing=target/'RainGuard_HK_Dataset'
+    existing=target/prefix
     if existing.exists():
         raise SystemExit('Dataset directory already exists. Keep its changes; use collector --offline or --live-only instead.')
     with tempfile.TemporaryDirectory(prefix='rainguard-dataset-') as tmp:
@@ -33,7 +35,7 @@ def main():
             root=target.resolve()
             for info in z.infolist():
                 resolved=(target/info.filename).resolve()
-                if not resolved.is_relative_to(root) or not info.filename.startswith('RainGuard_HK_Dataset/'):
+                if not resolved.is_relative_to(root) or not info.filename.startswith(prefix+'/'):
                     raise SystemExit('Unexpected archive path: nothing extracted.')
                 if ((info.external_attr>>16)&0o170000)==0o120000:
                     raise SystemExit('Archive symlink is not allowed.')

@@ -1,9 +1,11 @@
 import {SOURCES,normalize} from './hk-web/core.mjs';
 import {answer,assistantStatus} from './assistant-api.mjs';
+import {inspectOfficialEvidence} from './agent-tools.mjs';
 const memo=new Map();
 export async function handle(request,assets,env={}){
  const url=new URL(request.url);let path;try{path=decodeURIComponent(url.pathname)}catch{return new Response('Invalid path',{status:400})}
  if(path==='/api/assistant/status'&&request.method==='GET')return assistantStatus(env);
+ if(path==='/api/agent/inspect'&&request.method==='POST')return inspectOfficialEvidence(request,assets,async k=>{const response=await handle(new Request(url.origin+'/api/'+k),assets,env);const packet=await response.json();if(!response.ok)throw Error('官方源查询失败');return packet});
  if(path==='/api/assistant'&&request.method==='POST')return answer(request,assets,env,async k=>{const r=await handle(new Request(url.origin+'/api/'+k),assets,env);const p=await r.json();if(!r.ok)throw Error('upstream');return p});
  if(!['GET','HEAD'].includes(request.method))return new Response('Method not allowed',{status:405});
  if(path.startsWith('/api/')){
