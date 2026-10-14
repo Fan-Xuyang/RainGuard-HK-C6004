@@ -17,3 +17,6 @@ Thumbs.db
 runtime/
 datasets/Extended_Weather_Dataset/
 
+
+wechat-miniprogram/project.private.config.json
+wechat-miniprogram/miniprogram/runtime/

@@ -121,3 +121,9 @@ npm test                 # 含并发冲突、持久化和页面检查
 ![数据工作台](docs/screenshots/data-desktop.png)
 
 [Agent 桌面预览](docs/screenshots/agent-desktop.png) · [手机数据页](docs/screenshots/data-mobile.png) · [手机Agent页](docs/screenshots/agent-mobile.png)
+
+## 原生微信小程序（v0.4.0）
+
+微信开发者工具导入 [wechat-miniprogram](wechat-miniprogram/README.md) 目录，在仓库根目录运行 `npm start` 即可连接本机服务。六个原生页面包含总览、官方观测、来源核验/DeepSeek Agent、现场工作台、离线知识库与连接设置。
+
+`npm run mini:build` 更新真实快照和官方知识包；`npm run mini:test` 验证数据降级与业务校验。工程使用游客 AppID；手机预览及正式发布需要自己的 AppID 与合法域名。[验收记录](wechat-miniprogram/验收记录.md) 区分已通过的编译/逻辑检查和未完成的本地模拟器交互检查。

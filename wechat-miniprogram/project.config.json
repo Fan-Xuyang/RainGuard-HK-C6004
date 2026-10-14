@@ -1,0 +1,16 @@
+{
+  "appid": "touristappid",
+  "projectname": "RainGuard-HK",
+  "compileType": "miniprogram",
+  "miniprogramRoot": "miniprogram/",
+  "libVersion": "3.17.4",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "minified": true,
+    "postcss": true,
+    "minifyWXML": true
+  },
+  "description": "RainGuard 香港天气与现场复核原生小程序"
+}

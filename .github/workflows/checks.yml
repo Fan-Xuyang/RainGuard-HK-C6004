@@ -17,6 +17,9 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+      - run: npm run mini:build
+      - name: Check native page JavaScript
+        run: find wechat-miniprogram/miniprogram -name "*.js" -print0 | xargs -0 -n1 node --check
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'

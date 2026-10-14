@@ -1,4 +1,5 @@
 import {createClimateReader} from './climate-api.mjs';
+import {createMiniAgentJobs} from './mini-agent-jobs.mjs';
 import http from 'node:http';import fs from 'node:fs';import path from 'node:path';import {handle} from './server-api.mjs';
 import {createWorkspaceStore} from './workspace-store.mjs';
 if(fs.existsSync('.env.local')){for(const line of fs.readFileSync('.env.local','utf8').split(/\r?\n/)){const m=line.match(/^([A-Z_]+)=(.*)$/);if(m&&process.env[m[1]]===undefined)process.env[m[1]]=m[2].replace(/^[\"']|[\"']$/g,'')}}
@@ -7,10 +8,12 @@ function scan(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){cons
 const climate=createClimateReader(process.env.CLIMATE_DB||'datasets/Extended_Weather_Dataset/extended_weather.sqlite');
 const store=process.env.WORKSPACE_TOKEN?createWorkspaceStore({path:process.env.WORKSPACE_DB||'runtime/workspace.sqlite',token:process.env.WORKSPACE_TOKEN}):null;
 const port=Number(process.env.PORT||8095),host=process.env.HOST||'127.0.0.1';
+const miniJobs=createMiniAgentJobs({configured:()=>!!process.env.DEEPSEEK_API_KEY,execute:async(input)=>{const response=await handle(new Request('http://localhost:'+port+'/api/assistant',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(input)}),assets,process.env);const result=await response.json();if(!response.ok)throw Error(result.error||'Agent failed');return result}});
 http.createServer(async(req,res)=>{try{
  const request=new Request((process.env.PUBLIC_ORIGIN||'http://'+(req.headers.host||'localhost:'+port))+req.url,{method:req.method,headers:req.headers,...(['GET','HEAD'].includes(req.method)?{}:{body:req,duplex:'half'})});
  let response;
- if(new URL(request.url).pathname==='/api/climate/series')response=climate.handle(request);
+ if(new URL(request.url).pathname.startsWith('/api/mini/agent-jobs'))response=await miniJobs.handle(request);
+ else if(new URL(request.url).pathname==='/api/climate/series')response=climate.handle(request);
  else if(new URL(request.url).pathname.startsWith('/api/workspace'))response=store?await store.handle(request):Response.json({configured:false,error:'此服务未配置共享存储'},{status:request.method==='GET'&&req.url==='/api/workspace/status'?200:503,headers:{'Cache-Control':'no-store'}});
  else response=await handle(request,assets,process.env);
  res.writeHead(response.status,Object.fromEntries(response.headers));res.end(Buffer.from(await response.arrayBuffer()));
