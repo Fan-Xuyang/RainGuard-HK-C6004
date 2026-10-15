@@ -16,6 +16,8 @@ class BodyLimit:
             if b"multipart/form-data" in headers.get(b"content-type", b"")
             else 64000
         )
+        if scope.get("path") == "/api/workspace":
+            limit = 4000000
         chunks = []
         size = 0
         while True:

@@ -625,3 +625,5 @@ dialog::backdrop {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+.workspace-switch {display:block; padding:12px 0; margin-bottom:16px; color:#087d74; font-weight:650; text-decoration:none;} aside .workspace-switch {color:#b4e8df; padding:12px;} .workspace-switch:hover {text-decoration:underline;}

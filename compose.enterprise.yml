@@ -49,6 +49,10 @@ services:
       dockerfile: enterprise/Dockerfile.weather
     environment:
       INTERNAL_WORKFLOW_TOKEN: ${INTERNAL_WORKFLOW_TOKEN}
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY:-}
+      DEEPSEEK_MODEL: ${DEEPSEEK_MODEL:-deepseek-flash}
+    volumes:
+      - ./datasets:/app/datasets:ro
     ports:
       - '${WORKFLOW_BIND_ADDRESS:-127.0.0.1}:8096:8095'
     healthcheck:

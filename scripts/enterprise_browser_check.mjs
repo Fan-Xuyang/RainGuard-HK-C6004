@@ -23,7 +23,7 @@ const call = async (path, data) => {
   return r.json();
 };
 const login = async (username, password) => {
-  await page.goto(base);
+  await page.goto(base + "/enterprise/");
   await page.locator("#loginForm input[name=username]").fill(username);
   await page.locator("#loginForm input[name=password]").fill(password);
   await page.locator("#loginForm button").click();
@@ -39,7 +39,7 @@ const waitStatus = async (id, status) => {
   throw Error("Workflow did not reach " + status);
 };
 try {
-  await page.goto(base);
+  await page.goto(base + "/enterprise/");
   await page.screenshot({ path: out + "/login-desktop.png", fullPage: true });
   await login(access.username, access.password);
   await page.screenshot({

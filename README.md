@@ -132,6 +132,6 @@ npm test                 # 含并发冲突、持久化和页面检查
 
 本地 Docker 启动 LangChain/LangGraph、PostgreSQL、持久化执行器和调度器。支持独立账号与角色、主管审批、指派/重指派、现场照片、独立复审、退回、归档、失败重试、检查点恢复、自动雨量触发、超时提醒和审计。网页版与小程序共用同一套企业 API。
 
-使用 [企业工作流说明](enterprise/README.md) 启动，在 http://127.0.0.1:8100 登录。管理员密码和模型密钥仅保存在本机 runtime/enterprise.env；未配置模型时明确运行来源核验模式。
+使用 [企业工作流说明](enterprise/README.md) 启动，默认打开 http://127.0.0.1:8100/ 完整天气工作台，通过侧栏“企业审批工作流”进入 http://127.0.0.1:8100/enterprise/ 登录。管理员密码和模型密钥仅保存在本机 runtime/enterprise.env；未配置模型时明确运行来源核验模式。
 
 ![企业工作流（隔离验收库）](docs/screenshots/enterprise/workflow-desktop.png)

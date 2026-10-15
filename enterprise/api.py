@@ -2,7 +2,7 @@ import os, time, secrets, hashlib
 from pathlib import Path
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Request, HTTPException, UploadFile, File
-from fastapi.responses import FileResponse, Response
+from fastapi.responses import FileResponse, Response, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, ConfigDict
 from sqlalchemy import select, delete, func
@@ -23,6 +23,7 @@ from .db import (
 from .auth import current, require, bootstrap, verify, password_hash, digest, DUMMY_HASH
 from .service import new_run, transition, serialize, REGIONS
 from .limits import BodyLimit
+from .weather_gateway import weather_gateway
 
 
 class Strict(BaseModel):
@@ -99,7 +100,7 @@ def create_app(url=None):
             length = int(request.headers.get("content-length", "0"))
         except ValueError:
             return Response("Invalid length", 400)
-        if length > 2200000:
+        if length > (4000000 if request.url.path == "/api/workspace" else 2200000):
             return Response("Request too large", 413)
         response = await call_next(request)
         response.headers.update(
@@ -108,7 +109,11 @@ def create_app(url=None):
                 "X-Frame-Options": "DENY",
                 "Referrer-Policy": "same-origin",
                 "Cache-Control": "no-store",
-                "Content-Security-Policy": "default-src 'self'; img-src 'self' blob:; style-src 'self'; script-src 'self'; frame-ancestors 'none'",
+                "Content-Security-Policy": (
+                    "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; connect-src 'self' https:; frame-ancestors 'none'"
+                    if getattr(request.state, "weather_surface", False)
+                    else "default-src 'self'; img-src 'self' blob:; style-src 'self'; script-src 'self'; frame-ancestors 'none'"
+                ),
             }
         )
         return response
@@ -357,9 +362,7 @@ def create_app(url=None):
         mime = (
             "image/png"
             if data.startswith(b"\x89PNG\r\n\x1a\n")
-            else "image/jpeg"
-            if data.startswith(b"\xff\xd8\xff")
-            else None
+            else "image/jpeg" if data.startswith(b"\xff\xd8\xff") else None
         )
         if not mime:
             raise HTTPException(400, "只接受PNG或JPEG照片")
@@ -482,8 +485,16 @@ def create_app(url=None):
         "/assets", StaticFiles(directory=Path(__file__).parent / "ui"), name="assets"
     )
 
-    @app.get("/")
+    @app.get("/enterprise")
+    def enterprise_redirect():
+        return RedirectResponse("/enterprise/", status_code=307)
+
+    @app.get("/enterprise/")
     def index():
         return FileResponse(Path(__file__).parent / "ui" / "index.html")
+
+    @app.api_route("/{path:path}", methods=["GET", "HEAD", "POST", "PUT"])
+    async def weather(request: Request, path: str):
+        return await weather_gateway(request)
 
     return app
