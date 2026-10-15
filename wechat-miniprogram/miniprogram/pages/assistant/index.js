@@ -132,6 +132,13 @@ Page({
     getApp().globalData.drafts.push(draft);
     wx.switchTab({ url: "/pages/workspace/index" });
   },
+  enterprise() {
+    getApp().globalData.enterpriseDraft = {
+      question: this.data.question,
+      region: s.config().region,
+    };
+    wx.navigateTo({ url: "/pages/enterprise/index" });
+  },
   clear() {
     wx.showModal({
       title: "清除本机对话？",

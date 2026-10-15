@@ -1,0 +1,13 @@
+.git
+.venv
+node_modules
+runtime
+datasets
+dist
+worker
+.env*
+.openai
+**/__pycache__
+**/*.log
+*.zip
+wechat-miniprogram

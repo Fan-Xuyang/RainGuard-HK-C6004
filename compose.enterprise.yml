@@ -1,0 +1,84 @@
+name: rainguard-enterprise
+x-runtime: &runtime
+  image: rainguard-workflow:0.5.0
+  build:
+    context: .
+    dockerfile: enterprise/Dockerfile
+    args:
+      PIP_INDEX_URL: ${PIP_INDEX_URL:-https://pypi.org/simple}
+  environment: &environment
+    DATABASE_URL: postgresql+psycopg://rainguard:${POSTGRES_PASSWORD:?Run enterprise/bootstrap.py first}@database:5432/rainguard
+    CHECKPOINT_DATABASE_URL: postgresql://rainguard:${POSTGRES_PASSWORD}@database:5432/rainguard
+    INTERNAL_WORKFLOW_TOKEN: ${INTERNAL_WORKFLOW_TOKEN:?Run enterprise/bootstrap.py first}
+    WEATHER_SERVICE_URL: http://weather:8095
+    BOOTSTRAP_ADMIN_USER: ${BOOTSTRAP_ADMIN_USER:-admin}
+    BOOTSTRAP_ADMIN_PASSWORD: ${BOOTSTRAP_ADMIN_PASSWORD:?Run enterprise/bootstrap.py first}
+    DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY:-}
+    DEEPSEEK_MODEL: ${DEEPSEEK_MODEL:-deepseek-flash}
+    SECURE_COOKIES: ${SECURE_COOKIES:-false}
+    LANGSMITH_TRACING: 'false'
+    WORKFLOW_PUBLIC_ORIGIN: ${WORKFLOW_PUBLIC_ORIGIN:-}
+  volumes:
+    - artifacts:/app/runtime
+  depends_on:
+    database:
+      condition: service_healthy
+    weather:
+      condition: service_healthy
+  restart: unless-stopped
+  init: true
+services:
+  database:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: rainguard
+      POSTGRES_USER: rainguard
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - workflow-db:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U rainguard -d rainguard']
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+  weather:
+    image: rainguard-weather:0.5.0
+    build:
+      context: .
+      dockerfile: enterprise/Dockerfile.weather
+    environment:
+      INTERNAL_WORKFLOW_TOKEN: ${INTERNAL_WORKFLOW_TOKEN}
+    ports:
+      - '${WORKFLOW_BIND_ADDRESS:-127.0.0.1}:8096:8095'
+    healthcheck:
+      test: ['CMD', 'node', '-e', "fetch('http://127.0.0.1:8095/api/assistant/status').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+    restart: unless-stopped
+    init: true
+  api:
+    <<: *runtime
+    ports:
+      - '${WORKFLOW_BIND_ADDRESS:-127.0.0.1}:8100:8100'
+    healthcheck:
+      test: ['CMD','python','-c',"import urllib.request;urllib.request.urlopen('http://127.0.0.1:8100/health',timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+  worker:
+    <<: *runtime
+    command: ['python','-m','enterprise.worker']
+    depends_on:
+      api:
+        condition: service_healthy
+  scheduler:
+    <<: *runtime
+    command: ['python','-m','enterprise.scheduler']
+    depends_on:
+      api:
+        condition: service_healthy
+volumes:
+  workflow-db:
+  artifacts:

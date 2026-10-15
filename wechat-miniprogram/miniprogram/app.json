@@ -1,6 +1,46 @@
 {
- "pages":["pages/home/index","pages/observations/index","pages/assistant/index","pages/workspace/index","pages/knowledge/index","pages/settings/index"],
- "window":{"navigationBarTitleText":"RainGuard 香港","navigationBarBackgroundColor":"#102d3b","navigationBarTextStyle":"white","backgroundColor":"#eff4f5","enablePullDownRefresh":true},
- "tabBar":{"color":"#697e87","selectedColor":"#087f79","backgroundColor":"#ffffff","list":[{"pagePath":"pages/home/index","text":"总览"},{"pagePath":"pages/observations/index","text":"观测"},{"pagePath":"pages/assistant/index","text":"助手"},{"pagePath":"pages/workspace/index","text":"工作台"}]},
- "networkTimeout":{"request":45000},"sitemapLocation":"sitemap.json","style":"v2"
+  "pages": [
+    "pages/home/index",
+    "pages/observations/index",
+    "pages/assistant/index",
+    "pages/workspace/index",
+    "pages/knowledge/index",
+    "pages/settings/index",
+    "pages/enterprise/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "RainGuard 香港",
+    "navigationBarBackgroundColor": "#102d3b",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#eff4f5",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#697e87",
+    "selectedColor": "#087f79",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "总览"
+      },
+      {
+        "pagePath": "pages/observations/index",
+        "text": "观测"
+      },
+      {
+        "pagePath": "pages/assistant/index",
+        "text": "助手"
+      },
+      {
+        "pagePath": "pages/workspace/index",
+        "text": "工作台"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 45000
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
 }

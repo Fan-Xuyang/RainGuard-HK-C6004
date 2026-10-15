@@ -25,3 +25,22 @@ jobs:
           python-version: '3.11'
       - name: Check Python syntax
         run: python -m py_compile download_hk.py prepare-plus.py train_hk.py datasets/collect_dataset.py scripts/download_dataset.py scripts/sync_knowledge.py scripts/run_experiments.py scripts/expand_resources.py
+
+  enterprise:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: enterprise/requirements.lock
+      - run: pip install -r enterprise/requirements.lock
+      - run: python -m pytest enterprise/tests -q
+      - run: python enterprise/bootstrap.py
+      - run: docker compose --env-file runtime/enterprise.env -f compose.enterprise.yml up -d --build --wait
+      - run: docker compose --env-file runtime/enterprise.env -f compose.enterprise.yml exec -T api python -m enterprise.container_check
+      - name: Stop isolated CI deployment
+        if: always()
+        run: docker compose --env-file runtime/enterprise.env -f compose.enterprise.yml down

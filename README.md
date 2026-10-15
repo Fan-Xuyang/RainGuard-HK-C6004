@@ -127,3 +127,11 @@ npm test                 # 含并发冲突、持久化和页面检查
 微信开发者工具导入 [wechat-miniprogram](wechat-miniprogram/README.md) 目录，在仓库根目录运行 `npm start` 即可连接本机服务。六个原生页面包含总览、官方观测、来源核验/DeepSeek Agent、现场工作台、离线知识库与连接设置。
 
 `npm run mini:build` 更新真实快照和官方知识包；`npm run mini:test` 验证数据降级与业务校验。工程使用游客 AppID；手机预览及正式发布需要自己的 AppID 与合法域名。[验收记录](wechat-miniprogram/验收记录.md) 区分已通过的编译/逻辑检查和未完成的本地模拟器交互检查。
+
+## 企业审批与持久化 Agent（v0.5.0）
+
+本地 Docker 启动 LangChain/LangGraph、PostgreSQL、持久化执行器和调度器。支持独立账号与角色、主管审批、指派/重指派、现场照片、独立复审、退回、归档、失败重试、检查点恢复、自动雨量触发、超时提醒和审计。网页版与小程序共用同一套企业 API。
+
+使用 [企业工作流说明](enterprise/README.md) 启动，在 http://127.0.0.1:8100 登录。管理员密码和模型密钥仅保存在本机 runtime/enterprise.env；未配置模型时明确运行来源核验模式。
+
+![企业工作流（隔离验收库）](docs/screenshots/enterprise/workflow-desktop.png)

@@ -1,6 +1,6 @@
 {
   "name": "rainguard-hk-c6004",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "private": true,
   "type": "module",
   "description": "Hong Kong official weather observations, rainfall experiments and evidence-grounded operational assistant",
@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node serve-hk.mjs",
     "build": "node build-hk.mjs",
-    "test": "node test-workspace.mjs && node test-agent.mjs && node test-plus.mjs && node test-mini.mjs",
+    "test": "node test-workspace.mjs && node test-agent.mjs && node test-plus.mjs && node test-mini.mjs && node test-workflow-bridge.mjs",
     "test:legacy": "node test-hk.mjs",
     "data:download": "python scripts/download_dataset.py",
     "knowledge:sync": "python scripts/sync_knowledge.py",

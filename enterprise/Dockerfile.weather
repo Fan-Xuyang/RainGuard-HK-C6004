@@ -1,0 +1,9 @@
+FROM node:24-bookworm-slim
+WORKDIR /app
+COPY hk-web /app/hk-web
+COPY *.mjs /app/
+RUN mkdir /app/runtime && chown -R node:node /app/runtime
+USER node
+ENV HOST=0.0.0.0 PORT=8095
+EXPOSE 8095
+CMD ["node","serve-hk.mjs"]
