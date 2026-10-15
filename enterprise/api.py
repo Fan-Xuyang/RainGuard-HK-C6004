@@ -1,5 +1,6 @@
 import os, time, secrets, hashlib
 from pathlib import Path
+from typing import Literal
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Request, HTTPException, UploadFile, File
 from fastapi.responses import FileResponse, Response, RedirectResponse
@@ -51,6 +52,7 @@ class CreateRun(Strict):
     question: str = Field(min_length=1, max_length=2000)
     mode: str = "live"
     engine: str = "evidence"
+    locale: Literal["zh-CN", "yue-HK", "en"] = "zh-CN"
 
 
 class Decision(Strict):

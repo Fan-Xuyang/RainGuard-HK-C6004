@@ -1,0 +1,3582 @@
+{
+  "version": 1,
+  "languages": [
+    "zh-CN",
+    "yue-HK",
+    "en"
+  ],
+  "messages": {
+    "一小时最高站点雨量": {
+      "en": "Maximum station rainfall in one hour",
+      "yue-HK": "一小時最高站點雨量"
+    },
+    "三号及八号信号参考指标": {
+      "en": "Reference indicators for Signal No. 3 and No. 8",
+      "yue-HK": "三號及八號信號參考指標"
+    },
+    "上传本机记录": {
+      "en": "Upload local records",
+      "yue-HK": "上載本機記錄"
+    },
+    "上水": {
+      "en": "Sheung Shui",
+      "yue-HK": "上水"
+    },
+    "下载原始快照": {
+      "en": "Download raw snapshot",
+      "yue-HK": "下載原始快照"
+    },
+    "下载完整实验与哈希": {
+      "en": "Download full experiment and hash",
+      "yue-HK": "下載完整實驗與雜湊"
+    },
+    "下载扩展数据集 ↗": {
+      "en": "Download extended dataset ↗",
+      "yue-HK": "下載擴展數據集 ↗"
+    },
+    "不关联潮位站": {
+      "en": "Not linked to tide gauge stations",
+      "yue-HK": "唔關聯潮位站"
+    },
+    "不完整记录": {
+      "en": "Incomplete record",
+      "yue-HK": "記錄唔完整"
+    },
+    "不完整记录 · 空缺保持缺测": {
+      "en": "Incomplete record · gaps remain missing",
+      "yue-HK": "記錄唔完整 · 空缺保持缺測"
+    },
+    "东": {
+      "en": "East",
+      "yue-HK": "東"
+    },
+    "东区": {
+      "en": "Eastern District",
+      "yue-HK": "東區"
+    },
+    "两小时降雨窗口": {
+      "en": "Two-hour rainfall window",
+      "yue-HK": "兩小時降雨窗口"
+    },
+    "个人资料 · 未核验": {
+      "en": "Personal data · unverified",
+      "yue-HK": "個人資料 · 未核驗"
+    },
+    "个人资料已保存在本机，未上传模型": {
+      "en": "Personal data saved locally, not uploaded to the model",
+      "yue-HK": "個人資料已保存喺本機，未上載到模型"
+    },
+    "个实际登记": {
+      "en": "actual registrations",
+      "yue-HK": "個實際登記"
+    },
+    "中文": {
+      "en": "Chinese",
+      "yue-HK": "中文"
+    },
+    "中文原文": {
+      "en": "Chinese source text",
+      "yue-HK": "中文原文"
+    },
+    "中暑": {
+      "en": "Heat stroke",
+      "yue-HK": "中暑"
+    },
+    "中英粤语义词扩展 · BM{{0}} 排序": {
+      "en": "Chinese-English-Cantonese synonym expansion · BM{{0}} ranking",
+      "yue-HK": "中英粵語義詞擴展 · BM{{0}} 排序"
+    },
+    "中西区": {
+      "en": "Central and Western District",
+      "yue-HK": "中西區"
+    },
+    "主管": {
+      "en": "Supervisor",
+      "yue-HK": "主管"
+    },
+    "主要导览": {
+      "en": "Main navigation",
+      "yue-HK": "主要導覽"
+    },
+    "主题": {
+      "en": "Theme",
+      "yue-HK": "主題"
+    },
+    "九天天气预报": {
+      "en": "9-day weather forecast",
+      "yue-HK": "九天預報"
+    },
+    "九天预报尚未取得": {
+      "en": "9-day forecast not yet available",
+      "yue-HK": "九天預報尚未取得"
+    },
+    "九龙城": {
+      "en": "Kowloon City",
+      "yue-HK": "九龍城"
+    },
+    "五种方法 · 固定时间测试": {
+      "en": "Five methods · fixed-time test",
+      "yue-HK": "五種方法 · 固定時間測試"
+    },
+    "交班报告": {
+      "en": "Handover reports",
+      "yue-HK": "交更報告"
+    },
+    "京士柏": {
+      "en": "King's Park",
+      "yue-HK": "京士柏"
+    },
+    "人工复核工单": {
+      "en": "Manual review ticket",
+      "yue-HK": "人工複核工單"
+    },
+    "人工审批": {
+      "en": "Manual approval",
+      "yue-HK": "人工審批"
+    },
+    "人工核对模板，引用真实官方资料；不自动判断安全或替你批准行动。": {
+      "en": "Manually verified template citing real official sources; it does not automatically judge safety or approve actions for you.",
+      "yue-HK": "人工核對模板，引用真實官方資料；唔會自動判斷安全，亦唔會替你批准行動。"
+    },
+    "人工核对草稿": {
+      "en": "Draft for human review",
+      "yue-HK": "人手核對草稿"
+    },
+    "人工确认后记录安排，不自动发布停工指令": {
+      "en": "Record arrangements only after manual confirmation; no automatic stop-work orders",
+      "yue-HK": "人工確認後先記錄安排，唔會自動發布停工指令"
+    },
+    "{{0}} 站资料 · 缺测不视为零": {
+      "en": "{{0}} station data · Missing readings are not treated as zero",
+      "yue-HK": "{{0}} 站資料 · 缺測唔當係零"
+    },
+    "{{0}} 笔资料": {
+      "en": "{{0}} records",
+      "yue-HK": "{{0}} 筆資料"
+    },
+    "{{0}} 组新鲜在线资料 · {{1}} 组更新失败 · 各来源时间见资料中心": {
+      "en": "{{0}} sources up to date · {{1}} updates failed · See Source centre for timestamps",
+      "yue-HK": "{{0}} 組資料已更新 · {{1}} 組更新失敗 · 各來源時間請睇資料中心"
+    },
+    "{{0}} 至 {{1}} · {{2}} 日记录": {
+      "en": "{{0}} to {{1}} · {{2}} days of records",
+      "yue-HK": "{{0}} 至 {{1}} · {{2}} 日記錄"
+    },
+    "· PDF页": {
+      "en": "· PDF page",
+      "yue-HK": "· PDF 頁"
+    },
+    "· 不代表没有局部风险。": {
+      "en": "· This does not mean there is no localised risk.",
+      "yue-HK": "· 唔代表冇局部風險。"
+    },
+    "· 人工核对": {
+      "en": "· Manual verification",
+      "yue-HK": "· 人手核對"
+    },
+    "· 匹配": {
+      "en": "· Match",
+      "yue-HK": "· 匹配"
+    },
+    "· 官方来源": {
+      "en": "· Official source",
+      "yue-HK": "· 官方來源"
+    },
+    "· 更新": {
+      "en": "· Update",
+      "yue-HK": "· 更新"
+    },
+    "· 本机数据未改变": {
+      "en": "· Local data unchanged",
+      "yue-HK": "· 本機資料未改變"
+    },
+    "“发送”将问题和最多{{0}}条对话交给DeepSeek；“仅核验来源”不调用模型。": {
+      "en": "\"Send\" passes the question and up to {{0}} conversation turns to DeepSeek; \"Verify sources only\" does not call the model.",
+      "yue-HK": "「發送」會將問題同最多 {{0}} 條對話交畀 DeepSeek；「僅核驗來源」唔會叫用模型。"
+    },
+    "← 完整天气工作台": {
+      "en": "← Full weather workbench",
+      "yue-HK": "← 完整天氣工作台"
+    },
+    "← 返回完整天气工作台": {
+      "en": "← Back to full weather workbench",
+      "yue-HK": "← 返回完整天氣工作台"
+    },
+    "↑ 还原备份": {
+      "en": "↑ Restore backup",
+      "yue-HK": "↑ 還原備份"
+    },
+    "↓ 区域对比 CSV": {
+      "en": "↓ Regional comparison CSV",
+      "yue-HK": "↓ 區域對比 CSV"
+    },
+    "↓ 备份工作空间": {
+      "en": "↓ Back up workspace",
+      "yue-HK": "↓ 備份工作空間"
+    },
+    "↓ 导出当前对话与引用": {
+      "en": "↓ Export current conversation and citations",
+      "yue-HK": "↓ 匯出目前對話同引用"
+    },
+    "↓ 年度 CSV": {
+      "en": "↓ Annual CSV",
+      "yue-HK": "↓ 年度 CSV"
+    },
+    "↓ 汇出": {
+      "en": "↓ Export",
+      "yue-HK": "↓ 匯出"
+    },
+    "↓ 汇出模型与测试结果": {
+      "en": "↓ Export model and test results",
+      "yue-HK": "↓ 匯出模型同測試結果"
+    },
+    "↻ 刷新": {
+      "en": "↻ Refresh",
+      "yue-HK": "↻ 重新整理"
+    },
+    "↻ 更新中…": {
+      "en": "↻ Updating…",
+      "yue-HK": "↻ 更新緊…"
+    },
+    "↻ 更新资料": {
+      "en": "↻ Update data",
+      "yue-HK": "↻ 更新資料"
+    },
+    "≥{{0}} mm 完整数值日": {
+      "en": "≥{{0}} mm complete-value days",
+      "yue-HK": "≥{{0}} mm 完整數值日"
+    },
+    "⌁ 自动触发规则": {
+      "en": "⌁ Auto-trigger rules",
+      "yue-HK": "⌁ 自動觸發規則"
+    },
+    "⌕ 快速查找": {
+      "en": "⌕ Quick search",
+      "yue-HK": "⌕ 快速搵"
+    },
+    "▤ 审计记录": {
+      "en": "▤ Audit log",
+      "yue-HK": "▤ 審計記錄"
+    },
+    "◉ 待办与超时": {
+      "en": "◉ To-dos and overdue",
+      "yue-HK": "◉ 待辦同超時"
+    },
+    "◫ 工作流中心": {
+      "en": "◫ Workflow centre",
+      "yue-HK": "◫ 工作流中心"
+    },
+    "★ 已收藏": {
+      "en": "★ Saved",
+      "yue-HK": "★ 已收藏"
+    },
+    "☆ 收藏资料": {
+      "en": "☆ Save data",
+      "yue-HK": "☆ 收藏資料"
+    },
+    "♧ 团队与权限": {
+      "en": "♧ Team and permissions",
+      "yue-HK": "♧ 團隊同權限"
+    },
+    "。请同时核对官方渠道。": {
+      "en": ". Please also check official channels.",
+      "yue-HK": "。請同時核對官方渠道。"
+    },
+    "一份可追溯的交班报告。": {
+      "en": "A traceable handover report.",
+      "yue-HK": "一份可追溯嘅交班報告。"
+    },
+    "# RainGuard HK 天气运营交班报告": {
+      "en": "# RainGuard HK Weather Operations Handover Report",
+      "yue-HK": "# RainGuard HK 天氣營運交班報告"
+    },
+    "## 来源与时效": {
+      "en": "## Sources and Timeliness",
+      "yue-HK": "## 來源與時效"
+    },
+    "## 现场情况": {
+      "en": "## Site Conditions",
+      "yue-HK": "## 現場情況"
+    },
+    "## 观测与数据状态": {
+      "en": "## Observations and Data Status",
+      "yue-HK": "## 觀測與數據狀態"
+    },
+    "## 解读边界": {
+      "en": "## Interpretation Boundaries",
+      "yue-HK": "## 解讀界限"
+    },
+    "## 设施与人工复核": {
+      "en": "## Facilities and Manual Review",
+      "yue-HK": "## 設施與人手覆核"
+    },
+    "Agent 分析": {
+      "en": "Agent Analysis",
+      "yue-HK": "Agent 分析"
+    },
+    "Agent 分析（待人工核对）": {
+      "en": "Agent Analysis (Pending Manual Verification)",
+      "yue-HK": "Agent 分析（待人手核對）"
+    },
+    "Agent 已完成核验，请查看工具轨迹与来源": {
+      "en": "Agent verification complete. Please review the tool trace and sources.",
+      "yue-HK": "Agent 已完成核驗，請查看工具軌跡與來源"
+    },
+    "Agent 执行中": {
+      "en": "Agent Running",
+      "yue-HK": "Agent 執行中"
+    },
+    "Agent 正在核验…": {
+      "en": "Agent verifying…",
+      "yue-HK": "Agent 正在核驗…"
+    },
+    "C{{0}} · 课程应用原型": {
+      "en": "C{{0}} · Course Application Prototype",
+      "yue-HK": "C{{0}} · 課程應用原型"
+    },
+    "DeepSeek 工具调用 Agent": {
+      "en": "DeepSeek Tool-Calling Agent",
+      "yue-HK": "DeepSeek 工具調用 Agent"
+    },
+    "DeepSeek 已配置": {
+      "en": "DeepSeek Configured",
+      "yue-HK": "DeepSeek 已配置"
+    },
+    "DeepSeek 已配置 ·": {
+      "en": "DeepSeek Configured ·",
+      "yue-HK": "DeepSeek 已配置 ·"
+    },
+    "DeepSeek 结合官方知识与真实查询，辅助人工核对。": {
+      "en": "DeepSeek combines official knowledge with live queries to assist manual verification.",
+      "yue-HK": "DeepSeek 結合官方知識與真實查詢，輔助人手核對。"
+    },
+    "HKO 官方气候记录": {
+      "en": "HKO Official Climate Records",
+      "yue-HK": "HKO 官方氣候記錄"
+    },
+    "LangGraph 检查点 · 独立审批 · 现场事实 · 可恢复执行": {
+      "en": "LangGraph Checkpoints · Independent Approval · Site Facts · Resumable Execution",
+      "yue-HK": "LangGraph 檢查點 · 獨立審批 · 現場事實 · 可恢復執行"
+    },
+    "Language / 语言 / 语言": {
+      "en": "Language / 語言 / 語言",
+      "yue-HK": "Language / 語言 / 語言"
+    },
+    "RAINGUARD HK / 来源、责任与每次状态变更均可核对。": {
+      "en": "RAINGUARD HK / Sources, accountability and every status change can be verified.",
+      "yue-HK": "RAINGUARD HK / 來源、責任與每次狀態變更均可核對。"
+    },
+    "RainGuard-HK-交班报告.md": {
+      "en": "RainGuard-HK-Handover-Report.md",
+      "yue-HK": "RainGuard-HK-交班報告.md"
+    },
+    "\\ufeff区域,一小时雨量mm,状态": {
+      "en": "\\ufeffDistrict,1-hour Rainfall mm,Status",
+      "yue-HK": "\\ufeff區域,一小時雨量mm,狀態"
+    },
+    "mm / 小时": {
+      "en": "mm / hour",
+      "yue-HK": "mm / 小時"
+    },
+    "{{0}} {{1}} HKT · 更新失败 · 保留旧值": {
+      "en": "{{0}} {{1}} HKT · Update failed · Keeping previous value",
+      "yue-HK": "{{0}} {{1}} HKT · 更新失敗 · 保留舊值"
+    },
+    "{{0}} 个实际登记": {
+      "en": "{{0}} actually registered",
+      "yue-HK": "{{0}} 個實際登記"
+    },
+    "{{0}} 个已登记设施 · 本机储存": {
+      "en": "{{0}} registered facilities · Stored locally",
+      "yue-HK": "{{0}} 個已登記設施 · 本機儲存"
+    },
+    "{{0}} 份符合筛选的资料 · {{1}} 个显示结果；原文保留原始语言": {
+      "en": "{{0}} records matching the filter · {{1}} results shown; originals kept in their original language",
+      "yue-HK": "{{0}} 份符合篩選嘅資料 · {{1}} 個顯示結果；原文保留原始語言"
+    },
+    "{{0}} 分钟": {
+      "en": "{{0}} minutes",
+      "yue-HK": "{{0}} 分鐘"
+    },
+    "{{0}} 分钟（非官方承诺）": {
+      "en": "{{0}} minutes (not an official commitment)",
+      "yue-HK": "{{0}} 分鐘（非官方承諾）"
+    },
+    "{{0}} 区对比，找到值守重点。": {
+      "en": "Comparison across {{0}} districts to identify watch priorities.",
+      "yue-HK": "{{0}} 區對比，搵到值守重點。"
+    },
+    "{{0}} 区过去一小时雨量": {
+      "en": "Rainfall over the past hour in {{0}} districts",
+      "yue-HK": "{{0}} 區過去一小時雨量"
+    },
+    "{{0}} 区雨量": {
+      "en": "Rainfall in {{0}} districts",
+      "yue-HK": "{{0}} 區雨量"
+    },
+    "{{0}} 区雨量比较、真实在线观测记录与质量诊断。": {
+      "en": "Rainfall comparison across {{0}} districts, live online observation records and quality diagnostics.",
+      "yue-HK": "{{0}} 區雨量比較、真實線上觀測記錄與質量診斷。"
+    },
+    "{{0}} 年起的官方日雨量，与可重现的时间留出模型实验。": {
+      "en": "Official daily rainfall since {{0}}, with reproducible time-holdout model experiments.",
+      "yue-HK": "{{0}} 年起嘅官方日雨量，與可重現嘅時間留出模型實驗。"
+    },
+    "{{0}} 站有效 · 更新失败 · 保留旧值": {
+      "en": "{{0}} stations valid · Update failed · Keeping previous value",
+      "yue-HK": "{{0}} 站有效 · 更新失敗 · 保留舊值"
+    },
+    "全部状态": {
+      "en": "All statuses",
+      "yue-HK": "全部狀態"
+    },
+    "全部语言": {
+      "en": "All languages",
+      "yue-HK": "全部語言"
+    },
+    "全部部门": {
+      "en": "All departments",
+      "yue-HK": "全部部門"
+    },
+    "公共天气服务与霜冻警告": {
+      "en": "Public weather services and frost warnings",
+      "yue-HK": "公共天氣服務與霜凍警告"
+    },
+    "共享服务不可用": {
+      "en": "Shared service unavailable",
+      "yue-HK": "共享服務用唔到"
+    },
+    "共享服务不可用，仍使用本机记录": {
+      "en": "Shared service unavailable; still using local records",
+      "yue-HK": "共享服務用唔到，仍然用緊本機記錄"
+    },
+    "共享服务可用，请输入口令连接": {
+      "en": "Shared service available; enter passcode to connect",
+      "yue-HK": "共享服務可用，請輸入口令連接"
+    },
+    "关注事项": {
+      "en": "Items of concern",
+      "yue-HK": "關注事項"
+    },
+    "关注区域：": {
+      "en": "Areas of concern:",
+      "yue-HK": "關注區域："
+    },
+    "关闭": {
+      "en": "Close",
+      "yue-HK": "閂咗佢"
+    },
+    "其他现场情况": {
+      "en": "Other site conditions",
+      "yue-HK": "其他現場情況"
+    },
+    "分析方式": {
+      "en": "Analysis method",
+      "yue-HK": "分析方式"
+    },
+    "列印当前页面": {
+      "en": "Print current page",
+      "yue-HK": "列印當前頁面"
+    },
+    "创建人工复核草稿": {
+      "en": "Create manual review draft",
+      "yue-HK": "建立人手覆核草稿"
+    },
+    "劳工处": {
+      "en": "Labour Department",
+      "yue-HK": "勞工處"
+    },
+    "劳工处 · EN · {{0}} 片段": {
+      "en": "Labour Department · EN · {{0}} segments",
+      "yue-HK": "勞工處 · EN · {{0}} 片段"
+    },
+    "劳工处 · 中文 · {{0}} 片段": {
+      "en": "Labour Department · Chinese · {{0}} segments",
+      "yue-HK": "勞工處 · 中文 · {{0}} 片段"
+    },
+    "劳工处 · 官方来源 · EN": {
+      "en": "Labour Department · Official source · EN",
+      "yue-HK": "勞工處 · 官方來源 · EN"
+    },
+    "劳工处 · 官方来源 · 中文": {
+      "en": "Labour Department · Official source · Chinese",
+      "yue-HK": "勞工處 · 官方來源 · 中文"
+    },
+    "勾选只表示你记录了核对进度，不代表工作已经获批。检查记录仅保存在本次页面。": {
+      "en": "Checking a box only records your verification progress; it does not mean the work has been approved. Check records are kept only on this page.",
+      "yue-HK": "剔咗格只係記錄你嘅核對進度，唔代表工作已經獲批。檢查記錄只會喺呢一頁保存。"
+    },
+    "北区": {
+      "en": "North District",
+      "yue-HK": "北區"
+    },
+    "北潭涌": {
+      "en": "Pak Tam Chung",
+      "yue-HK": "北潭涌"
+    },
+    "区": {
+      "en": "District",
+      "yue-HK": "區"
+    },
+    "区分潮位、风暴潮和现场水浸，核对实际沿岸设施。": {
+      "en": "Distinguish tide levels, storm surge and on-site flooding; verify actual coastal facilities.",
+      "yue-HK": "區分潮位、風暴潮同現場水浸，核對實際沿岸設施。"
+    },
+    "区域一小时雨量 ≥": {
+      "en": "District 1-hour rainfall ≥",
+      "yue-HK": "區域一小時雨量 ≥"
+    },
+    "区域参考点 · 非感测器位置": {
+      "en": "District reference point · not a sensor location",
+      "yue-HK": "區域參考點 · 非感測器位置"
+    },
+    "区域洞察": {
+      "en": "District insights",
+      "yue-HK": "各區情況"
+    },
+    "区域降雨临近预报": {
+      "en": "District rainfall nowcast",
+      "yue-HK": "區域降雨臨近預報"
+    },
+    "区域雨量上限": {
+      "en": "District rainfall upper limit",
+      "yue-HK": "區域雨量上限"
+    },
+    "区域雨量与所选潮位只作参考，不等于设施现场实测。": {
+      "en": "District rainfall and the selected tide level are for reference only; they are not on-site measurements at the facility.",
+      "yue-HK": "區域雨量同所選潮位只作參考，唔等於設施現場實測。"
+    },
+    "区域雨量最高五项：": {
+      "en": "Top five district rainfall readings:",
+      "yue-HK": "區域雨量最高五項："
+    },
+    "区域雨量比较": {
+      "en": "District rainfall comparison",
+      "yue-HK": "區域雨量比較"
+    },
+    "单位": {
+      "en": "Unit",
+      "yue-HK": "單位"
+    },
+    "南区": {
+      "en": "Southern District",
+      "yue-HK": "南區"
+    },
+    "历史与模型": {
+      "en": "History & models",
+      "yue-HK": "歷史同模型"
+    },
+    "什么是风暴潮": {
+      "en": "What is a storm surge",
+      "yue-HK": "咩嘢係風暴潮"
+    },
+    "仅保留在当前页面": {
+      "en": "Keep on this page only",
+      "yue-HK": "只保留喺呢一頁"
+    },
+    "仅合计完整数值日 · 非完整年总量": {
+      "en": "Complete-value days only · not a full-year total",
+      "yue-HK": "只計完整數值嘅日子 · 唔係全年總量"
+    },
+    "仅支持 {{0}} KB 以内的文本": {
+      "en": "Only text within {{0}} KB is supported",
+      "yue-HK": "只支援 {{0}} KB 以內嘅文字"
+    },
+    "仅核验来源": {
+      "en": "Verify source only",
+      "yue-HK": "只核對來源"
+    },
+    "仅满足你设置的降雨筛选条件，不能据此判断现场安全。": {
+      "en": "This only meets the rainfall filter criteria you set; it cannot be used to judge site safety.",
+      "yue-HK": "呢個只係符合你設定嘅降雨篩選條件，唔可以憑此判斷現場安全。"
+    },
+    "仅看收藏": {
+      "en": "Saved only",
+      "yue-HK": "只睇收藏"
+    },
+    "从回答到行动": {
+      "en": "From answers to action",
+      "yue-HK": "由答案到行動"
+    },
+    "从天气信息，到完整行动。": {
+      "en": "From weather information to complete action.",
+      "yue-HK": "由天氣資訊，到完整行動。"
+    },
+    "从长期记录，发现本地变化。": {
+      "en": "Spot local changes from long-term records.",
+      "yue-HK": "從長期記錄，發現本地變化。"
+    },
+    "任务标题": {
+      "en": "Task title",
+      "yue-HK": "任務標題"
+    },
+    "企业审批工作流 ↗": {
+      "en": "Enterprise approval workflow ↗",
+      "yue-HK": "企業審批工作流 ↗"
+    },
+    "优先核对": {
+      "en": "Verify first",
+      "yue-HK": "優先核對"
+    },
+    "作业与现场": {
+      "en": "Work & field checks",
+      "yue-HK": "作業同現場"
+    },
+    "你": {
+      "en": "You",
+      "yue-HK": "你"
+    },
+    "使用区域参考点最近的官方网格。网格预报为面积平均，不能与雨量站单点观测直接视为同一测量；四段各为半小时累计量。": {
+      "en": "Use the nearest official grid to the area reference point. Grid forecasts are area averages and cannot be treated as the same measurement as single-point rain gauge observations; each of the four segments is a half-hour accumulation.",
+      "yue-HK": "使用區域參考點最近嘅官方網格。網格預報係面積平均，唔可以同雨量站單點觀測直接當成同一測量；四段各為半小時累計量。"
+    },
+    "使用管理员分配的独立账号。操作会留下审计记录。": {
+      "en": "Use the separate account assigned by the administrator. Actions will leave an audit record.",
+      "yue-HK": "使用管理員分配嘅獨立帳號。操作會留下審計記錄。"
+    },
+    "使用者上传图片证据：": {
+      "en": "Image evidence uploaded by the user:",
+      "yue-HK": "使用者上載嘅圖片證據："
+    },
+    "使用者上传的复核证据": {
+      "en": "Review evidence uploaded by the user",
+      "yue-HK": "使用者上載嘅覆核證據"
+    },
+    "使用边界": {
+      "en": "Usage boundaries",
+      "yue-HK": "使用邊界"
+    },
+    "例如需要人工核对的入口、排水设施或户外作业": {
+      "en": "For example, entrances, drainage facilities or outdoor operations requiring manual verification",
+      "yue-HK": "例如需要人手核對嘅入口、排水設施或戶外作業"
+    },
+    "例如：沙田当前雨量如何？物业巡查应该核对什么？": {
+      "en": "For example: What is the current rainfall in Sha Tin? What should a property inspection check?",
+      "yue-HK": "例如：沙田而家雨量如何？物業巡查應該核對咩？"
+    },
+    "例行观察": {
+      "en": "Routine observation",
+      "yue-HK": "例行觀察"
+    },
+    "保存现场记录": {
+      "en": "Save site record",
+      "yue-HK": "保存現場記錄"
+    },
+    "修改密码": {
+      "en": "Change password",
+      "yue-HK": "修改密碼"
+    },
+    "修改并重新登录": {
+      "en": "Modify and log in again",
+      "yue-HK": "修改並重新登入"
+    },
+    "停工": {
+      "en": "Stop work",
+      "yue-HK": "停工"
+    },
+    "停用此账号并撤销其会话？": {
+      "en": "Deactivate this account and revoke its sessions?",
+      "yue-HK": "停用呢個帳號並撤銷佢嘅工作階段？"
+    },
+    "储存空间不足。请汇出备份；本次变更只保留在页面。": {
+      "en": "Insufficient storage. Please export a backup; this change will only be kept on the page.",
+      "yue-HK": "儲存空間不足。請匯出備份；今次變更只會保留喺頁面。"
+    },
+    "储存规则": {
+      "en": "Storage rules",
+      "yue-HK": "儲存規則"
+    },
+    "储存设施": {
+      "en": "Storage facilities",
+      "yue-HK": "儲存設施"
+    },
+    "元朗": {
+      "en": "Yuen Long",
+      "yue-HK": "元朗"
+    },
+    "先连接并读取版本号，再上传本机记录": {
+      "en": "Connect and read the version number first, then upload local records",
+      "yue-HK": "先連接並讀取版本號，再上載本機記錄"
+    },
+    "全部 ↗": {
+      "en": "All ↗",
+      "yue-HK": "全部 ↗"
+    },
+    "全部主题": {
+      "en": "All topics",
+      "yue-HK": "全部主題"
+    },
+    "历史快照": {
+      "en": "Historical snapshot",
+      "yue-HK": "歷史快照"
+    },
+    "历史日记录（含缺测标记）": {
+      "en": "Historical daily records (with missing-data flags)",
+      "yue-HK": "歷史每日記錄（含缺測標記）"
+    },
+    "历史温湿压 · 逐日查询": {
+      "en": "Historical temperature, humidity and pressure · daily query",
+      "yue-HK": "歷史溫濕壓 · 逐日查詢"
+    },
+    "历史资料与模型": {
+      "en": "Historical data and models",
+      "yue-HK": "歷史資料與模型"
+    },
+    "原始快照 ↓": {
+      "en": "Raw snapshot ↓",
+      "yue-HK": "原始快照 ↓"
+    },
+    "原密码": {
+      "en": "Original password",
+      "yue-HK": "原密碼"
+    },
+    "原文语言": {
+      "en": "Original language",
+      "yue-HK": "原文語言"
+    },
+    "参考": {
+      "en": "Reference",
+      "yue-HK": "參考"
+    },
+    "参考潮位 ≥": {
+      "en": "Reference tide level ≥",
+      "yue-HK": "參考潮位 ≥"
+    },
+    "参考潮位站": {
+      "en": "Reference tide station",
+      "yue-HK": "參考潮位站"
+    },
+    "发布机构：香港天文台 · 观测时间均以香港时间显示 · 缺测不作零值处理": {
+      "en": "Issuing agency: Hong Kong Observatory · All observation times shown in Hong Kong time · Missing data are not treated as zero",
+      "yue-HK": "發布機構：香港天文台 · 觀測時間全部以香港時間顯示 · 缺測唔會當零值處理"
+    },
+    "发布部门": {
+      "en": "Issuing department",
+      "yue-HK": "發布部門"
+    },
+    "发起一次有依据的复核": {
+      "en": "Start an evidence-based review",
+      "yue-HK": "發起一次有依據嘅覆核"
+    },
+    "发送 ↗": {
+      "en": "Send ↗",
+      "yue-HK": "發送 ↗"
+    },
+    "取消": {
+      "en": "Cancel",
+      "yue-HK": "取消"
+    },
+    "变量": {
+      "en": "Variable",
+      "yue-HK": "變數"
+    },
+    "只对新鲜在线资料产生关注建议。雨量、潮位及相关官方警告的组合不等于淹水概率；潮位站须由使用者指定关联。": {
+      "en": "Attention suggestions are generated only for fresh online data. The combination of rainfall, tide level and related official warnings does not equal flood probability; tide stations must be linked by the user.",
+      "yue-HK": "只會對新鮮嘅線上資料產生關注建議。雨量、潮位同相關官方警告嘅組合唔等於淹水概率；潮位站須由使用者指定關聯。"
+    },
+    "只记录成功刷新后接收的在线观测，按官方时间去重；没有记录时不生成趋势。滚动一小时雨量不可直接求和。": {
+      "en": "Only online observations received after a successful refresh are recorded, deduplicated by official time; no trend is generated when there are no records. Rolling one-hour rainfall cannot be summed directly.",
+      "yue-HK": "只會記錄成功刷新後收到嘅線上觀測，按官方時間去重；冇記錄時唔會生成趨勢。滾動一小時雨量唔可以直接相加。"
+    },
+    "召回 ↑": {
+      "en": "Recall ↑",
+      "yue-HK": "召回 ↑"
+    },
+    "可从真实区域或已登记设施建立人工核对记录。": {
+      "en": "Manual verification records can be created from real areas or registered facilities.",
+      "yue-HK": "可以從真實區域或已登記設施建立人手核對記錄。"
+    },
+    "可加入研究中的真实物业、入口或作业地点。这里没有预置虚构设施。": {
+      "en": "Real properties, entrances or work locations under study can be added. No fictional facilities are preloaded here.",
+      "yue-HK": "可以加入研究緊嘅真實物業、入口或作業地點。呢度冇預置虛構設施。"
+    },
+    "可检索原文片段": {
+      "en": "Searchable source excerpts",
+      "yue-HK": "可檢索原文片段"
+    },
+    "台风": {
+      "en": "Typhoon",
+      "yue-HK": "颱風"
+    },
+    "台风前后交班": {
+      "en": "Handover before and after typhoon",
+      "yue-HK": "颱風前後交班"
+    },
+    "各类警告详细资料": {
+      "en": "Details of various warnings",
+      "yue-HK": "各類警告詳細資料"
+    },
+    "同一观测与范围已有未完成复核，请先处理现有记录": {
+      "en": "An unfinished review already exists for the same observation and scope. Please handle the existing record first.",
+      "yue-HK": "同一觀測同範圍已有未完成覆核，請先處理現有記錄"
+    },
+    "名称": {
+      "en": "Name",
+      "yue-HK": "名稱"
+    },
+    "名称排序": {
+      "en": "Sort by name",
+      "yue-HK": "名稱排序"
+    },
+    "后台正在处理。执行状态与重试记录见下方。": {
+      "en": "Processing in the background. Execution status and retry records are shown below.",
+      "yue-HK": "後台正在處理。執行狀態同重試記錄見下方。"
+    },
+    "启德": {
+      "en": "Kai Tak",
+      "yue-HK": "啟德"
+    },
+    "启用": {
+      "en": "Enable",
+      "yue-HK": "啟用"
+    },
+    "四段半小时合计": {
+      "en": "Four half-hour totals",
+      "yue-HK": "四段半小時合計"
+    },
+    "回答依据": {
+      "en": "Answer basis",
+      "yue-HK": "回答依據"
+    },
+    "回答是核对建议。创建复核草稿后，填写责任人并人工确认。": {
+      "en": "The answer is a verification suggestion. After creating a review draft, fill in the responsible person and confirm manually.",
+      "yue-HK": "回答係核對建議。建立覆核草稿後，填寫責任人並人手確認。"
+    },
+    "团队与权限": {
+      "en": "Team and permissions",
+      "yue-HK": "團隊與權限"
+    },
+    "天": {
+      "en": "Day",
+      "yue-HK": "天"
+    },
+    "天文台 · 渠务署 · 劳工处": {
+      "en": "Observatory · Drainage Services Department · Labour Department",
+      "yue-HK": "天文台 · 渠務署 · 勞工處"
+    },
+    "天文台原文 ↗": {
+      "en": "Observatory original text ↗",
+      "yue-HK": "天文台原文 ↗"
+    },
+    "天晴。日间干燥及炎热。": {
+      "en": "Fine. Dry and hot during the day.",
+      "yue-HK": "天晴。日間乾燥及炎熱。"
+    },
+    "天气助手建议 · 人工核对草稿": {
+      "en": "Weather assistant suggestions · Draft for manual verification",
+      "yue-HK": "天氣助手建議 · 人工核對草稿"
+    },
+    "天气警告一览": {
+      "en": "Weather warning overview",
+      "yue-HK": "天氣警告一覽"
+    },
+    "天气警告与提示": {
+      "en": "Weather warnings and tips",
+      "yue-HK": "天氣警告與提示"
+    },
+    "天气运营助手": {
+      "en": "Weather operations assistant",
+      "yue-HK": "天氣運營助手"
+    },
+    "好热": {
+      "en": "Very hot",
+      "yue-HK": "好熱"
+    },
+    "如何减少水浸损失": {
+      "en": "How to reduce flood losses",
+      "yue-HK": "如何減少水浸損失"
+    },
+    "如何减少水浸损失 ↗": {
+      "en": "How to reduce flood losses ↗",
+      "yue-HK": "如何減少水浸損失 ↗"
+    },
+    "姓名或组员代号": {
+      "en": "Name or team member code",
+      "yue-HK": "姓名或組員代號"
+    },
+    "存在官方警告，仅列出雨量匹配结果，需优先核对警告要求。": {
+      "en": "Official warnings are in force; only rainfall matches are listed. Verify warning requirements first.",
+      "yue-HK": "有官方警告生效，只列出雨量匹配結果，需優先核對警告要求。"
+    },
+    "完整使用说明 ↗": {
+      "en": "Full usage instructions ↗",
+      "yue-HK": "完整使用說明 ↗"
+    },
+    "完整历史日系列、质量标记和知识来源均可核对。扩展资料作为增量保存，不改变已冻结的三站测试集。": {
+      "en": "Full historical daily series, quality flags and knowledge sources can be verified. Extended materials are saved incrementally and do not change the frozen three-station test set.",
+      "yue-HK": "完整歷史日系列、質量標記同知識來源都可以核對。擴展資料作為增量保存，唔會改變已凍結嘅三站測試集。"
+    },
+    "完整实测": {
+      "en": "Full measured data",
+      "yue-HK": "完整實測"
+    },
+    "完整数值日雨量合计": {
+      "en": "Full numeric daily rainfall total",
+      "yue-HK": "完整數值日雨量合計"
+    },
+    "完整数值记录": {
+      "en": "Full numeric records",
+      "yue-HK": "完整數值記錄"
+    },
+    "官方 CSV ↗": {
+      "en": "Official CSV ↗",
+      "yue-HK": "官方 CSV ↗"
+    },
+    "官方临近预报、九天天气与有效警告，集中核对。": {
+      "en": "Official nowcast, 9-day weather and valid warnings, verified in one place.",
+      "yue-HK": "官方臨近預報、九天氣天氣同有效警告，集中核對。"
+    },
+    "官方依据": {
+      "en": "Official basis",
+      "yue-HK": "官方依據"
+    },
+    "官方历史日系列折线图": {
+      "en": "Official historical daily series line chart",
+      "yue-HK": "官方歷史日系列折線圖"
+    },
+    "官方发布时间": {
+      "en": "Official issue time",
+      "yue-HK": "官方發布時間"
+    },
+    "官方取证": {
+      "en": "Official evidence",
+      "yue-HK": "官方取證"
+    },
+    "官方在线资料": {
+      "en": "Official online materials",
+      "yue-HK": "官方網上資料"
+    },
+    "官方天气警告生效": {
+      "en": "Official weather warning in force",
+      "yue-HK": "官方天氣警告生效"
+    },
+    "官方实时来源": {
+      "en": "Official real-time source",
+      "yue-HK": "官方實時來源"
+    },
+    "官方开放资料目录 ↗": {
+      "en": "Official open data catalogue ↗",
+      "yue-HK": "官方開放資料目錄 ↗"
+    },
+    "官方数据 · 人工责任链": {
+      "en": "Official data · Manual chain of responsibility",
+      "yue-HK": "官方數據 · 人工責任鏈"
+    },
+    "官方更新频率": {
+      "en": "Official update frequency",
+      "yue-HK": "官方更新頻率"
+    },
+    "官方有效天气警告": {
+      "en": "Official valid weather warnings",
+      "yue-HK": "官方有效天氣警告"
+    },
+    "官方来源 ↗": {
+      "en": "Official source ↗",
+      "yue-HK": "官方來源 ↗"
+    },
+    "官方来源核验（非模型回答）": {
+      "en": "Official source verification (not a model answer)",
+      "yue-HK": "官方來源核驗（非模型回答）"
+    },
+    "官方知识库": {
+      "en": "Knowledge library",
+      "yue-HK": "官方資料庫"
+    },
+    "官方知识库载入失败，请刷新": {
+      "en": "Failed to load the official knowledge base. Please refresh.",
+      "yue-HK": "官方知識庫載入失敗，請刷新"
+    },
+    "在线官方资料": {
+      "en": "Online official data",
+      "yue-HK": "線上官方資料"
+    },
+    "在线有效": {
+      "en": "Online and valid",
+      "yue-HK": "線上有效"
+    },
+    "在线观测依据": {
+      "en": "Basis for online observations",
+      "yue-HK": "線上觀測依據"
+    },
+    "在雨量与潮位页点选 ☆，把关注站点加入这里。": {
+      "en": "On the rainfall and tide pages, tap ☆ to add a station of interest here.",
+      "yue-HK": "喺雨量同潮位頁面㩒 ☆，就可以將你關注嘅站點加入呢度。"
+    },
+    "地图 © OpenStreetMap contributors；地图标点为区域参考位置，不是官方站点座标。资料使用遵循 DATA.GOV.HK 及天文台使用条款，请保留来源与原始时间。": {
+      "en": "Map © OpenStreetMap contributors; map markers are regional reference positions, not official station coordinates. Data use follows DATA.GOV.HK and Observatory terms; please retain the source and original time.",
+      "yue-HK": "地圖 © OpenStreetMap contributors；地圖標點只係區域參考位置，唔係官方站點座標。資料使用跟從 DATA.GOV.HK 同天文台使用條款，請保留來源同原始時間。"
+    },
+    "地图底图暂不可用，观测列表仍可使用": {
+      "en": "Map base layer temporarily unavailable; the observation list is still usable",
+      "yue-HK": "地圖底圖暫時用唔到，觀測列表仍然可以用"
+    },
+    "场景资料加载失败，请重试": {
+      "en": "Failed to load scenario data, please retry",
+      "yue-HK": "場景資料載入失敗，請再試"
+    },
+    "坪洲": {
+      "en": "Peng Chau",
+      "yue-HK": "坪洲"
+    },
+    "填写实际场地和问题。系统不预置虚构事故或设施。": {
+      "en": "Enter the actual site and issue. The system does not preload fictitious incidents or facilities.",
+      "yue-HK": "填寫實際場地同問題。系統唔會預設虛構事故或設施。"
+    },
+    "填写实际负责人，可稍后补充": {
+      "en": "Enter the actual person in charge; can be added later",
+      "yue-HK": "填寫實際負責人，可以遲啲再補"
+    },
+    "填写核对结论与后续安排": {
+      "en": "Enter the verification conclusion and follow-up arrangements",
+      "yue-HK": "填寫核對結論同後續安排"
+    },
+    "填写责任人并提交人工复核": {
+      "en": "Enter the responsible person and submit for manual review",
+      "yue-HK": "填寫責任人並提交人手覆核"
+    },
+    "填写需要核对的实际事项": {
+      "en": "Enter the actual items that need verification",
+      "yue-HK": "填寫需要核對嘅實際事項"
+    },
+    "备份并载入共享记录": {
+      "en": "Back up and load shared records",
+      "yue-HK": "備份並載入共享記錄"
+    },
+    "备份结构不符": {
+      "en": "Backup structure does not match",
+      "yue-HK": "備份結構唔脗"
+    },
+    "复制": {
+      "en": "Copy",
+      "yue-HK": "複製"
+    },
+    "复制不可用，请下载报告": {
+      "en": "Copy unavailable, please download the report",
+      "yue-HK": "複製用唔到，請下載報告"
+    },
+    "复核事项": {
+      "en": "Review items",
+      "yue-HK": "覆核事項"
+    },
+    "复核工作量": {
+      "en": "Review workload",
+      "yue-HK": "覆核工作量"
+    },
+    "复核范围": {
+      "en": "Review scope",
+      "yue-HK": "覆核範圍"
+    },
+    "外部知识，有出处才有说服力。": {
+      "en": "External knowledge is only convincing with a source.",
+      "yue-HK": "外部知識，有出處先至有說服力。"
+    },
+    "大埔": {
+      "en": "Tai Po",
+      "yue-HK": "大埔"
+    },
+    "大埔墟": {
+      "en": "Tai Po Market",
+      "yue-HK": "大埔墟"
+    },
+    "大埔滘": {
+      "en": "Tai Po Kau",
+      "yue-HK": "大埔滘"
+    },
+    "大埔滘 · Tai Po Kau": {
+      "en": "Tai Po Kau · Tai Po Kau",
+      "yue-HK": "大埔滘 · Tai Po Kau"
+    },
+    "大庙湾": {
+      "en": "Tai Miu Wan",
+      "yue-HK": "大廟灣"
+    },
+    "大庙湾 · Tai Miu Wan": {
+      "en": "Tai Miu Wan · Tai Miu Wan",
+      "yue-HK": "大廟灣 · Tai Miu Wan"
+    },
+    "大澳": {
+      "en": "Tai O",
+      "yue-HK": "大澳"
+    },
+    "大澳 · Tai O": {
+      "en": "Tai O · Tai O",
+      "yue-HK": "大澳 · Tai O"
+    },
+    "大美督": {
+      "en": "Tai Mei Tuk",
+      "yue-HK": "大美督"
+    },
+    "大致天晴。": {
+      "en": "Mainly fine.",
+      "yue-HK": "大致天晴。"
+    },
+    "大致天晴。下午干燥及炎热。吹和缓偏东风。": {
+      "en": "Mainly fine. Dry and hot in the afternoon. Moderate easterly winds.",
+      "yue-HK": "大致天晴。下午乾燥及炎熱。吹和緩偏東風。"
+    },
+    "大致天晴。日间干燥。稍后部分时间多云及有一两阵微雨。": {
+      "en": "Mainly fine. Dry during the day. Becoming cloudy at times later with one or two light rain patches.",
+      "yue-HK": "大致天晴。日間乾燥。稍後部分時間多雲及有一兩陣微雨。"
+    },
+    "大陇": {
+      "en": "Tai Lung",
+      "yue-HK": "大隴"
+    },
+    "大雨": {
+      "en": "Heavy rain",
+      "yue-HK": "大雨"
+    },
+    "官方知识来源": {
+      "en": "Official knowledge source",
+      "yue-HK": "官方知識來源"
+    },
+    "官方知识资料": {
+      "en": "Official knowledge materials",
+      "yue-HK": "官方知識資料"
+    },
+    "官方站点覆盖、历史温湿压查询与数据版本集中核对。": {
+      "en": "Centralised checking of official station coverage, historical temperature, humidity and pressure queries, and data versions.",
+      "yue-HK": "集中核對官方站點覆蓋、歷史溫濕壓查詢同數據版本。"
+    },
+    "官方网页原文经过提取、分块与简体显示，保留原始文件校验值。个人导入仅保存在本机，不作为官方依据，也不上传给模型。": {
+      "en": "Official web pages are extracted, chunked and displayed in Simplified Chinese, with original file checksums retained. Personal imports are stored only on this device, are not an official basis, and are not uploaded to the model.",
+      "yue-HK": "官方網頁原文經過提取、分塊同簡體顯示，保留原始檔案校驗值。個人匯入只會儲存喺本機，唔可以作為官方依據，亦都唔會上傳畀模型。"
+    },
+    "官方警告中心": {
+      "en": "Official warning centre",
+      "yue-HK": "官方警告中心"
+    },
+    "官方资料已连接": {
+      "en": "Official data connected",
+      "yue-HK": "官方資料已連接"
+    },
+    "官方降雨窗口筛选、历史事件检索与真实现场登记。": {
+      "en": "Official rainfall window filtering, historical event search and real on-site logging.",
+      "yue-HK": "官方降雨窗口篩選、歷史事件檢索同真實現場登記。"
+    },
+    "官方预报": {
+      "en": "Official forecast",
+      "yue-HK": "官方預報"
+    },
+    "实际入口、街道或设施": {
+      "en": "Actual entrance, street or facility",
+      "yue-HK": "實際入口、街道或設施"
+    },
+    "实际观测时间": {
+      "en": "Actual observation time",
+      "yue-HK": "實際觀測時間"
+    },
+    "实际设施名称": {
+      "en": "Actual facility name",
+      "yue-HK": "實際設施名稱"
+    },
+    "实际设施已登记；资料关联仅作区域参考": {
+      "en": "Actual facility logged; data linkage is for regional reference only",
+      "yue-HK": "實際設施已登記；資料關聯只作區域參考"
+    },
+    "实际设施或地点": {
+      "en": "Actual facility or location",
+      "yue-HK": "實際設施或地點"
+    },
+    "实际负责人": {
+      "en": "Actual person in charge",
+      "yue-HK": "實際負責人"
+    },
+    "审计员": {
+      "en": "Auditor",
+      "yue-HK": "審計員"
+    },
+    "审计记录": {
+      "en": "Audit record",
+      "yue-HK": "審計記錄"
+    },
+    "密码": {
+      "en": "Password",
+      "yue-HK": "密碼"
+    },
+    "寒冷及酷热天气警告": {
+      "en": "Cold and very hot weather warnings",
+      "yue-HK": "寒冷及酷熱天氣警告"
+    },
+    "对比区域差异，追踪实际变化。": {
+      "en": "Compare regional differences and track actual changes.",
+      "yue-HK": "對比區域差異，追蹤實際變化。"
+    },
+    "导入 TXT / MD": {
+      "en": "Import TXT / MD",
+      "yue-HK": "匯入 TXT / MD"
+    },
+    "导出引用清单": {
+      "en": "Export citation list",
+      "yue-HK": "匯出引用清單"
+    },
+    "导出核对包": {
+      "en": "Export verification package",
+      "yue-HK": "匯出核對包"
+    },
+    "将保留选定区域的真实观测数值、时间、来源和当时警告。": {
+      "en": "Will retain the actual observed values, times, sources and warnings in effect at the time for the selected region.",
+      "yue-HK": "會保留選定區域嘅真實觀測數值、時間、來源同當時警告。"
+    },
+    "将军澳": {
+      "en": "Tseung Kwan O",
+      "yue-HK": "將軍澳"
+    },
+    "小组共享与版本核对": {
+      "en": "Team sharing and version checking",
+      "yue-HK": "小組共享與版本核對"
+    },
+    "尖鼻咀": {
+      "en": "Tsim Bei Tsui",
+      "yue-HK": "尖鼻咀"
+    },
+    "尖鼻咀 · Tsim Bei Tsui": {
+      "en": "Tsim Bei Tsui · Tsim Bei Tsui",
+      "yue-HK": "尖鼻咀 · Tsim Bei Tsui"
+    },
+    "尚无在线观测记录。刷新官方数据后，系统会开始保存真实时间点。": {
+      "en": "No online observation records yet. After refreshing official data, the system will start saving real time points.",
+      "yue-HK": "仲未有網上觀測記錄。刷新官方數據之後，系統會開始儲存真實時間點。"
+    },
+    "尚无校验资讯": {
+      "en": "No verification information yet",
+      "yue-HK": "仲未有校驗資訊"
+    },
+    "尚无现场记录。请登记实际观察到的情况。": {
+      "en": "No on-site records yet. Please log what was actually observed.",
+      "yue-HK": "仲未有現場記錄。請登記實際觀察到嘅情況。"
+    },
+    "局部地区大雨提示": {
+      "en": "Localised heavy rain advisory",
+      "yue-HK": "局部地區大雨提示"
+    },
+    "屯门": {
+      "en": "Tuen Mun",
+      "yue-HK": "屯門"
+    },
+    "山泥倾泻": {
+      "en": "Landslide",
+      "yue-HK": "山泥傾瀉"
+    },
+    "山泥倾泻警告": {
+      "en": "Landslide warning",
+      "yue-HK": "山泥傾瀉警告"
+    },
+    "山顶": {
+      "en": "Peak",
+      "yue-HK": "山頂"
+    },
+    "岛": {
+      "en": "Island",
+      "yue-HK": "島"
+    },
+    "工作安排": {
+      "en": "Work arrangements",
+      "yue-HK": "工作安排"
+    },
+    "工作流中心": {
+      "en": "Workflow centre",
+      "yue-HK": "工作流中心"
+    },
+    "工作空间": {
+      "en": "Workspace",
+      "yue-HK": "工作空間"
+    },
+    "工作空间 /": {
+      "en": "Workspace /",
+      "yue-HK": "工作空間 /"
+    },
+    "已下载本机备份并载入共享记录": {
+      "en": "Local backup downloaded and shared records loaded",
+      "yue-HK": "已下載本機備份並載入共享記錄"
+    },
+    "已人工核对": {
+      "en": "Manually verified",
+      "yue-HK": "已人手核對"
+    },
+    "已停用": {
+      "en": "Disabled",
+      "yue-HK": "已停用"
+    },
+    "已完成": {
+      "en": "Completed",
+      "yue-HK": "已完成"
+    },
+    "已审核归档": {
+      "en": "Reviewed and archived",
+      "yue-HK": "已審核歸檔"
+    },
+    "已延迟，勿当作当前预报": {
+      "en": "Delayed; do not treat as the current forecast",
+      "yue-HK": "已延遲，唔好當作當前預報"
+    },
+    "已建立复核，观测依据已保留": {
+      "en": "Review created; observational basis retained",
+      "yue-HK": "已建立覆核，觀測依據已保留"
+    },
+    "已归档": {
+      "en": "Archived",
+      "yue-HK": "已歸檔"
+    },
+    "已排队": {
+      "en": "Queued",
+      "yue-HK": "已排隊"
+    },
+    "已收藏资料": {
+      "en": "Saved data",
+      "yue-HK": "已收藏資料"
+    },
+    "已断开，本机记录保留": {
+      "en": "Disconnected; local records retained",
+      "yue-HK": "已斷開，本機記錄保留"
+    },
+    "已核对": {
+      "en": "Verified",
+      "yue-HK": "已核對"
+    },
+    "已核对官方来源与采集时间": {
+      "en": "Official source and collection time verified",
+      "yue-HK": "已核對官方來源與採集時間"
+    },
+    "已登记实际现场情况": {
+      "en": "Actual site conditions logged",
+      "yue-HK": "已登記實際現場情況"
+    },
+    "已登记实际设施：": {
+      "en": "Actual facilities logged:",
+      "yue-HK": "已登記實際設施："
+    },
+    "已确认后续处理安排": {
+      "en": "Follow-up arrangements confirmed",
+      "yue-HK": "已確認後續處理安排"
+    },
+    "已记录现场或资料核对结果": {
+      "en": "Site or data verification results recorded",
+      "yue-HK": "已記錄現場或資料核對結果"
+    },
+    "已还原本机工作空间": {
+      "en": "Local workspace restored",
+      "yue-HK": "已還原本機工作空間"
+    },
+    "已验证官方来源": {
+      "en": "Official source verified",
+      "yue-HK": "已驗證官方來源"
+    },
+    "带入助手核对 ↗": {
+      "en": "Open in assistant for verification ↗",
+      "yue-HK": "帶入助手核對 ↗"
+    },
+    "帮我核对呢份官方资料：": {
+      "en": "Help me verify this official information:",
+      "yue-HK": "幫我核對呢份官方資料："
+    },
+    "平均气压": {
+      "en": "Mean air pressure",
+      "yue-HK": "平均氣壓"
+    },
+    "平均相对湿度": {
+      "en": "Mean relative humidity",
+      "yue-HK": "平均相對濕度"
+    },
+    "年份": {
+      "en": "Year",
+      "yue-HK": "年份"
+    },
+    "年度高雨量日期": {
+      "en": "Annual high-rainfall dates",
+      "yue-HK": "年度高雨量日期"
+    },
+    "广播道": {
+      "en": "Broadcast Drive",
+      "yue-HK": "廣播道"
+    },
+    "延迟": {
+      "en": "Delayed",
+      "yue-HK": "延遲"
+    },
+    "建立人工复核": {
+      "en": "Create manual review",
+      "yue-HK": "建立人工覆核"
+    },
+    "建立人工复核草稿": {
+      "en": "Create manual review draft",
+      "yue-HK": "建立人工覆核草稿"
+    },
+    "建立作业核对草稿": {
+      "en": "Create operational verification draft",
+      "yue-HK": "建立作業核對草稿"
+    },
+    "建立你的值守清单": {
+      "en": "Create your duty checklist",
+      "yue-HK": "建立你嘅值守清單"
+    },
+    "建立复核记录": {
+      "en": "Create review record",
+      "yue-HK": "建立覆核記錄"
+    },
+    "开始人工核对 ·": {
+      "en": "Start manual verification ·",
+      "yue-HK": "開始人手核對 ·"
+    },
+    "开始年份": {
+      "en": "Start year",
+      "yue-HK": "開始年份"
+    },
+    "开始核对": {
+      "en": "Start verification",
+      "yue-HK": "開始核對"
+    },
+    "张照片；提交现场核验后纳入责任记录。": {
+      "en": "photos; included in the responsibility record after on-site verification is submitted.",
+      "yue-HK": "張相；提交現場核驗後納入責任記錄。"
+    },
+    "强烈季候风与季节风": {
+      "en": "Strong monsoon and seasonal winds",
+      "yue-HK": "強烈季候風與季節風"
+    },
+    "强烈季候风信号": {
+      "en": "Strong Monsoon Signal",
+      "yue-HK": "強烈季候風信號"
+    },
+    "当前作业要核对什么？": {
+      "en": "What needs to be verified for the current operation?",
+      "yue-HK": "而家嘅作業要核對啲咩？"
+    },
+    "当前区域天气来源、官方警告和作业窗口需核对什么": {
+      "en": "What needs to be verified for the current area's weather sources, official warnings and work windows",
+      "yue-HK": "當前區域天氣來源、官方警告同作業窗口要核對啲咩"
+    },
+    "当前服务未配置共享存储，仍使用本机记录": {
+      "en": "The current service has no shared storage configured; local records are still in use",
+      "yue-HK": "當前服務未配置共享存儲，仍然用返本機記錄"
+    },
+    "当前浏览期间真实观测雨量柱状图": {
+      "en": "Bar chart of actual observed rainfall during the current browsing period",
+      "yue-HK": "當前瀏覽期間真實觀測雨量柱狀圖"
+    },
+    "当前预报或警告数据缺失、过期或处于快照模式，停止筛选当前作业窗口。": {
+      "en": "Current forecast or warning data is missing, expired or in snapshot mode; stop filtering the current work window.",
+      "yue-HK": "當前預報或警告數據缺失、過期或者處於快照模式，停止篩選當前作業窗口。"
+    },
+    "待人工处理": {
+      "en": "Pending manual handling",
+      "yue-HK": "待人手處理"
+    },
+    "待办与超时": {
+      "en": "To-do and overdue",
+      "yue-HK": "待辦與超時"
+    },
+    "待填写": {
+      "en": "To be filled in",
+      "yue-HK": "待填寫"
+    },
+    "待处理人工复核": {
+      "en": "Pending manual review",
+      "yue-HK": "待處理人手覆核"
+    },
+    "待处理复核：": {
+      "en": "Pending review:",
+      "yue-HK": "待處理覆核："
+    },
+    "待复核": {
+      "en": "Pending review",
+      "yue-HK": "待覆核"
+    },
+    "待核对": {
+      "en": "Pending verification",
+      "yue-HK": "待核對"
+    },
+    "待现场核验": {
+      "en": "Pending on-site verification",
+      "yue-HK": "待現場核驗"
+    },
+    "微量雨按零（敏感性分析）": {
+      "en": "Trace rainfall treated as zero (sensitivity analysis)",
+      "yue-HK": "微量雨當零計（敏感性分析）"
+    },
+    "微量雨策略": {
+      "en": "Trace rainfall policy",
+      "yue-HK": "微量雨策略"
+    },
+    "快照未录得生效警告": {
+      "en": "No warnings in force recorded in snapshot",
+      "yue-HK": "快照未錄得生效警告"
+    },
+    "总气象日记录": {
+      "en": "Total meteorological day records",
+      "yue-HK": "總氣象日記錄"
+    },
+    "恢复或调整安排须人工确认": {
+      "en": "Resumption or adjustment of arrangements must be confirmed manually",
+      "yue-HK": "恢復或調整安排須人手確認"
+    },
+    "恶劣天气及「极端情况」下工作守则": {
+      "en": "Code of practice for work under severe weather and \"extreme conditions\"",
+      "yue-HK": "惡劣天氣及「極端情況」下工作守則"
+    },
+    "恶劣天气及「极端情况」下工作安排一览": {
+      "en": "Overview of work arrangements under severe weather and \"extreme conditions\"",
+      "yue-HK": "惡劣天氣及「極端情況」下工作安排一覽"
+    },
+    "恶劣天气及极端情况工作安排": {
+      "en": "Work arrangements under severe weather and extreme conditions",
+      "yue-HK": "惡劣天氣及極端情況工作安排"
+    },
+    "恶劣天气工作安排": {
+      "en": "Work arrangements under severe weather",
+      "yue-HK": "惡劣天氣工作安排"
+    },
+    "情况类型": {
+      "en": "Situation type",
+      "yue-HK": "情況類型"
+    },
+    "户外作业交接": {
+      "en": "Outdoor work handover",
+      "yue-HK": "戶外作業交接"
+    },
+    "户外作业受影响": {
+      "en": "Outdoor work affected",
+      "yue-HK": "戶外作業受影響"
+    },
+    "户外作业窗口 · 核对警告与现场条件": {
+      "en": "Outdoor work window · Verify warnings and on-site conditions",
+      "yue-HK": "戶外作業窗口 · 核對警告與現場條件"
+    },
+    "户外作业窗口筛选": {
+      "en": "Outdoor work window filter",
+      "yue-HK": "戶外作業窗口篩選"
+    },
+    "所在区域": {
+      "en": "Area",
+      "yue-HK": "所在區域"
+    },
+    "打风": {
+      "en": "Typhoon",
+      "yue-HK": "打風"
+    },
+    "打鼓岭": {
+      "en": "Ta Kwu Ling",
+      "yue-HK": "打鼓嶺"
+    },
+    "执行 / 重试中": {
+      "en": "Running / Retrying",
+      "yue-HK": "執行 / 重試中"
+    },
+    "执行失败": {
+      "en": "Run failed",
+      "yue-HK": "執行失敗"
+    },
+    "扩展目录尚未生成": {
+      "en": "Extended directory not yet generated",
+      "yue-HK": "擴展目錄仲未生成"
+    },
+    "把关注转化为可追溯的复核。": {
+      "en": "Turn attention into traceable review.",
+      "yue-HK": "將關注轉化為可追溯嘅覆核。"
+    },
+    "把官方资料，变成可核对的行动。": {
+      "en": "Turn official information into verifiable action.",
+      "yue-HK": "將官方資料變成可核對嘅行動。"
+    },
+    "把来源与行动，一起交接。": {
+      "en": "Hand over sources and actions together.",
+      "yue-HK": "將來源同行動一齊交接。"
+    },
+    "把气旋警告、工作安排与现场核验串成可追溯的人工流程。": {
+      "en": "Link cyclone warnings, work arrangements and site verification into a traceable manual process.",
+      "yue-HK": "將氣旋警告、工作安排同現場核驗串連成可追溯嘅人手流程。"
+    },
+    "报告已复制": {
+      "en": "Report copied",
+      "yue-HK": "報告已複製"
+    },
+    "报告由真实数据与本机工作记录确定性生成，包含来源、观测时间、缺测与延迟情况；不会自动对外发送。": {
+      "en": "The report is deterministically generated from real data and local work records, including sources, observation times, missing data and delays; it is not sent out automatically.",
+      "yue-HK": "報告由真實數據同本機工作記錄確定性生成，包含來源、觀測時間、缺測同延遲情況；唔會自動對外發送。"
+    },
+    "持续性基线": {
+      "en": "Continuity baseline",
+      "yue-HK": "持續性基線"
+    },
+    "按官方指引及机构制度确认所需措施": {
+      "en": "Confirm required measures per official guidance and organisational policy",
+      "yue-HK": "按官方指引同機構制度確認所需措施"
+    },
+    "按官方更新": {
+      "en": "Follow official updates",
+      "yue-HK": "按官方更新"
+    },
+    "按官方观测时间去重，不回填虚构历史": {
+      "en": "Deduplicate by official observation time; do not backfill fabricated history",
+      "yue-HK": "按官方觀測時間去重，唔回填虛構歷史"
+    },
+    "按机构安排记录实际观察与异常": {
+      "en": "Record actual observations and anomalies per organisational arrangements",
+      "yue-HK": "按機構安排記錄實際觀察同異常"
+    },
+    "按真实区域一小时雨量排序；关注值来自人工规则，不是水浸概率，也不是官方暴雨信号。": {
+      "en": "Ranked by real one-hour rainfall by area; attention values come from manual rules, not flood probability, and not official rainstorm signals.",
+      "yue-HK": "按真實區域一小時雨量排序；關注值來自人手規則，唔係水浸概率，亦唔係官方暴雨信號。"
+    },
+    "掌握天气，从容安排每一步。": {
+      "en": "Understand the weather. Plan every step.",
+      "yue-HK": "睇清天氣，每一步都安排妥當。"
+    },
+    "排水": {
+      "en": "Drainage",
+      "yue-HK": "排水"
+    },
+    "排水堵塞": {
+      "en": "Drainage blockage",
+      "yue-HK": "排水堵塞"
+    },
+    "排除微量雨（主分析）": {
+      "en": "Exclude trace rainfall (main analysis)",
+      "yue-HK": "排除微量雨（主分析）"
+    },
+    "接收时间": {
+      "en": "Received time",
+      "yue-HK": "接收時間"
+    },
+    "接收：": {
+      "en": "Received:",
+      "yue-HK": "接收："
+    },
+    "提交工作流": {
+      "en": "Submit workflow",
+      "yue-HK": "提交工作流"
+    },
+    "提前看见，下一个天气窗口。": {
+      "en": "See the next weather window in advance.",
+      "yue-HK": "提前看見，下一個天氣窗口。"
+    },
+    "提问后显示来源依据。": {
+      "en": "Sources are shown after you ask.",
+      "yue-HK": "提問後顯示來源依據。"
+    },
+    "提问后显示检索片段、来源时间与查询状态。": {
+      "en": "Retrieved snippets, source times and query status are shown after you ask.",
+      "yue-HK": "提問後顯示檢索片段、來源時間同查詢狀態。"
+    },
+    "搜寻站点": {
+      "en": "Search stations",
+      "yue-HK": "搜尋站點"
+    },
+    "搜寻站点、区域或编号": {
+      "en": "Search station, area or code",
+      "yue-HK": "搜尋站點、區域或編號"
+    },
+    "搜索功能、暴雨、rainstorm…": {
+      "en": "Search features, rainstorm, rainstorm…",
+      "yue-HK": "搜尋功能、暴雨、rainstorm…"
+    },
+    "搜索数据覆盖": {
+      "en": "Search data coverage",
+      "yue-HK": "搜尋數據覆蓋"
+    },
+    "搜索暴雨、水浸、停工、风暴潮…": {
+      "en": "Search rainstorm, flooding, work stoppage, storm surge…",
+      "yue-HK": "搜尋暴雨、水浸、停工、風暴潮…"
+    },
+    "搜索站点代码或变量": {
+      "en": "Search station code or variable",
+      "yue-HK": "搜尋站點代碼或變量"
+    },
+    "操作人（自行填写）": {
+      "en": "Operator (fill in yourself)",
+      "yue-HK": "操作人（自行填寫）"
+    },
+    "操作已记录，后台将从检查点继续": {
+      "en": "Operation recorded; the backend will resume from the checkpoint",
+      "yue-HK": "操作已記錄，後台會由檢查點繼續"
+    },
+    "收藏": {
+      "en": "Favourite",
+      "yue-HK": "收藏"
+    },
+    "收藏 上水": {
+      "en": "Favourite Sheung Shui",
+      "yue-HK": "收藏 上水"
+    },
+    "收藏 京士柏": {
+      "en": "Favourite King's Park",
+      "yue-HK": "收藏 京士柏"
+    },
+    "收藏 北潭涌": {
+      "en": "Favourite Pak Tam Chung",
+      "yue-HK": "收藏 北潭涌"
+    },
+    "收藏 启德": {
+      "en": "Favourite Kai Tak",
+      "yue-HK": "收藏 啟德"
+    },
+    "收藏 坪洲": {
+      "en": "Favourite Peng Chau",
+      "yue-HK": "收藏 坪洲"
+    },
+    "收藏 大埔墟": {
+      "en": "Favourite Tai Po Market",
+      "yue-HK": "收藏 大埔墟"
+    },
+    "收藏 大美督": {
+      "en": "Favourite Tai Mei Tuk",
+      "yue-HK": "收藏 大美督"
+    },
+    "收藏 大陇": {
+      "en": "Favourite Ta Kwu Ling",
+      "yue-HK": "收藏 大隴"
+    },
+    "收藏 将军澳": {
+      "en": "Favourite Tseung Kwan O",
+      "yue-HK": "收藏 將軍澳"
+    },
+    "收藏 屯门": {
+      "en": "Favourite Tuen Mun",
+      "yue-HK": "收藏 屯門"
+    },
+    "收藏 山顶": {
+      "en": "Favourite The Peak",
+      "yue-HK": "收藏 山頂"
+    },
+    "收藏 广播道": {
+      "en": "Favourite Broadcast Drive",
+      "yue-HK": "收藏 廣播道"
+    },
+    "收藏 打鼓岭": {
+      "en": "Favourite Ta Kwu Ling",
+      "yue-HK": "收藏 打鼓嶺"
+    },
+    "收藏 新蒲岗": {
+      "en": "Favourite San Po Kong",
+      "yue-HK": "收藏 新蒲崗"
+    },
+    "收藏 昂坪": {
+      "en": "Favourite Ngong Ping",
+      "yue-HK": "收藏 昂坪"
+    },
+    "收藏 横澜岛": {
+      "en": "Favourite Waglan Island",
+      "yue-HK": "收藏 橫瀾島"
+    },
+    "收藏 水边围": {
+      "en": "Favourite Shui Pin Wai",
+      "yue-HK": "收藏 水邊圍"
+    },
+    "收藏 沙田": {
+      "en": "Favourite Sha Tin",
+      "yue-HK": "收藏 沙田"
+    },
+    "收藏 流浮山": {
+      "en": "Favourite Lau Fau Shan",
+      "yue-HK": "收藏 流浮山"
+    },
+    "收藏 深水埗": {
+      "en": "Favourite Sham Shui Po",
+      "yue-HK": "收藏 深水埗"
+    },
+    "收藏 清水湾": {
+      "en": "Favourite Clear Water Bay",
+      "yue-HK": "收藏 清水灣"
+    },
+    "收藏 湿地公园": {
+      "en": "Favourite Wetland Park",
+      "yue-HK": "收藏 濕地公園"
+    },
+    "收藏 滘西洲": {
+      "en": "Favourite Kau Sai Chau",
+      "yue-HK": "收藏 滘西洲"
+    },
+    "收藏 石岗": {
+      "en": "Favourite Shek Kong",
+      "yue-HK": "收藏 石崗"
+    },
+    "收藏 筲箕湾": {
+      "en": "Favourite Shau Kei Wan",
+      "yue-HK": "收藏 筲箕灣"
+    },
+    "收藏 荃湾可观": {
+      "en": "Favourite Tsuen Wan Shing Mun Valley",
+      "yue-HK": "收藏 荃灣可觀"
+    },
+    "收藏 西贡": {
+      "en": "Favourite Sai Kung",
+      "yue-HK": "收藏 西貢"
+    },
+    "收藏 观塘": {
+      "en": "Favourite Kwun Tong",
+      "yue-HK": "收藏 觀塘"
+    },
+    "收藏 赤柱": {
+      "en": "Favourite Stanley",
+      "yue-HK": "收藏 赤柱"
+    },
+    "收藏 跑马地": {
+      "en": "Favourite Happy Valley",
+      "yue-HK": "收藏 跑馬地"
+    },
+    "收藏 长洲": {
+      "en": "Favourite Cheung Chau",
+      "yue-HK": "收藏 長洲"
+    },
+    "收藏 长青": {
+      "en": "Favourite Cheung Long",
+      "yue-HK": "收藏 長青"
+    },
+    "收藏 香港国际机场": {
+      "en": "Favourite Hong Kong International Airport",
+      "yue-HK": "收藏 香港國際機場"
+    },
+    "收藏 香港天文台": {
+      "en": "Saved Hong Kong Observatory",
+      "yue-HK": "收藏 香港天文台"
+    },
+    "收藏 马己仙峡": {
+      "en": "Saved Magazine Gap",
+      "yue-HK": "收藏 馬己仙峽"
+    },
+    "收藏 黄竹坑": {
+      "en": "Saved Wong Chuk Hang",
+      "yue-HK": "收藏 黃竹坑"
+    },
+    "收藏与值守重点": {
+      "en": "Saved and duty priorities",
+      "yue-HK": "收藏與值守重點"
+    },
+    "收藏优先": {
+      "en": "Saved priority",
+      "yue-HK": "收藏優先"
+    },
+    "收藏保存在本机，不上传模型": {
+      "en": "Saved on this device, not uploaded to the model",
+      "yue-HK": "收藏只存喺本機，唔會上傳去模型"
+    },
+    "收藏区域": {
+      "en": "Saved areas",
+      "yue-HK": "收藏區域"
+    },
+    "数值": {
+      "en": "Value",
+      "yue-HK": "數值"
+    },
+    "数值由高至低": {
+      "en": "Value high to low",
+      "yue-HK": "數值由高至低"
+    },
+    "数据工作台": {
+      "en": "Data explorer",
+      "yue-HK": "數據工作台"
+    },
+    "数据延迟": {
+      "en": "Data delay",
+      "yue-HK": "數據延遲"
+    },
+    "数据模式": {
+      "en": "Data mode",
+      "yue-HK": "數據模式"
+    },
+    "数据覆盖与缺测": {
+      "en": "Data coverage and gaps",
+      "yue-HK": "數據覆蓋與缺測"
+    },
+    "数据质量诊断": {
+      "en": "Data quality diagnostics",
+      "yue-HK": "數據質量診斷"
+    },
+    "整合香港官方观测与预报，让值守、核对与行动保持连接。": {
+      "en": "Official Hong Kong observations and forecasts, connected to your operations.",
+      "yue-HK": "香港官方觀測同預報，一齊幫你做好值守、核對同行動。"
+    },
+    "文件内容为空": {
+      "en": "File content is empty",
+      "yue-HK": "檔案內容係空嘅"
+    },
+    "斜坡周边巡查": {
+      "en": "Slope perimeter inspection",
+      "yue-HK": "斜坡周邊巡查"
+    },
+    "断开": {
+      "en": "Disconnect",
+      "yue-HK": "斷開"
+    },
+    "新增站点变量系列": {
+      "en": "Add station variable series",
+      "yue-HK": "新增站點變量系列"
+    },
+    "新增记录": {
+      "en": "Add record",
+      "yue-HK": "新增記錄"
+    },
+    "新密码（至少{{0}}字符）": {
+      "en": "New password (at least {{0}} characters)",
+      "yue-HK": "新密碼（至少{{0}}個字符）"
+    },
+    "新界北部水浸特别报告": {
+      "en": "Northern New Territories flooding special report",
+      "yue-HK": "新界北部水浸特別報告"
+    },
+    "新蒲岗": {
+      "en": "San Po Kong",
+      "yue-HK": "新蒲崗"
+    },
+    "新鲜在线资料": {
+      "en": "Fresh online data",
+      "yue-HK": "新鮮在線資料"
+    },
+    "方法": {
+      "en": "Method",
+      "yue-HK": "方法"
+    },
+    "无可用资料": {
+      "en": "No data available",
+      "yue-HK": "冇可用資料"
+    },
+    "无法读取实验结果": {
+      "en": "Unable to read experiment results",
+      "yue-HK": "讀唔到實驗結果"
+    },
+    "无法还原：": {
+      "en": "Unable to restore:",
+      "yue-HK": "還原唔到："
+    },
+    "日平均气温": {
+      "en": "Daily mean temperature",
+      "yue-HK": "日平均氣溫"
+    },
+    "日最低气温": {
+      "en": "Daily minimum temperature",
+      "yue-HK": "日最低氣溫"
+    },
+    "日最高气温": {
+      "en": "Daily maximum temperature",
+      "yue-HK": "日最高氣溫"
+    },
+    "日期": {
+      "en": "Date",
+      "yue-HK": "日期"
+    },
+    "日雨量": {
+      "en": "Daily rainfall",
+      "yue-HK": "日雨量"
+    },
+    "日雨量至少（mm）": {
+      "en": "Daily rainfall at least (mm)",
+      "yue-HK": "日雨量至少（mm）"
+    },
+    "昂坪": {
+      "en": "Ngong Ping",
+      "yue-HK": "昂坪"
+    },
+    "明确天气数据不能判断具体斜坡稳定性": {
+      "en": "Weather data alone cannot determine the stability of a specific slope",
+      "yue-HK": "單靠天氣數據判斷唔到某個斜坡嘅穩定性"
+    },
+    "明确潮位不是设施积水深度": {
+      "en": "Tide level is not the same as facility flooding depth",
+      "yue-HK": "潮位唔等於設施嘅積水深度"
+    },
+    "星期一": {
+      "en": "Monday",
+      "yue-HK": "星期一"
+    },
+    "星期三": {
+      "en": "Wednesday",
+      "yue-HK": "星期三"
+    },
+    "星期二": {
+      "en": "Tuesday",
+      "yue-HK": "星期二"
+    },
+    "星期五": {
+      "en": "Friday",
+      "yue-HK": "星期五"
+    },
+    "星期六": {
+      "en": "Saturday",
+      "yue-HK": "星期六"
+    },
+    "星期四": {
+      "en": "Thursday",
+      "yue-HK": "星期四"
+    },
+    "星期日": {
+      "en": "Sunday",
+      "yue-HK": "星期日"
+    },
+    "显著降雨机会：低": {
+      "en": "Significant rain chance: Low",
+      "yue-HK": "顯著降雨機會：低"
+    },
+    "智能助手": {
+      "en": "AI assistant",
+      "yue-HK": "智能助手"
+    },
+    "暂时无法判断目前警告状态。": {
+      "en": "Unable to determine the current warning status at the moment.",
+      "yue-HK": "暫時判斷唔到目前嘅警告狀態。"
+    },
+    "暴雨": {
+      "en": "Rainstorm",
+      "yue-HK": "暴雨"
+    },
+    "暴雨与降雨": {
+      "en": "Rainstorm and rainfall",
+      "yue-HK": "暴雨與降雨"
+    },
+    "暴雨信号怎么理解？": {
+      "en": "How do I understand rainstorm signals?",
+      "yue-HK": "暴雨信號點樣理解？"
+    },
+    "暴雨警告系统": {
+      "en": "Rainstorm Warning System",
+      "yue-HK": "暴雨警告系統"
+    },
+    "暴雨警告系统 ↗": {
+      "en": "Rainstorm Warning System ↗",
+      "yue-HK": "暴雨警告系統 ↗"
+    },
+    "更新失败 · 保留旧值": {
+      "en": "Update failed · Keeping old value",
+      "yue-HK": "更新失敗 · 保留舊值"
+    },
+    "更新失败 · 保留旧值 · 不代表没有局部风险。": {
+      "en": "Update failed · Keeping old value · This does not mean there is no local risk.",
+      "yue-HK": "更新失敗 · 保留舊值 · 唔代表冇局部風險。"
+    },
+    "更新失败 · 保留旧值。请同时核对官方渠道。": {
+      "en": "Update failed · Keeping old value. Please also check official channels.",
+      "yue-HK": "更新失敗 · 保留舊值。請同時核對官方渠道。"
+    },
+    "更新失败，保留旧值": {
+      "en": "Update failed, keeping old value",
+      "yue-HK": "更新失敗，保留舊值"
+    },
+    "最多保留 {{0}} 份个人资料，请先删除旧资料": {
+      "en": "Up to {{0}} personal records can be kept; please delete old records first",
+      "yue-HK": "最多保留 {{0}} 份個人資料，請先刪除舊資料"
+    },
+    "最新实测潮位": {
+      "en": "Latest measured tide level",
+      "yue-HK": "最新實測潮位"
+    },
+    "最新日期": {
+      "en": "Latest date",
+      "yue-HK": "最新日期"
+    },
+    "最早日期": {
+      "en": "Earliest date",
+      "yue-HK": "最早日期"
+    },
+    "最近网格座标": {
+      "en": "Nearest grid coordinates",
+      "yue-HK": "最近網格座標"
+    },
+    "月度发生率基线": {
+      "en": "Monthly occurrence rate baseline",
+      "yue-HK": "月度發生率基線"
+    },
+    "有效": {
+      "en": "Valid",
+      "yue-HK": "有效"
+    },
+    "有效区域观测": {
+      "en": "Valid area observations",
+      "yue-HK": "有效區域觀測"
+    },
+    "有效潮位观测": {
+      "en": "Valid tide level observations",
+      "yue-HK": "有效潮位觀測"
+    },
+    "有更新时": {
+      "en": "When there are updates",
+      "yue-HK": "有更新時"
+    },
+    "有来源的资料，才有可信的判断。": {
+      "en": "Only with sourced data can there be trustworthy judgement.",
+      "yue-HK": "有來源嘅資料，先至有可信嘅判斷。"
+    },
+    "服务请求失败": {
+      "en": "Service request failed",
+      "yue-HK": "服務請求失敗"
+    },
+    "未关联潮位站": {
+      "en": "Not linked to a tide station",
+      "yue-HK": "未關聯潮位站"
+    },
+    "未取得": {
+      "en": "Not obtained",
+      "yue-HK": "未取得"
+    },
+    "未录得；请结合查询状态判断": {
+      "en": "Not recorded; judge in light of query status",
+      "yue-HK": "未錄得；請結合查詢狀態判斷"
+    },
+    "未指派": {
+      "en": "Not assigned",
+      "yue-HK": "未指派"
+    },
+    "未提供": {
+      "en": "Not provided",
+      "yue-HK": "未提供"
+    },
+    "未来一两日仍然天晴干燥，日间炎热，内陆地区日夜温差颇大。本周后期云量增多，风势较大，早晚有一两阵微雨。": {
+      "en": "The next day or two will remain fine and dry with hot daytime conditions, and a considerable day-night temperature difference inland. Cloud will increase and winds will be stronger in the latter part of this week, with one or two light rain patches in the morning and at night.",
+      "yue-HK": "未來一兩日仍然天晴乾燥，日間炎熱，內陸地區日夜溫差頗大。本週後期雲量增多，風勢較大，早晚有一兩陣微雨。"
+    },
+    "未来完整窗口中没有满足雨量条件的结果；已开始的窗口不参与筛选。": {
+      "en": "No results in the full future window met the rainfall criteria; windows already started are not included in the screening.",
+      "yue-HK": "未來完整窗口入面冇結果符合雨量條件；已經開始嘅窗口唔會參與篩選。"
+    },
+    "未触及自订关注规则；不代表没有风险": {
+      "en": "Custom alert rules not triggered; this does not mean there is no risk",
+      "yue-HK": "未觸及自訂關注規則；唔代表冇風險"
+    },
+    "本区过去一小时雨量：": {
+      "en": "Rainfall in this district over the past hour:",
+      "yue-HK": "本區過去一小時雨量："
+    },
+    "本平台没有香港河道水位训练资料或真实水浸标签，因此不展示河道预测、设施淹水概率或虚构防洪准确率。官方降雨临近预报由天文台提供；课程模型仅用历史日雨量作离线分类测试。即时资料乃临时资料，可能延迟或缺测。": {
+      "en": "This platform has no training data on Hong Kong river levels or real flood labels, so it does not show river forecasts, facility flooding probabilities or fabricated flood-control accuracy. Official nowcasting of rainfall is provided by the Observatory; the course model uses only historical daily rainfall for offline classification tests. Live data is provisional and may be delayed or missing.",
+      "yue-HK": "本平台冇香港河道水位嘅訓練資料，亦冇真實水浸標籤，所以唔會展示河道預測、設施淹水概率或者虛構嘅防洪準確率。官方降雨臨近預報由天文台提供；課程模型只用歷史日雨量做離線分類測試。即時資料係臨時資料，可能延遲或者缺測。"
+    },
+    "本报告为人工交班草稿；记录保存在本浏览器，未发送给外部人员。": {
+      "en": "This report is a manual handover draft; records are stored in this browser and have not been sent to anyone outside.",
+      "yue-HK": "本報告係人手交班草稿；記錄保存喺本瀏覽器，未發送畀外部人員。"
+    },
+    "本机存储空间不足，请导出重要记录。": {
+      "en": "Local storage space is insufficient; please export important records.",
+      "yue-HK": "本機儲存空間不足，請匯出重要記錄。"
+    },
+    "本机真实时间点": {
+      "en": "Actual local time point",
+      "yue-HK": "本機真實時間點"
+    },
+    "本次已上传": {
+      "en": "Uploaded this time",
+      "yue-HK": "本次已上載"
+    },
+    "本次接收 / 快照时间": {
+      "en": "Received / snapshot time this time",
+      "yue-HK": "本次接收 / 快照時間"
+    },
+    "本次未录得": {
+      "en": "Not recorded this time",
+      "yue-HK": "本次未錄得"
+    },
+    "本次查询没有生效警告": {
+      "en": "No warnings in force for this query",
+      "yue-HK": "本次查詢冇生效警告"
+    },
+    "本次浏览期间的真实观测": {
+      "en": "Real observations during this browsing session",
+      "yue-HK": "本次瀏覽期間嘅真實觀測"
+    },
+    "本次记录的有效警告：": {
+      "en": "Warnings in force recorded this time:",
+      "yue-HK": "本次記錄嘅有效警告："
+    },
+    "本次资料未录得生效天气警告": {
+      "en": "No weather warnings in force were recorded in this data",
+      "yue-HK": "本次資料未錄得生效天氣警告"
+    },
+    "本港地区下午及今晚天气预测 · {{0}} {{1}} HKT": {
+      "en": "Local weather forecast for this afternoon and tonight · {{0}} {{1}} HKT",
+      "yue-HK": "本港地區下午及今晚天氣預測 · {{0}} {{1}} HKT"
+    },
+    "本港地区天气报告": {
+      "en": "Local weather report",
+      "yue-HK": "本港地區天氣報告"
+    },
+    "本港地区天气预报": {
+      "en": "Local weather forecast",
+      "yue-HK": "本港地區天氣預報"
+    },
+    "本港天气展望": {
+      "en": "Local weather outlook",
+      "yue-HK": "本港天氣展望"
+    },
+    "本页延迟判断规则": {
+      "en": "Delay judgement rules on this page",
+      "yue-HK": "本頁延遲判斷規則"
+    },
+    "来源": {
+      "en": "Source",
+      "yue-HK": "來源"
+    },
+    "来源核验": {
+      "en": "Source verification",
+      "yue-HK": "來源核驗"
+    },
+    "来源核验可用 · 模型未配置": {
+      "en": "Source verification available · model not configured",
+      "yue-HK": "來源核驗可用 · 模型未配置"
+    },
+    "来源核验（不调用模型）": {
+      "en": "Source verification (no model call)",
+      "yue-HK": "來源核驗（唔會呼叫模型）"
+    },
+    "来源状态": {
+      "en": "Source status",
+      "yue-HK": "來源狀態"
+    },
+    "来源目录": {
+      "en": "Source directory",
+      "yue-HK": "來源目錄"
+    },
+    "查找功能与资料": {
+      "en": "Search function and data",
+      "yue-HK": "查找功能與資料"
+    },
+    "查找功能或官方资料": {
+      "en": "Search function or official data",
+      "yue-HK": "查找功能或官方資料"
+    },
+    "查看官方原文 ↗": {
+      "en": "View official original text ↗",
+      "yue-HK": "查看官方原文 ↗"
+    },
+    "查看预报详情": {
+      "en": "View forecast details",
+      "yue-HK": "查看預報詳情"
+    },
+    "查询 {{0}} 年起三个官方站点的完整日雨量；阈值仅用于历史检索，不推导洪涝发生。": {
+      "en": "Query complete daily rainfall from three official stations from {{0}} onwards; thresholds are used only for historical retrieval and do not infer that flooding occurred.",
+      "yue-HK": "查詢 {{0}} 年起三個官方站點嘅完整日雨量；閾值只用於歷史檢索，唔會推導洪澇發生。"
+    },
+    "查询失败": {
+      "en": "Query failed",
+      "yue-HK": "查詢失敗"
+    },
+    "正在核对官方资料": {
+      "en": "Verifying official data",
+      "yue-HK": "正在核對官方資料"
+    },
+    "正在检查共享服务…": {
+      "en": "Checking shared services…",
+      "yue-HK": "正在檢查共享服務…"
+    },
+    "正在检查连接": {
+      "en": "Checking connection",
+      "yue-HK": "正在檢查連接"
+    },
+    "正在读取官方历史系列…": {
+      "en": "Reading official historical series…",
+      "yue-HK": "正在讀取官方歷史系列…"
+    },
+    "正在读取实际实验结果…": {
+      "en": "Reading actual experiment results…",
+      "yue-HK": "正在讀取實際實驗結果…"
+    },
+    "正在载入真实资料": {
+      "en": "Loading real data",
+      "yue-HK": "正在載入真實資料"
+    },
+    "每 {{0}} 分钟更新": {
+      "en": "Updated every {{0}} minutes",
+      "yue-HK": "每 {{0}} 分鐘更新"
+    },
+    "每一笔资料，都能回到源头。": {
+      "en": "Every data point can be traced back to its source.",
+      "yue-HK": "每一筆資料，都可以追溯返源頭。"
+    },
+    "每个数值都有出处。": {
+      "en": "Every value has a source.",
+      "yue-HK": "每個數值都有出處。"
+    },
+    "每半小时雨量关注上限（mm）": {
+      "en": "Half-hourly rainfall attention threshold (mm)",
+      "yue-HK": "每半小時雨量關注上限（mm）"
+    },
+    "每小时及有更新时": {
+      "en": "Hourly and when updated",
+      "yue-HK": "每小時及有更新時"
+    },
+    "每日两次及有更新时": {
+      "en": "Twice daily and when updated",
+      "yue-HK": "每日兩次及有更新時"
+    },
+    "每日实测雨量": {
+      "en": "Daily measured rainfall",
+      "yue-HK": "每日實測雨量"
+    },
+    "每次现场提交最多{{0}}张照片": {
+      "en": "Up to {{0}} photos per on-site submission",
+      "yue-HK": "每次現場提交最多{{0}}張相片"
+    },
+    "每次行动保留依据。": {
+      "en": "Every action keeps its basis on record.",
+      "yue-HK": "每次行動都保留依據。"
+    },
+    "比较地区观测": {
+      "en": "Compare district observations",
+      "yue-HK": "比較地區觀測"
+    },
+    "气象站过去一小时雨量": {
+      "en": "Rainfall at weather stations in the past hour",
+      "yue-HK": "氣象站過去一小時雨量"
+    },
+    "气象站过去一小时雨量 · 更新频率：{{0}} 分钟 · 更新失败 · 保留旧值": {
+      "en": "Rainfall at weather stations in the past hour · Update frequency: {{0}} minutes · Update failed · Keeping previous values",
+      "yue-HK": "氣象站過去一小時雨量 · 更新頻率：{{0}} 分鐘 · 更新失敗 · 保留舊值"
+    },
+    "气象站雨量": {
+      "en": "Weather station rainfall",
+      "yue-HK": "氣象站雨量"
+    },
+    "水浸": {
+      "en": "Flooding",
+      "yue-HK": "水浸"
+    },
+    "水浸与排水": {
+      "en": "Flooding and drainage",
+      "yue-HK": "水浸與排水"
+    },
+    "水边围": {
+      "en": "Shui Pin Wai",
+      "yue-HK": "水邊圍"
+    },
+    "汇出本页资料": {
+      "en": "Export this page's data",
+      "yue-HK": "匯出本頁資料"
+    },
+    "沙田": {
+      "en": "Sha Tin",
+      "yue-HK": "沙田"
+    },
+    "没有人工登记的现场情况。": {
+      "en": "No manually logged on-site conditions.",
+      "yue-HK": "冇人工登記嘅現場情況。"
+    },
+    "没有找到相关片段。请更换关键词或筛选条件。": {
+      "en": "No matching clips found. Please change keywords or filters.",
+      "yue-HK": "搵唔到相關片段。請更換關鍵詞或篩選條件。"
+    },
+    "油尖旺": {
+      "en": "Yau Tsim Mong",
+      "yue-HK": "油尖旺"
+    },
+    "油尖旺 · 区域一小时雨量": {
+      "en": "Yau Tsim Mong · District one-hour rainfall",
+      "yue-HK": "油尖旺 · 區域一小時雨量"
+    },
+    "油尖旺 · 发布 {{0}} {{1}} HKT · 已延迟，勿当作当前预报": {
+      "en": "Yau Tsim Mong · Issued {{0}} {{1}} HKT · Delayed, do not treat as current forecast",
+      "yue-HK": "油尖旺 · 發布 {{0}} {{1}} HKT · 已延遲，唔好當作當前預報"
+    },
+    "沿岸实测潮位": {
+      "en": "Measured coastal tide levels",
+      "yue-HK": "沿岸實測潮位"
+    },
+    "沿岸潮位": {
+      "en": "Coastal tide levels",
+      "yue-HK": "沿岸潮位"
+    },
+    "沿岸设施值守": {
+      "en": "Coastal facility watch",
+      "yue-HK": "沿岸設施值守"
+    },
+    "流浮山": {
+      "en": "Lau Fau Shan",
+      "yue-HK": "流浮山"
+    },
+    "流程已提交，后台将持久化执行": {
+      "en": "Process submitted; it will be executed persistently in the background",
+      "yue-HK": "流程已提交，後台會持久化執行"
+    },
+    "流程已由人工审核归档。": {
+      "en": "Process archived after manual review.",
+      "yue-HK": "流程已由人手審核歸檔。"
+    },
+    "查询真实记录": {
+      "en": "Query actual records",
+      "yue-HK": "查真實記錄"
+    },
+    "查阅天文台酷热提示与劳工处指引，记录具体作业条件。": {
+      "en": "Check the Observatory's very hot weather warning and Labour Department guidelines, and record the specific working conditions.",
+      "yue-HK": "查閱天文台酷熱提示同勞工處指引，記錄具體作業條件。"
+    },
+    "查阅官方雷暴及暴雨信息": {
+      "en": "Check official thunderstorm and rainstorm information",
+      "yue-HK": "查閱官方雷暴同暴雨資訊"
+    },
+    "查阅当前官方高温提示及原始时间": {
+      "en": "Check the current official high temperature advisory and its original timestamp",
+      "yue-HK": "查閱現行官方高溫提示同原始時間"
+    },
+    "查阅机构既定恶劣天气安排": {
+      "en": "Check the organisation's established inclement weather arrangements",
+      "yue-HK": "查閱機構既定惡劣天氣安排"
+    },
+    "标记已核对": {
+      "en": "Mark as verified",
+      "yue-HK": "標記已核對"
+    },
+    "校验值已记录": {
+      "en": "Verification value recorded",
+      "yue-HK": "校驗值已記錄"
+    },
+    "校验值已记录 · {{0}} 站缺测": {
+      "en": "Verification value recorded · {{0}} station missing data",
+      "yue-HK": "校驗值已記錄 · {{0}} 站缺測"
+    },
+    "校验值已记录{{0}} 站缺测": {
+      "en": "Verification value recorded{{0}} station missing data",
+      "yue-HK": "校驗值已記錄{{0}} 站缺測"
+    },
+    "核对中": {
+      "en": "Verifying",
+      "yue-HK": "核對中"
+    },
+    "核对作业窗口": {
+      "en": "Verify work window",
+      "yue-HK": "核對作業窗口"
+    },
+    "核对官方山泥倾泻及暴雨警告": {
+      "en": "Check official landslide and rainstorm warnings",
+      "yue-HK": "核對官方山泥傾瀉同暴雨警告"
+    },
+    "核对官方热带气旋与风暴潮资料": {
+      "en": "Check official tropical cyclone and storm surge information",
+      "yue-HK": "核對官方熱帶氣旋同風暴潮資料"
+    },
+    "核对官方警告及观测时间": {
+      "en": "Check official warning and observation times",
+      "yue-HK": "核對官方警告同觀測時間"
+    },
+    "核对实际工种、作业强度和环境": {
+      "en": "Verify the actual trade, work intensity and environment",
+      "yue-HK": "核對實際工種、作業強度同環境"
+    },
+    "核对山泥倾泻警告与官方资料，不凭气象数据推断单一斜坡稳定性。": {
+      "en": "Check landslide warnings and official information; do not infer the stability of any single slope from meteorological data.",
+      "yue-HK": "核對山泥傾瀉警告同官方資料，唔好單憑氣象數據推斷單一斜坡穩定性。"
+    },
+    "核对当前官方气旋信号和更新时间": {
+      "en": "Check the current official cyclone signal and update time",
+      "yue-HK": "核對現行官方氣旋信號同更新時間"
+    },
+    "核对暴雨、水浸与现场排水情况，保留负责人和事实记录。": {
+      "en": "Check rainstorm, flooding and on-site drainage conditions, and keep records of the responsible person and the facts.",
+      "yue-HK": "核對暴雨、水浸同現場排水情況，保留負責人同事實記錄。"
+    },
+    "核对雇主既定工作安排与实际交通情况": {
+      "en": "Check the employer's established work arrangements and actual traffic conditions",
+      "yue-HK": "核對僱主既定工作安排同實際交通情況"
+    },
+    "根据所选区域最近官方网格的四段半小时预报筛选。不判断雷电、路面或现场安全，结果须结合官方警告和现场核对。": {
+      "en": "Filter using the four half-hourly forecasts from the nearest official grid for the selected area. This does not determine lightning, road or site safety; results must be combined with official warnings and on-site verification.",
+      "yue-HK": "根據所選區域最近官方網格嘅四段半小時預報篩選。唔判斷雷電、路面或現場安全，結果須結合官方警告同現場核對。"
+    },
+    "档案超过 {{0}} MB": {
+      "en": "File exceeds {{0}} MB",
+      "yue-HK": "檔案超過 {{0}} MB"
+    },
+    "检查": {
+      "en": "Check",
+      "yue-HK": "檢查"
+    },
+    "检查关注规则": {
+      "en": "Check alert rules",
+      "yue-HK": "檢查關注規則"
+    },
+    "检索 · 比较 · 回溯 · 窗口核验 · 人工复核草稿": {
+      "en": "Search · Compare · Trace back · Window verification · Manually review draft",
+      "yue-HK": "檢索 · 比較 · 回溯 · 窗口核驗 · 人工覆核草稿"
+    },
+    "检索历史高雨量": {
+      "en": "Search historical high rainfall",
+      "yue-HK": "檢索歷史高雨量"
+    },
+    "检索官方网页原文片段，区分官方来源与个人资料。": {
+      "en": "Search original excerpts from official web pages and distinguish official sources from personal material.",
+      "yue-HK": "檢索官方網頁原文片段，區分官方來源同個人資料。"
+    },
+    "检索官方资料": {
+      "en": "Search official information",
+      "yue-HK": "檢索官方資料"
+    },
+    "检索实际事件": {
+      "en": "Search actual events",
+      "yue-HK": "檢索實際事件"
+    },
+    "检索真实站点与区域资料，保留缺测与更新状态。": {
+      "en": "Search actual station and district information, retaining missing-data and update status.",
+      "yue-HK": "檢索真實站點同區域資料，保留缺測同更新狀態。"
+    },
+    "模型未配置 · 可使用知识检索": {
+      "en": "Model not configured · Knowledge search available",
+      "yue-HK": "模型未配置 · 可使用知識檢索"
+    },
+    "模型状态查询失败": {
+      "en": "Model status query failed",
+      "yue-HK": "模型狀態查詢失敗"
+    },
+    "模型请求失败": {
+      "en": "Model request failed",
+      "yue-HK": "模型請求失敗"
+    },
+    "横澜岛": {
+      "en": "Waglan Island",
+      "yue-HK": "橫瀾島"
+    },
+    "横澜岛 · Waglan Island": {
+      "en": "Waglan Island · Waglan Island",
+      "yue-HK": "橫瀾島 · Waglan Island"
+    },
+    "次日降雨分类实验": {
+      "en": "Next-day rainfall classification experiment",
+      "yue-HK": "次日降雨分類實驗"
+    },
+    "流程总数": {
+      "en": "Total processes",
+      "yue-HK": "流程總數"
+    },
+    "测试 AP ↑": {
+      "en": "Test AP ↑",
+      "yue-HK": "測試 AP ↑"
+    },
+    "浸水": {
+      "en": "Flooding",
+      "yue-HK": "浸水"
+    },
+    "深水埗": {
+      "en": "Sham Shui Po",
+      "yue-HK": "深水埗"
+    },
+    "清水湾": {
+      "en": "Clear Water Bay",
+      "yue-HK": "清水灣"
+    },
+    "清空对话": {
+      "en": "Clear conversation",
+      "yue-HK": "清空對話"
+    },
+    "清除本机趋势": {
+      "en": "Clear local trends",
+      "yue-HK": "清除本機趨勢"
+    },
+    "渠务署": {
+      "en": "Drainage Services Department",
+      "yue-HK": "渠務署"
+    },
+    "渠务署 · EN · {{0}} 片段": {
+      "en": "DSD · EN · {{0}} clips",
+      "yue-HK": "渠務署 · EN · {{0}} 片段"
+    },
+    "渠务署 · SHA-{{0}} {{1}}f{{2}}e{{3}}…": {
+      "en": "DSD · SHA-{{0}} {{1}}f{{2}}e{{3}}…",
+      "yue-HK": "渠務署 · SHA-{{0}} {{1}}f{{2}}e{{3}}…"
+    },
+    "渠务署 · 中文 · {{0}} 片段": {
+      "en": "DSD · Chinese · {{0}} clips",
+      "yue-HK": "渠務署 · 中文 · {{0}} 片段"
+    },
+    "渠务署 · 官方来源 · EN": {
+      "en": "DSD · Official source · EN",
+      "yue-HK": "渠務署 · 官方來源 · EN"
+    },
+    "渠务署 · 官方来源 · 中文": {
+      "en": "DSD · Official source · Chinese",
+      "yue-HK": "渠務署 · 官方來源 · 中文"
+    },
+    "港": {
+      "en": "Kong",
+      "yue-HK": "港"
+    },
+    "湾": {
+      "en": "Wan",
+      "yue-HK": "灣"
+    },
+    "湾仔": {
+      "en": "Wan Chai",
+      "yue-HK": "灣仔"
+    },
+    "湿地公园": {
+      "en": "Wetland Park",
+      "yue-HK": "濕地公園"
+    },
+    "滘西洲": {
+      "en": "Kau Sai Chau",
+      "yue-HK": "滘西洲"
+    },
+    "滚动一小时雨量不可直接相加；区域网格预报不能视为设施现场实测。潮位不是积水深度。人工规则不是洪水概率或官方警告。快照、延迟和缺测不作为当前作业依据。": {
+      "en": "Rolling one-hour rainfall cannot be added directly; regional grid forecasts cannot be treated as on-site measurements at facilities. Tide level is not flood depth. Manual rules are not flood probability or official warnings. Snapshots, delays and missing data must not be used as the basis for current operations.",
+      "yue-HK": "滾動一小時雨量唔可以直接相加；區域網格預報唔可以當係設施現場實測。潮位唔係積水深度。人工規則唔係洪水概率或者官方警告。快照、延遲同缺測都唔可以作為當前作業依據。"
+    },
+    "潮位": {
+      "en": "Tide level",
+      "yue-HK": "潮位"
+    },
+    "潮位能说明水浸吗？": {
+      "en": "Can tide level indicate flooding?",
+      "yue-HK": "潮位能唔能說明水浸？"
+    },
+    "潮位达到自订关注值": {
+      "en": "Tide level reached custom alert value",
+      "yue-HK": "潮位達到自訂關注值"
+    },
+    "潮汐站": {
+      "en": "Tide station",
+      "yue-HK": "潮汐站"
+    },
+    "炎热天气特别提示": {
+      "en": "Very hot weather special advisory",
+      "yue-HK": "炎熱天氣特別提示"
+    },
+    "热带气旋": {
+      "en": "Tropical cyclone",
+      "yue-HK": "熱帶氣旋"
+    },
+    "热带气旋分类": {
+      "en": "Tropical cyclone classification",
+      "yue-HK": "熱帶氣旋分類"
+    },
+    "热带气旋警告下各部门安排": {
+      "en": "Departmental arrangements under tropical cyclone warnings",
+      "yue-HK": "熱帶氣旋警告下各部門安排"
+    },
+    "热带气旋警告服务": {
+      "en": "Tropical cyclone warning service",
+      "yue-HK": "熱帶氣旋警告服務"
+    },
+    "热带气旋预防措施": {
+      "en": "Tropical cyclone precautions",
+      "yue-HK": "熱帶氣旋預防措施"
+    },
+    "片段及出处信息": {
+      "en": "Clip and source information",
+      "yue-HK": "片段及出處資訊"
+    },
+    "物业排水巡查": {
+      "en": "Property drainage inspection",
+      "yue-HK": "物業排水巡查"
+    },
+    "状态": {
+      "en": "Status",
+      "yue-HK": "狀態"
+    },
+    "现场事实": {
+      "en": "On-site facts",
+      "yue-HK": "現場事實"
+    },
+    "现场地点": {
+      "en": "Site location",
+      "yue-HK": "現場地點"
+    },
+    "现场情况登记": {
+      "en": "On-site situation log",
+      "yue-HK": "現場情況登記"
+    },
+    "确认完成 ·": {
+      "en": "Confirm complete ·",
+      "yue-HK": "確認完成 ·"
+    },
+    "离": {
+      "en": "Off",
+      "yue-HK": "離"
+    },
+    "离岛区": {
+      "en": "Islands District",
+      "yue-HK": "離島區"
+    },
+    "积水待核对": {
+      "en": "Waterlogging pending verification",
+      "yue-HK": "積水待核對"
+    },
+    "站": {
+      "en": "Station",
+      "yue-HK": "站"
+    },
+    "站点": {
+      "en": "Station",
+      "yue-HK": "站點"
+    },
+    "站点 / 区域": {
+      "en": "Station / Area",
+      "yue-HK": "站點 / 區域"
+    },
+    "站缺测": {
+      "en": "Station missing data",
+      "yue-HK": "站缺測"
+    },
+    "笔资料": {
+      "en": "records",
+      "yue-HK": "筆資料"
+    },
+    "符合条件 {{0}} 条，显示雨量最高的 {{1}} 条。仅使用完整记录。": {
+      "en": "{{0}} matching records, showing the {{1}} with the highest rainfall. Only complete records are used.",
+      "yue-HK": "符合條件 {{0}} 條，顯示雨量最高嘅 {{1}} 條。只會用完整記錄。"
+    },
+    "等待主管审批": {
+      "en": "Awaiting supervisor approval",
+      "yue-HK": "等待主管審批"
+    },
+    "等待独立复审": {
+      "en": "Awaiting independent review",
+      "yue-HK": "等待獨立覆核"
+    },
+    "等待资料更新": {
+      "en": "Awaiting data update",
+      "yue-HK": "等待資料更新"
+    },
+    "等待重试": {
+      "en": "Awaiting retry",
+      "yue-HK": "等待重試"
+    },
+    "筛选窗口": {
+      "en": "Filter window",
+      "yue-HK": "篩選窗口"
+    },
+    "筲箕湾": {
+      "en": "Shau Kei Wan",
+      "yue-HK": "筲箕灣"
+    },
+    "管理 ↗": {
+      "en": "Manage ↗",
+      "yue-HK": "管理 ↗"
+    },
+    "管理员": {
+      "en": "Administrator",
+      "yue-HK": "管理員"
+    },
+    "紫外线": {
+      "en": "UV",
+      "yue-HK": "紫外線"
+    },
+    "组内共享口令": {
+      "en": "Group shared passphrase",
+      "yue-HK": "組內共享口令"
+    },
+    "组更新失败": {
+      "en": "Group update failed",
+      "yue-HK": "組更新失敗"
+    },
+    "结合暴雨、雷暴和恶劣天气工作安排，形成待人工确认的检查清单。": {
+      "en": "Combining rainstorm, thunderstorm and severe weather work arrangements to form a checklist pending manual confirmation.",
+      "yue-HK": "結合暴雨、雷暴同惡劣天氣工作安排，形成待人工確認嘅檢查清單。"
+    },
+    "编号": {
+      "en": "ID",
+      "yue-HK": "編號"
+    },
+    "缺少校验": {
+      "en": "Missing validation",
+      "yue-HK": "缺少校驗"
+    },
+    "缺测": {
+      "en": "Missing data",
+      "yue-HK": "缺測"
+    },
+    "缺测 / 维护": {
+      "en": "Missing data / Maintenance",
+      "yue-HK": "缺測 / 維護"
+    },
+    "自动触发规则": {
+      "en": "Auto-trigger rules",
+      "yue-HK": "自動觸發規則"
+    },
+    "自行填写真实现场信息。系统不会预置虚构事故；登记时附带本次数据状态，内容仅保存在当前浏览器。": {
+      "en": "Enter real site information yourself. The system will not preload fictitious incidents; the current data status is attached on registration, and content is stored only in the current browser.",
+      "yue-HK": "自行填寫真實現場資訊。系統唔會預置虛構事故；登記時會附帶本次資料狀態，內容只會儲存喺目前瀏覽器。"
+    },
+    "自订关注规则": {
+      "en": "Custom watch rules",
+      "yue-HK": "自訂關注規則"
+    },
+    "自订关注规则已储存": {
+      "en": "Custom watch rules saved",
+      "yue-HK": "自訂關注規則已儲存"
+    },
+    "自订分类门槛 · 非官方警告": {
+      "en": "Custom classification thresholds · Not official warnings",
+      "yue-HK": "自訂分類門檻 · 非官方警告"
+    },
+    "英文原文": {
+      "en": "English source text",
+      "yue-HK": "英文原文"
+    },
+    "荃湾": {
+      "en": "Tsuen Wan",
+      "yue-HK": "荃灣"
+    },
+    "荃湾可观": {
+      "en": "Tsuen Wan viewable",
+      "yue-HK": "荃灣可觀"
+    },
+    "营运值守工作台": {
+      "en": "Operations duty workstation",
+      "yue-HK": "營運值守工作台"
+    },
+    "现场执行人": {
+      "en": "On-site operator",
+      "yue-HK": "現場執行人"
+    },
+    "现场核验": {
+      "en": "On-site verification",
+      "yue-HK": "現場核驗"
+    },
+    "现场记录已达到 {{0}} 条，请先导出交班报告": {
+      "en": "On-site records have reached {{0}}; please export the handover report first",
+      "yue-HK": "現場記錄已經達到 {{0}} 條，請先匯出交班報告"
+    },
+    "生成人工复核草稿": {
+      "en": "Generate manual review draft",
+      "yue-HK": "生成人工覆核草稿"
+    },
+    "生成可下载、可追溯的真实天气运营报告。": {
+      "en": "Generate downloadable, traceable real weather operations reports.",
+      "yue-HK": "生成可以下載、可以追溯嘅真實天氣營運報告。"
+    },
+    "生成时间：": {
+      "en": "Generated at:",
+      "yue-HK": "生成時間："
+    },
+    "生成最新报告": {
+      "en": "Generate latest report",
+      "yue-HK": "生成最新報告"
+    },
+    "用户名": {
+      "en": "Username",
+      "yue-HK": "用戶名"
+    },
+    "用户自行导入": {
+      "en": "User-imported",
+      "yue-HK": "用戶自行匯入"
+    },
+    "用真实记录，检验每一个判断。": {
+      "en": "Use real records to test every judgement.",
+      "yue-HK": "用真實記錄，檢驗每一個判斷。"
+    },
+    "由合适人员核对排水口和低洼入口": {
+      "en": "Have suitable personnel check drains and low-lying entrances",
+      "yue-HK": "由合適人員核對排水口同低窪入口"
+    },
+    "由合适人员跟进现场核对": {
+      "en": "Have suitable personnel follow up with on-site verification",
+      "yue-HK": "由合適人員跟進現場核對"
+    },
+    "由现场负责人记录实际情况": {
+      "en": "Have the on-site person in charge record the actual situation",
+      "yue-HK": "由現場負責人記錄實際情況"
+    },
+    "由获授权负责人复核，模板不作医学诊断": {
+      "en": "Reviewed by an authorised person in charge; the template does not provide medical diagnosis",
+      "yue-HK": "由獲授權負責人覆核，模板唔作醫學診斷"
+    },
+    "由负责人评估实际工作环境": {
+      "en": "Have the person in charge assess the actual working environment",
+      "yue-HK": "由負責人評估實際工作環境"
+    },
+    "登录团队工作空间": {
+      "en": "Log in to the team workspace",
+      "yue-HK": "登入團隊工作空間"
+    },
+    "登记你实际关注的设施": {
+      "en": "Register the facilities you actually care about",
+      "yue-HK": "登記你實際關注嘅設施"
+    },
+    "登记实际管理的设施": {
+      "en": "Register the facilities you actually manage",
+      "yue-HK": "登記實際管理嘅設施"
+    },
+    "登记实际设施，设定关注规则，管理人工核对与附件。": {
+      "en": "Register actual facilities, set alert rules, manage manual checks and attachments.",
+      "yue-HK": "登記實際設施，設定關注規則，管理人工核對同附件。"
+    },
+    "目前显示真实快照或延迟观测": {
+      "en": "Currently showing a real snapshot or delayed observation",
+      "yue-HK": "目前顯示真實快照或延遲觀測"
+    },
+    "目前没有符合规则的新鲜观测；快照、缺测或延迟资料不触发建议": {
+      "en": "No fresh observations matching the rules at present; snapshots, missing data or delayed data do not trigger suggestions",
+      "yue-HK": "目前冇符合規則嘅新鮮觀測；快照、缺測或延遲資料唔會觸發建議"
+    },
+    "真实下载快照": {
+      "en": "Real downloaded snapshot",
+      "yue-HK": "真實下載快照"
+    },
+    "真实历史快照": {
+      "en": "Real historical snapshot",
+      "yue-HK": "真實歷史快照"
+    },
+    "真实历史快照（非当前情况）": {
+      "en": "Real historical snapshot (not current conditions)",
+      "yue-HK": "真實歷史快照（非當前情況）"
+    },
+    "真实历史，重现天气变化。": {
+      "en": "Real history, replaying weather changes.",
+      "yue-HK": "真實歷史，重現天氣變化。"
+    },
+    "真实天气数据、可追踪的 Agent 与人工审批，连接成一条能够暂停、恢复、复核的运营流程。": {
+      "en": "Real weather data, traceable Agents and manual approvals, connected into an operations flow that can be paused, resumed and reviewed.",
+      "yue-HK": "真實天氣數據、可追蹤嘅 Agent 同人工審批，連成一條可以暫停、恢復、覆核嘅營運流程。"
+    },
+    "真实快照依据": {
+      "en": "Basis of the real snapshot",
+      "yue-HK": "真實快照依據"
+    },
+    "真实资料 · 时间可核对 · 行动有记录": {
+      "en": "Real data · Verifiable times · Recorded actions",
+      "yue-HK": "真實資料 · 時間可核對 · 行動有記錄"
+    },
+    "真实降雨事件检索": {
+      "en": "Real rainfall event search",
+      "yue-HK": "真實降雨事件檢索"
+    },
+    "知识检索": {
+      "en": "Knowledge search",
+      "yue-HK": "知識檢索"
+    },
+    "短暂时间有阳光。早晚有一两阵微雨。": {
+      "en": "Sunny intervals for a short time. One or two light rain patches in the morning and at night.",
+      "yue-HK": "短暫時間有陽光。早晚有一兩陣微雨。"
+    },
+    "石壁": {
+      "en": "Shek Pik",
+      "yue-HK": "石壁"
+    },
+    "石壁 · Shek Pik": {
+      "en": "Shek Pik · Shek Pik",
+      "yue-HK": "石壁 · Shek Pik"
+    },
+    "石岗": {
+      "en": "Shek Kong",
+      "yue-HK": "石崗"
+    },
+    "确认完成": {
+      "en": "Confirm completion",
+      "yue-HK": "確認完成"
+    },
+    "营运总览": {
+      "en": "Overview",
+      "yue-HK": "營運總覽"
+    },
+    "落大雨": {
+      "en": "Heavy rain",
+      "yue-HK": "落大雨"
+    },
+    "葵青": {
+      "en": "Kwai Tsing",
+      "yue-HK": "葵青"
+    },
+    "行雷": {
+      "en": "Thunderstorm",
+      "yue-HK": "行雷"
+    },
+    "西贡": {
+      "en": "Sai Kung",
+      "yue-HK": "西貢"
+    },
+    "观": {
+      "en": "View",
+      "yue-HK": "觀"
+    },
+    "观塘": {
+      "en": "Kwun Tong",
+      "yue-HK": "觀塘"
+    },
+    "观测 / 发布时间": {
+      "en": "Observation / Issue time",
+      "yue-HK": "觀測 / 發布時間"
+    },
+    "观测、官方预报、历史记录与自订规则分开标示。": {
+      "en": "Observations, official forecasts, historical records and custom rules are labelled separately.",
+      "yue-HK": "觀測、官方預報、歷史記錄同自訂規則分開標示。"
+    },
+    "观测延迟": {
+      "en": "Observation delay",
+      "yue-HK": "觀測延遲"
+    },
+    "观测数值": {
+      "en": "Observed value",
+      "yue-HK": "觀測數值"
+    },
+    "观测时间": {
+      "en": "Observation time",
+      "yue-HK": "觀測時間"
+    },
+    "观测时间、接收时间、原始档案和校验资讯，一目了然。": {
+      "en": "Observation time, receipt time, raw archive and verification info at a glance.",
+      "yue-HK": "觀測時間、接收時間、原始檔案同校驗資訊，一目了然。"
+    },
+    "观测时间：": {
+      "en": "Observation time:",
+      "yue-HK": "觀測時間："
+    },
+    "观测有来源，细节看得见。": {
+      "en": "Observations have sources; details are visible.",
+      "yue-HK": "觀測有來源，細節睇得見。"
+    },
+    "观测缺失、延迟或正使用历史快照": {
+      "en": "Observation missing, delayed, or a historical snapshot is in use",
+      "yue-HK": "觀測缺失、延遲，或者正使用歷史快照"
+    },
+    "规划下一步，记录现场事实。": {
+      "en": "Plan the next step, record the facts on site.",
+      "yue-HK": "規劃下一步，記錄現場事實。"
+    },
+    "触及人工关注值": {
+      "en": "Reached manual attention threshold",
+      "yue-HK": "觸及人工關注值"
+    },
+    "警告查询状态：": {
+      "en": "Warning query status:",
+      "yue-HK": "警告查詢狀態："
+    },
+    "警告状态暂不可用": {
+      "en": "Warning status temporarily unavailable",
+      "yue-HK": "警告狀態暫時用唔到"
+    },
+    "警告资料尚未取得": {
+      "en": "Warning data not yet retrieved",
+      "yue-HK": "警告資料尚未取得"
+    },
+    "让信息、工具与行动连成一步。": {
+      "en": "Connect information, tools and action in one step.",
+      "yue-HK": "讓資訊、工具同行動連成一步。"
+    },
+    "让关注落地，让行动留痕。": {
+      "en": "Make attention actionable, make action traceable.",
+      "yue-HK": "讓關注落地，讓行動留痕。"
+    },
+    "让每一个回答，都有依据。": {
+      "en": "Every answer, backed by evidence.",
+      "yue-HK": "每個答覆，都有根有據。"
+    },
+    "让每一步行动，": {
+      "en": "Make every step of action,",
+      "yue-HK": "讓每一步行動，"
+    },
+    "训练 {{0}} · 验证 {{1}} · 测试 {{2}}。阈值仅用验证集选择；模型参数在测试前固定。AP 为平均精确率。两种微量雨策略的样本日期集合不同，不能将指标差异解释为因果效果。课程标签不是水浸概率。": {
+      "en": "Train {{0}} · Validate {{1}} · Test {{2}}. Thresholds were selected using the validation set only; model parameters were fixed before testing. AP is average precision. The two light-rain strategies use different sample date sets, so differences in metrics cannot be interpreted as causal effects. Class labels are not flood probabilities.",
+      "yue-HK": "訓練 {{0}} · 驗證 {{1}} · 測試 {{2}}。閾值只用驗證集揀選；模型參數喺測試前已經固定。AP 係平均精確率。兩種微量雨策略嘅樣本日期集合唔同，唔可以將指標差異解釋為因果效果。課程標籤唔係水浸概率。"
+    },
+    "训练 {{0}} · 验证 {{1}} · 测试 {{2}}（正样本 {{3}}）": {
+      "en": "Train {{0}} · Validate {{1}} · Test {{2}} (positive samples {{3}})",
+      "yue-HK": "訓練 {{0}} · 驗證 {{1}} · 測試 {{2}}（正樣本 {{3}}）"
+    },
+    "训练集发生率基线": {
+      "en": "Training set incidence baseline",
+      "yue-HK": "訓練集發生率基線"
+    },
+    "记录实际积水或堵塞，不以区域雨量替代现场测量": {
+      "en": "Record actual ponding or blockage; do not substitute regional rainfall for on-site measurement",
+      "yue-HK": "記錄實際積水或堵塞，唔好以區域雨量替代現場測量"
+    },
+    "记录实际观察，不填写推测或虚构情况": {
+      "en": "Record actual observations; do not enter guesses or fabricated situations",
+      "yue-HK": "記錄實際觀察，唔好填寫推測或虛構情況"
+    },
+    "记录实际设施检查和人员责任": {
+      "en": "Record actual facility inspections and personnel responsibility",
+      "yue-HK": "記錄實際設施檢查同人員責任"
+    },
+    "记录数": {
+      "en": "Record count",
+      "yue-HK": "記錄數"
+    },
+    "记录最高日雨量": {
+      "en": "Record highest daily rainfall",
+      "yue-HK": "記錄最高日雨量"
+    },
+    "记录潮位站与设施之间的位置差异": {
+      "en": "Record the positional difference between the tide gauge station and the facility",
+      "yue-HK": "記錄潮位站同設施之間嘅位置差異"
+    },
+    "设施 · 工单 · 现场记录": {
+      "en": "Facilities · Work orders · Site records",
+      "yue-HK": "設施 · 工單 · 現場記錄"
+    },
+    "设施与复核": {
+      "en": "Facilities & reviews",
+      "yue-HK": "設施同核對"
+    },
+    "设施关注清单": {
+      "en": "Facility Watchlist",
+      "yue-HK": "設施關注清單"
+    },
+    "设施或工单格式不符": {
+      "en": "Facility or work order format does not match",
+      "yue-HK": "設施或工單格式唔啱"
+    },
+    "设施由你登记，系统不虚构客户或设施。工单、附件、收藏与规则保存在本机浏览器，不向政府或外部人员派单。": {
+      "en": "Facilities are registered by you; the system does not invent clients or facilities. Work orders, attachments, favourites and rules are stored in this browser and are not dispatched to government or external parties.",
+      "yue-HK": "設施由你登記，系統唔會虛構客戶或設施。工單、附件、收藏同規則都儲存喺本機瀏覽器，唔會向政府或外部人員派單。"
+    },
+    "试着提一个天气运营问题。回答将结合官方知识片段与服务端查询，不会用虚构数据补齐空白。": {
+      "en": "Try asking a weather operations question. Answers combine official knowledge snippets with server-side queries and will not fill gaps with invented data.",
+      "yue-HK": "試吓問一個天氣運營問題。答案會結合官方知識片段同伺服器端查詢，唔會用虛構數據補空白。"
+    },
+    "该站点、变量及年份没有完整数值记录，请更换条件": {
+      "en": "No complete numeric records for this station, variable and year. Please change the conditions.",
+      "yue-HK": "呢個站點、變量同年份冇完整數值記錄，請更換條件"
+    },
+    "该组合没有已完成的实验": {
+      "en": "No completed experiments for this combination",
+      "yue-HK": "呢個組合冇已完成嘅實驗"
+    },
+    "详细天气警告": {
+      "en": "Detailed weather warnings",
+      "yue-HK": "詳細天氣警告"
+    },
+    "请先登记实际设施": {
+      "en": "Please register an actual facility first",
+      "yue-HK": "請先登記實際設施"
+    },
+    "请刷新资料。": {
+      "en": "Please refresh the data.",
+      "yue-HK": "請刷新資料。"
+    },
+    "请填写你实际管理或研究的设施": {
+      "en": "Please enter a facility you actually manage or research",
+      "yue-HK": "請填寫你實際管理或研究嘅設施"
+    },
+    "请填写实际负责人": {
+      "en": "Please enter the actual person in charge",
+      "yue-HK": "請填寫實際負責人"
+    },
+    "请填写有效条件。": {
+      "en": "Please enter valid conditions.",
+      "yue-HK": "請填寫有效條件。"
+    },
+    "请填写有效的阈值和时长。": {
+      "en": "Please enter valid thresholds and durations.",
+      "yue-HK": "請填寫有效嘅閾值同時長。"
+    },
+    "请填写有效的雨量与潮位关注值": {
+      "en": "Please enter valid rainfall and tide level watch values",
+      "yue-HK": "請填寫有效嘅雨量與潮位關注值"
+    },
+    "请填写核对结论，并完成三项核对确认": {
+      "en": "Please enter the review conclusion and complete the three review confirmations",
+      "yue-HK": "請填寫核對結論，並完成三項核對確認"
+    },
+    "请填写组内共享口令": {
+      "en": "Please enter the group shared passphrase",
+      "yue-HK": "請填寫組內共享口令"
+    },
+    "请更新官方资料。": {
+      "en": "Please update the official data.",
+      "yue-HK": "請更新官方資料。"
+    },
+    "请核对这份官方资料：": {
+      "en": "Please verify this official data:",
+      "yue-HK": "請核對呢份官方資料："
+    },
+    "请由当前阶段的授权人员操作。创建者不能自我审批，复审须独立于创建者与执行人。": {
+      "en": "Please operate as an authorised person for the current stage. Creators cannot self-approve; review must be independent of the creator and the executor.",
+      "yue-HK": "請由當前階段嘅授權人員操作。創建者唔可以自我審批，覆審須獨立於創建者同執行人。"
+    },
+    "请选择小于 {{0}} KB 的 PNG 或 JPEG 图片": {
+      "en": "Please select a PNG or JPEG image smaller than {{0}} KB",
+      "yue-HK": "請選擇小於 {{0}} KB 嘅 PNG 或 JPEG 圖片"
+    },
+    "读取真实模型结果": {
+      "en": "Read actual model results",
+      "yue-HK": "讀取真實模型結果"
+    },
+    "负责人": {
+      "en": "Person in charge",
+      "yue-HK": "負責人"
+    },
+    "账号已创建": {
+      "en": "Account created",
+      "yue-HK": "帳號已建立"
+    },
+    "资料使用条款 ↗": {
+      "en": "Data terms of use ↗",
+      "yue-HK": "資料使用條款 ↗"
+    },
+    "资料待核对": {
+      "en": "Data pending verification",
+      "yue-HK": "資料待核對"
+    },
+    "资料时间": {
+      "en": "Data time",
+      "yue-HK": "資料時間"
+    },
+    "资料来源中心": {
+      "en": "Source centre",
+      "yue-HK": "資料來源"
+    },
+    "资料模式": {
+      "en": "Data mode",
+      "yue-HK": "資料模式"
+    },
+    "资料状态": {
+      "en": "Data status",
+      "yue-HK": "資料狀態"
+    },
+    "资料解读": {
+      "en": "Data interpretation",
+      "yue-HK": "資料解讀"
+    },
+    "资料载入失败": {
+      "en": "Failed to load data",
+      "yue-HK": "資料載入失敗"
+    },
+    "赤柱": {
+      "en": "Stanley",
+      "yue-HK": "赤柱"
+    },
+    "跑马地": {
+      "en": "Happy Valley",
+      "yue-HK": "跑馬地"
+    },
+    "跟随总览所选区域 ·": {
+      "en": "Follow the region selected in the overview ·",
+      "yue-HK": "跟隨總覽所選區域 ·"
+    },
+    "输入天气问题": {
+      "en": "Enter a weather question",
+      "yue-HK": "輸入天氣問題"
+    },
+    "输入数据版本": {
+      "en": "Enter data version",
+      "yue-HK": "輸入數據版本"
+    },
+    "输入文件 SHA-{{0}}：": {
+      "en": "Input file SHA-{{0}}:",
+      "yue-HK": "輸入檔案 SHA-{{0}}："
+    },
+    "输入文件 SHA-{{0}}：a{{1}}defc{{2}}a{{3}}e{{4}}f{{5}}d{{6}}b{{7}}df{{8}}e{{9}}c{{10}}df{{11}}d": {
+      "en": "Input file SHA-{{0}}: a{{1}}defc{{2}}a{{3}}e{{4}}f{{5}}d{{6}}b{{7}}df{{8}}e{{9}}c{{10}}df{{11}}d",
+      "yue-HK": "輸入檔案 SHA-{{0}}：a{{1}}defc{{2}}a{{3}}e{{4}}f{{5}}d{{6}}b{{7}}df{{8}}e{{9}}c{{10}}df{{11}}d"
+    },
+    "过去一小时": {
+      "en": "Past hour",
+      "yue-HK": "過去一小時"
+    },
+    "返工": {
+      "en": "Back to work",
+      "yue-HK": "返工"
+    },
+    "这里暂无复核工单": {
+      "en": "No review tickets here yet",
+      "yue-HK": "呢度暫時未有覆核工單"
+    },
+    "进入工作空间 ↗": {
+      "en": "Enter workspace ↗",
+      "yue-HK": "進入工作空間 ↗"
+    },
+    "连接同一服务后共享真实记录。载入会先下载本机备份；上传会检查版本，阻止覆盖其他组员的新修改。个人对话和自导入知识不会上传。": {
+      "en": "Share real records after connecting to the same service. Loading downloads the local backup first; uploading checks the version and prevents overwriting other members' newer changes. Personal conversations and self-imported knowledge are not uploaded.",
+      "yue-HK": "連接同一個服務之後就可以共享真實記錄。載入會先下載本機備份；上傳會檢查版本，阻止覆蓋其他組員嘅新修改。個人對話同自導入知識唔會上傳。"
+    },
+    "连接外部知识，保留原始出处。": {
+      "en": "Connect external knowledge. Keep the original sources.",
+      "yue-HK": "搵齊外部資料，保留返原本出處。"
+    },
+    "连接并查看版本": {
+      "en": "Connect and view version",
+      "yue-HK": "連接並查看版本"
+    },
+    "连续时长": {
+      "en": "Continuous duration",
+      "yue-HK": "連續時長"
+    },
+    "退出登录": {
+      "en": "Log out",
+      "yue-HK": "登出"
+    },
+    "选择区域": {
+      "en": "Select region",
+      "yue-HK": "選擇區域"
+    },
+    "选择站点与变量后查询。需要Node服务及已下载扩展数据包；没有数据时会明确提示。": {
+      "en": "Select a station and variable to query. Requires the Node service and a downloaded extension data pack; if there is no data, it will say so clearly.",
+      "yue-HK": "揀好站點同變量之後就查得。需要 Node 服務同已下載嘅擴展數據包；冇數據嗰陣會明確提示。"
+    },
+    "逻辑回归": {
+      "en": "Logistic regression",
+      "yue-HK": "邏輯回歸"
+    },
+    "部分时间有阳光。": {
+      "en": "Sunny periods.",
+      "yue-HK": "部分時間有陽光。"
+    },
+    "部分时间有阳光。初时有一两阵微雨。": {
+      "en": "Sunny periods. A light shower or two at first.",
+      "yue-HK": "部分時間有陽光。初時有一兩陣微雨。"
+    },
+    "部分时间有阳光。早晚有一两阵微雨。": {
+      "en": "Sunny periods. A light shower or two in the morning and evening.",
+      "yue-HK": "部分時間有陽光。早晚有一兩陣微雨。"
+    },
+    "都有依据与责任。": {
+      "en": "Both have evidence and accountability.",
+      "yue-HK": "都有依據同責任。"
+    },
+    "酷热": {
+      "en": "Very hot",
+      "yue-HK": "酷熱"
+    },
+    "酷热与中暑": {
+      "en": "Very hot weather and heatstroke",
+      "yue-HK": "酷熱與中暑"
+    },
+    "重新打开": {
+      "en": "Reopen",
+      "yue-HK": "重新打開"
+    },
+    "长期记录，连接实际场景。": {
+      "en": "Long-term records, connected to real situations.",
+      "yue-HK": "長期記錄，連接實際場景。"
+    },
+    "长洲": {
+      "en": "Cheung Chau",
+      "yue-HK": "長洲"
+    },
+    "长青": {
+      "en": "Cheung Ching",
+      "yue-HK": "長青"
+    },
+    "门": {
+      "en": "Gate",
+      "yue-HK": "門"
+    },
+    "闪电": {
+      "en": "Lightning",
+      "yue-HK": "閃電"
+    },
+    "防晒": {
+      "en": "Sun protection",
+      "yue-HK": "防曬"
+    },
+    "降雨临近预报尚未取得": {
+      "en": "Rainfall nowcast not yet available",
+      "yue-HK": "降雨臨近預報尚未取得"
+    },
+    "随机森林": {
+      "en": "Random forest",
+      "yue-HK": "隨機森林"
+    },
+    "雨量与潮位": {
+      "en": "Rainfall & tides",
+      "yue-HK": "雨量同潮位"
+    },
+    "雨量为过去一小时累计值，不是瞬间雨势。每 {{0}} 分钟发布的滚动一小时雨量不可直接相加。潮位 mCD 以海图基准为参考；不是河道水位或设施地面高度。缺测值保留为「—」，不作零值处理。": {
+      "en": "Rainfall is the cumulative total for the past hour, not the instantaneous rain rate. Rolling one-hour rainfall published every {{0}} minutes cannot be added together directly. Tide level in mCD is referenced to chart datum; it is not river water level or facility ground elevation. Missing values are kept as \"—\" and are not treated as zero.",
+      "yue-HK": "雨量係過去一小時嘅累計值，唔係瞬間雨勢。每 {{0}} 分鐘發布嘅滾動一小時雨量唔可以直接相加。潮位 mCD 以海圖基準為參考；唔係河道水位或者設施地面高度。缺測值保留為「—」，唔會當零值處理。"
+    },
+    "雨量关注值": {
+      "en": "Rainfall alert value",
+      "yue-HK": "雨量關注值"
+    },
+    "雨量关注值 {{0}} mm / 小时": {
+      "en": "Rainfall alert value {{0}} mm / hour",
+      "yue-HK": "雨量關注值 {{0}} mm / 小時"
+    },
+    "雨量达到自订关注值": {
+      "en": "Rainfall reaches custom alert threshold",
+      "yue-HK": "雨量達到自訂關注值"
+    },
+    "雷暴": {
+      "en": "Thunderstorm",
+      "yue-HK": "雷暴"
+    },
+    "雷暴与闪电": {
+      "en": "Thunderstorms and lightning",
+      "yue-HK": "雷暴與閃電"
+    },
+    "雷暴警告": {
+      "en": "Thunderstorm Warning",
+      "yue-HK": "雷暴警告"
+    },
+    "需要 Agent 核对的问题": {
+      "en": "Issues requiring Agent verification",
+      "yue-HK": "需要 Agent 核對嘅問題"
+    },
+    "需要关注": {
+      "en": "Attention needed",
+      "yue-HK": "需要關注"
+    },
+    "非官方警报": {
+      "en": "Unofficial alert",
+      "yue-HK": "非官方警報"
+    },
+    "项": {
+      "en": "item",
+      "yue-HK": "項"
+    },
+    "预报与警告": {
+      "en": "Forecasts & warnings",
+      "yue-HK": "預報同警告"
+    },
+    "预报尚未取得": {
+      "en": "Forecast not yet available",
+      "yue-HK": "仲未攞到預報"
+    },
+    "预测「次日站点日雨量 ≥{{0}} mm」。这是课程自订标签，不是官方暴雨警告或水浸标签。": {
+      "en": "Predicts \"next-day station daily rainfall ≥{{0}} mm\". This is a course-defined label, not an official rainstorm warning or flooding label.",
+      "yue-HK": "預測「次日站點日雨量 ≥{{0}} mm」。呢個係課程自訂標籤，唔係官方暴雨警告或水浸標籤。"
+    },
+    "预防工作时中暑指引": {
+      "en": "Guidelines on Prevention of Heat Stroke at Work",
+      "yue-HK": "預防工作時中暑指引"
+    },
+    "风暴潮": {
+      "en": "Storm surge",
+      "yue-HK": "風暴潮"
+    },
+    "首次管理员凭据保存在本机 runtime/enterprise.env，不随源码公开。": {
+      "en": "Initial administrator credentials are stored locally in runtime/enterprise.env and are not published with the source code.",
+      "yue-HK": "首次管理員憑據保存喺本機 runtime/enterprise.env，唔會隨源碼公開。"
+    },
+    "香港区域观测": {
+      "en": "Hong Kong regional observations",
+      "yue-HK": "香港區域觀測"
+    },
+    "香港区域雨量地图": {
+      "en": "Hong Kong regional rainfall map",
+      "yue-HK": "香港區域雨量地圖"
+    },
+    "香港国际机场": {
+      "en": "Hong Kong International Airport",
+      "yue-HK": "香港國際機場"
+    },
+    "香港地区": {
+      "en": "Hong Kong region",
+      "yue-HK": "香港地區"
+    },
+    "香港天文台": {
+      "en": "Hong Kong Observatory",
+      "yue-HK": "香港天文台"
+    },
+    "香港天文台 · DATA.GOV.HK": {
+      "en": "Hong Kong Observatory · DATA.GOV.HK",
+      "yue-HK": "香港天文台 · DATA.GOV.HK"
+    },
+    "香港天文台 · EN · {{0}} 片段": {
+      "en": "Hong Kong Observatory · EN · {{0}} segments",
+      "yue-HK": "香港天文台 · EN · {{0}} 片段"
+    },
+    "香港天文台 · SHA-{{0}} f{{1}}aa{{2}}eefd{{3}}b…": {
+      "en": "Hong Kong Observatory · SHA-{{0}} f{{1}}aa{{2}}eefd{{3}}b…",
+      "yue-HK": "香港天文台 · SHA-{{0}} f{{1}}aa{{2}}eefd{{3}}b…"
+    },
+    "香港天文台 · 中文 · {{0}} 片段": {
+      "en": "Hong Kong Observatory · Chinese · {{0}} segments",
+      "yue-HK": "香港天文台 · 中文 · {{0}} 片段"
+    },
+    "香港天文台 · 官方来源 · EN": {
+      "en": "Hong Kong Observatory · Official source · EN",
+      "yue-HK": "香港天文台 · 官方來源 · EN"
+    },
+    "香港天文台 · 官方来源 · 中文": {
+      "en": "Hong Kong Observatory · Official source · Chinese",
+      "yue-HK": "香港天文台 · 官方來源 · 中文"
+    },
+    "香港特别行政区政府 · 香港天文台 · DATA.GOV.HK": {
+      "en": "Hong Kong Special Administrative Region Government · Hong Kong Observatory · DATA.GOV.HK",
+      "yue-HK": "香港特別行政區政府 · 香港天文台 · DATA.GOV.HK"
+    },
+    "香港网格降雨临近预报": {
+      "en": "Hong Kong gridded rainfall nowcast",
+      "yue-HK": "香港網格降雨臨近預報"
+    },
+    "香港营运空间": {
+      "en": "Hong Kong operations space",
+      "yue-HK": "香港營運空間"
+    },
+    "香港运营空间": {
+      "en": "Hong Kong operations space",
+      "yue-HK": "香港運營空間"
+    },
+    "马己仙峡": {
+      "en": "Magazine Gap",
+      "yue-HK": "馬己仙峽"
+    },
+    "验证阈值": {
+      "en": "Verification threshold",
+      "yue-HK": "驗證閾值"
+    },
+    "高温作业复核": {
+      "en": "Heat stress work review",
+      "yue-HK": "高溫作業覆核"
+    },
+    "鲗鱼涌": {
+      "en": "Quarry Bay",
+      "yue-HK": "鰂魚涌"
+    },
+    "鲗鱼涌 · Quarry Bay": {
+      "en": "Quarry Bay · Quarry Bay",
+      "yue-HK": "鰂魚涌 · Quarry Bay"
+    },
+    "黄": {
+      "en": "Yellow",
+      "yue-HK": "黃"
+    },
+    "黄大仙": {
+      "en": "Wong Tai Sin",
+      "yue-HK": "黃大仙"
+    },
+    "黄竹坑": {
+      "en": "Wong Chuk Hang",
+      "yue-HK": "黃竹坑"
+    },
+    "龙": {
+      "en": "Dragon",
+      "yue-HK": "龍"
+    },
+    "＋ 人工复核": {
+      "en": "+ Manual review",
+      "yue-HK": "＋ 人手覆核"
+    },
+    "＋ 发起工作流": {
+      "en": "+ Start workflow",
+      "yue-HK": "＋ 發起工作流程"
+    },
+    "＋ 登记实际设施": {
+      "en": "+ Register actual facility",
+      "yue-HK": "＋ 登記實際設施"
+    },
+    "；没有填入示意结果。": {
+      "en": "; no indicative result entered.",
+      "yue-HK": "；冇填入示意結果。"
+    },
+    "；状态：": {
+      "en": "; Status:",
+      "yue-HK": "；狀態："
+    },
+    "；请从启动服务开启，勿直接双击 HTML。": {
+      "en": "; please start via the launch service, do not double-click the HTML directly.",
+      "yue-HK": "；請從啟動服務開啟，唔好直接雙擊 HTML。"
+    },
+    "；负责人：": {
+      "en": "; Person in charge:",
+      "yue-HK": "；負責人："
+    },
+    "导出当前系列 CSV": {
+      "en": "Export this series as CSV",
+      "yue-HK": "匯出呢個系列 CSV"
+    },
+    "核对知识库覆盖": {
+      "en": "Check knowledge coverage",
+      "yue-HK": "核對資料庫涵蓋範圍"
+    },
+    "检查来源时效与缺测": {
+      "en": "Check source freshness and gaps",
+      "yue-HK": "核對來源時間同缺漏"
+    },
+    "{{0}} 组新鲜在线资料 · 各来源时间见资料中心": {
+      "en": "{{0}} sources up to date · See Source centre for timestamps",
+      "yue-HK": "{{0}} 組資料已更新 · 各來源時間請睇資料中心"
+    },
+    "官方来源": {
+      "en": "Official source",
+      "yue-HK": "官方來源"
+    },
+    "匹配": {
+      "en": "Match",
+      "yue-HK": "匹配"
+    },
+    "片段": {
+      "en": "excerpts",
+      "yue-HK": "片段"
+    },
+    "官方网页原文经过提取、分块，引用保留原始语言和文件校验值。个人导入仅保存在本机，不作为官方依据，也不上传给模型。": {
+      "en": "Official sources are extracted and chunked; quotations keep their original language and file checksums. Personal imports stay on this device, are not official evidence, and are not sent to the model.",
+      "yue-HK": "官方資料已提取同分段；引用保留返原本語言同檔案校驗值。自己匯入嘅資料只存喺本機，唔當作官方依據，亦唔會上傳模型。"
+    }
+  }
+}

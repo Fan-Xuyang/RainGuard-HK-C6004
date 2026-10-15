@@ -25,7 +25,7 @@ docker compose --env-file runtime/enterprise.env -f compose.enterprise.yml up -d
 
 本机已按用户授权配置并验证DeepSeek；公开源码和压缩包不包含密钥。其他电脑可运行 `python enterprise/configure_model.py` 隐藏输入密钥，或在本机 `runtime/enterprise.env` 填入 `DEEPSEEK_API_KEY` 和适用的 `DEEPSEEK_MODEL`，然后重新执行上面的 `docker compose ... up -d`。密钥仅进入后端容器环境，小程序和网页只获取“是否已配置”的状态，不接收密钥。首次初始化会复用已有 `.env.local` 内的 DeepSeek 配置（如果存在）；不会从聊天或其他应用数据库提取密钥。
 
-启用后在创建流程时选择“DeepSeek 工具调用 Agent”。当前采用官方支持的非思考模式，以控制单次时延和调用预算。LangChain 模型可自主选择六个允许工具；每次分析最多4轮模型请求、8次模型工具调用，前置另有3项固定取证。失败进入持久化重试与死信状态，不能拿模板文本冒充模型回答。工具只有查询及草稿能力，业务批准、指派、现场提交与归档仍由角色校验控制。
+启用后在创建流程时选择“DeepSeek 工具调用 Agent”。当前采用官方支持的非思考模式，以控制单次时延和调用预算。LangChain 模型可自主选择八个允许工具；每次分析最多4轮模型请求、8次模型工具调用，前置另有3项固定取证。失败进入持久化重试与死信状态，不能拿模板文本冒充模型回答。工具只有查询及草稿能力，业务批准、指派、现场提交与归档仍由角色校验控制。
 
 ## 完整工作流
 
@@ -59,7 +59,7 @@ flowchart LR
 
 | 组件 | 职责 |
 |---|---|
-| weather | 现有 Node 天气服务、真实资料、受内部令牌保护的六种工具 |
+| weather | 现有 Node 天气服务、真实资料、受内部令牌保护的八种工具 |
 | api | 独立账号、会话、角色和版本检查、流程/附件/审计接口、控制台 |
 | worker | 持久化队列、租约与心跳、LangGraph 执行、暂停与恢复 |
 | scheduler | 每5分钟检查规则；每30秒扫描1小时阶段超时 |
@@ -107,3 +107,10 @@ docker compose --env-file runtime/enterprise.env -f compose.enterprise.yml exec 
 浏览器验收先运行 `scripts/enterprise_qa.py`，再运行 `node scripts/enterprise_browser_check.mjs`。测试使用独立 SQLite 或专用临时 PostgreSQL 数据库，真实知识/快照来自原项目；合成用户和现场文字仅在隔离库中，不写入正式业务库。详见 [验收记录](验收记录.md)。
 
 框架依据：[LangGraph 人工暂停与恢复](https://docs.langchain.com/oss/python/langgraph/interrupts)、[持久化检查点](https://docs.langchain.com/oss/python/langgraph/persistence)、[LangChain DeepSeek 集成](https://docs.langchain.com/oss/python/integrations/chat/deepseek)、[Docker 健康依赖启动](https://docs.docker.com/compose/how-tos/startup-order)、[DeepSeek思考模式参数](https://api-docs.deepseek.com/guides/thinking_mode/)。
+
+
+## 三语与知识扩展
+
+网页右上角可选择简体中文、粤语（繁体表达）、English，语言偏好在同一浏览器保存。工作台与企业控制台共用选择；新创建流程将语言偏好写入检查点，来源核验摘要及模型提示使用所选语言。已存在的分析、用户记录与官方引用不自动改写。
+
+共享知识库现为44份官方资料、370个片段，包含22份新增英文资料。Agent新增 `knowledge_inventory` 和 `observation_health`，用于核对知识覆盖及真实来源时效；全部8个工具仍只支持读取或未提交草稿。多语词扩展辅助检索，不等于语义理解准确率保证。

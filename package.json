@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node serve-hk.mjs",
     "build": "node build-hk.mjs",
-    "test": "node test-workspace.mjs && node test-agent.mjs && node test-plus.mjs && node test-mini.mjs && node test-workflow-bridge.mjs",
+    "test": "node test-workspace.mjs && node test-agent.mjs && node test-plus.mjs && node test-mini.mjs && node test-workflow-bridge.mjs && node test-language.mjs",
     "test:legacy": "node test-hk.mjs",
     "data:download": "python scripts/download_dataset.py",
     "knowledge:sync": "python scripts/sync_knowledge.py",

@@ -21,6 +21,7 @@ try {
   assert((await climate.json()).rows.length > 300);
   await page.locator('#resourceQuery').click();
   await page.waitForSelector('.climate-chart');
+  const csvReady=page.waitForEvent('download');await page.locator('#resourceCSV').click();const csv=await csvReady;assert(csv.suggestedFilename().endsWith('-official.csv'));const stream=await csv.createReadStream(),parts=[];for await(const part of stream)parts.push(part);const csvText=Buffer.concat(parts).toString('utf8');assert(csvText.includes('source_id')&&csvText.includes('2025-01-01'));
   await page.screenshot({path:'docs/screenshots/unified/data-desktop.png',fullPage:true});
   await page.locator('nav button[data-page="assistant"]').click();
   const status = await (await page.request.get(base + '/api/assistant/status')).json();

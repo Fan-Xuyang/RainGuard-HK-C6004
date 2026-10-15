@@ -627,3 +627,5 @@ dialog::backdrop {
 }
 
 .workspace-switch {display:block; padding:12px 0; margin-bottom:16px; color:#087d74; font-weight:650; text-decoration:none;} aside .workspace-switch {color:#b4e8df; padding:12px;} .workspace-switch:hover {text-decoration:underline;}
+
+.language-control{display:inline-flex;align-items:center;gap:6px;color:#647f89;font-size:12px}.language-control select{padding:7px 9px;border:1px solid #dce7e9;border-radius:7px;background:white;color:#173a44;max-width:125px}.language-control span{font-size:18px}html[lang="en"] nav button{font-size:11px}html[lang="en"] .sidebar nav button{gap:7px}html[lang="en"] .sidebar nav button i{width:18px}html[lang="en"] h1{line-height:1.25}@media(max-width:640px){.language-control select{font-size:11px;max-width:108px}.header-right{gap:8px}}

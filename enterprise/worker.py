@@ -130,6 +130,7 @@ def work_one(factory, graph, engine):
                         "facility": r.facility,
                         "mode": r.mode,
                         "engine": r.engine,
+                        "locale": (r.state or {}).get("locale", "zh-CN"),
                     }
                 )
             else:
@@ -145,9 +146,7 @@ def work_one(factory, graph, engine):
             status = (
                 pending[0].value["phase"]
                 if pending
-                else "archived"
-                if state.get("archive")
-                else "failed"
+                else "archived" if state.get("archive") else "failed"
             )
             with factory.begin() as s:
                 j = s.scalar(select(Job).where(Job.id == job_id).with_for_update())

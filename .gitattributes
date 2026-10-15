@@ -10,3 +10,6 @@
 hk-web/data/** -text
 docs/data/** -text
 
+
+# Preserve downloaded official HTML bytes for SHA-256 provenance.
+hk-web/data/knowledge/*.html binary

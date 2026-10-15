@@ -1,3 +1,5 @@
+import {bootI18n,locale} from '/i18n.mjs';
+await bootI18n({catalogUrl:'/data/locales.json'});
 const $ = (s) => document.querySelector(s),
   esc = (s) =>
     String(s ?? "").replace(
@@ -90,7 +92,7 @@ async function api(path, options = {}) {
 }
 const post = (path, data) =>
   api(path, { method: "POST", body: JSON.stringify(data || {}) });
-const formData = (f) => Object.fromEntries(new FormData(f));
+const formData = (f) => ({...Object.fromEntries(new FormData(f)),...(f.id==="createForm"?{locale:locale()}:{})});
 const username = (id) =>
   users.find((u) => u.id === id)?.username || id || "未指派";
 async function loginReady() {
@@ -121,6 +123,7 @@ $("#loginForm").onsubmit = async (e) => {
     $("#loginError").textContent = x.message;
   }
 };
+$("#loginForm button").disabled = false;
 $("#logout").onclick = async () => {
   try {
     await post("/api/auth/logout");

@@ -1,0 +1,171 @@
+{
+  "collectedAt": "2026-10-15T05:54:25.628456+00:00",
+  "successes": [
+    {
+      "id": "rain-warning-en",
+      "url": "https://www.hko.gov.hk/en/wservice/warning/rainstor.htm",
+      "sha256": "4a29f167531ef04bb21ba2c738feb350f79c41b9c8a1afcdcc9e1ed6b8440065",
+      "importedAt": "2026-10-15T05:54:13.211617+00:00",
+      "language": "en"
+    },
+    {
+      "id": "local-rain-en",
+      "url": "https://www.hko.gov.hk/en/wservice/warning/lhvyrain.htm",
+      "sha256": "e41977d62085255291cb364feeb3e9d9dbbd0f25ce543764b8ca2a4fd620f7bd",
+      "importedAt": "2026-10-15T05:54:13.194409+00:00",
+      "language": "en"
+    },
+    {
+      "id": "north-flood-en",
+      "url": "https://www.hko.gov.hk/en/wservice/warning/flood.htm",
+      "sha256": "56e0c7373259f8fe74e3e5b8bf21247aa50b509029cb9cc2683b10ad54ce5138",
+      "importedAt": "2026-10-15T05:54:13.211617+00:00",
+      "language": "en"
+    },
+    {
+      "id": "storm-surge-en",
+      "url": "https://www.hko.gov.hk/en/education/aviation-and-marine/marine/00168-what-is-a-storm-surge.html",
+      "sha256": "9025e43dc0b4c9e4c93af8915f6354580e3db32146d4bed305fed045803af9e9",
+      "importedAt": "2026-10-15T05:54:13.214469+00:00",
+      "language": "en"
+    },
+    {
+      "id": "thunder-en",
+      "url": "https://www.hko.gov.hk/en/wservice/warning/thunder.htm",
+      "sha256": "ae48164512af788ee6affd1a5b31535c175e37db2b6960bdbe923503b3eee679",
+      "importedAt": "2026-10-15T05:54:13.209606+00:00",
+      "language": "en"
+    },
+    {
+      "id": "landslip-en",
+      "url": "https://www.hko.gov.hk/en/wservice/warning/landslip.htm",
+      "sha256": "324945f983d3a492c179bebdc50dc319817936c3a77bc93e5f1cedc1cff382fd",
+      "importedAt": "2026-10-15T05:54:15.644044+00:00",
+      "language": "en"
+    },
+    {
+      "id": "cyclone-precautions-en",
+      "url": "https://www.hko.gov.hk/en/informtc/precaution.htm",
+      "sha256": "493e21d4d30c301f4ffd4211721f22f11c2f04762076788ffa3eef53455372c6",
+      "importedAt": "2026-10-15T05:54:15.646002+00:00",
+      "language": "en"
+    },
+    {
+      "id": "coldhot-en",
+      "url": "https://www.hko.gov.hk/en/wservice/warning/coldhot.htm",
+      "sha256": "8fe09544e6f44745cd11b3baf079e58285b41bb58183075e6ddaa8c2554eafa4",
+      "importedAt": "2026-10-15T05:54:16.317536+00:00",
+      "language": "en"
+    },
+    {
+      "id": "hot-advisory-en",
+      "url": "https://www.hko.gov.hk/en/wservice/warning/hotwxadv.htm",
+      "sha256": "a7824ad81746719eba240058cbc3248c14b3cbf0d19a6f2b569611724a150ec8",
+      "importedAt": "2026-10-15T05:54:15.816499+00:00",
+      "language": "en"
+    },
+    {
+      "id": "monsoon-guidance-en",
+      "url": "https://www.hko.gov.hk/en/wservice/warning/smse.htm",
+      "sha256": "c11078d91d70133206fe16e1071edde34e023de0852bb380529648f8e015cc5e",
+      "importedAt": "2026-10-15T05:54:15.816499+00:00",
+      "language": "en"
+    },
+    {
+      "id": "monsoon-publication-en",
+      "url": "https://www.hko.gov.hk/en/publica/gen_pub/sms.htm",
+      "sha256": "891f042a7f09302d4489f5be4987069646b32670aeff0c8f2ad7cbb4ff66504b",
+      "importedAt": "2026-10-15T05:54:17.998685+00:00",
+      "language": "en"
+    },
+    {
+      "id": "warning-details-en",
+      "url": "https://www.hko.gov.hk/en/wservice/warning/details.htm",
+      "sha256": "eb00334c1d8235003750b765a8b8f82e760327158c3b43ba52a323c1393e43ef",
+      "importedAt": "2026-10-15T05:54:18.032385+00:00",
+      "language": "en"
+    },
+    {
+      "id": "public-warning-service-en",
+      "url": "https://www.hko.gov.hk/en/wservice/tsheet/pubwx.htm",
+      "sha256": "e77e20b1d82c44af064a54630e57fe7adcba7141994750b699d948757503657e",
+      "importedAt": "2026-10-15T05:54:18.788627+00:00",
+      "language": "en"
+    },
+    {
+      "id": "cyclone-service-en",
+      "url": "https://www.hko.gov.hk/en/wservice/tsheet/tcwarn.htm",
+      "sha256": "a07d2215eaa8ddcb32362aec1b6031c5d5d3ad7deae2d72bc42718a47ed150b7",
+      "importedAt": "2026-10-15T05:54:18.550388+00:00",
+      "language": "en"
+    },
+    {
+      "id": "cyclone-classification-en",
+      "url": "https://www.hko.gov.hk/en/informtc/class.htm",
+      "sha256": "5ec93a473d7d691899b076ee57d278bdcfee28269e6e9d575b0d2a5e320f46a0",
+      "importedAt": "2026-10-15T05:54:18.790098+00:00",
+      "language": "en"
+    },
+    {
+      "id": "cyclone-advisory-en",
+      "url": "https://www.hko.gov.hk/en/informtc/advisorye.htm",
+      "sha256": "267c01275e956b2278ebedac1fba15ff56469724f85d82aefc838a64a2f01872",
+      "importedAt": "2026-10-15T05:54:20.870327+00:00",
+      "language": "en"
+    },
+    {
+      "id": "cyclone-reference-en",
+      "url": "https://www.hko.gov.hk/en/informtc/tcsignal3_ref.htm",
+      "sha256": "f51aadacbcf1dde8463aab7373c01d48f8721df90766c4ec5b50901fb7bf0925",
+      "importedAt": "2026-10-15T05:54:20.870327+00:00",
+      "language": "en"
+    },
+    {
+      "id": "dsd-flood-en",
+      "url": "https://www.dsd.gov.hk/EN/Flood_Prevention/How_to_Reduce_Flood_Damage/index.html",
+      "sha256": "5a05d69c7dbce0aa390b74827fe75998d19136d421d2998a3e53e920066cc4ff",
+      "importedAt": "2026-10-15T05:54:23.529235+00:00",
+      "language": "en"
+    },
+    {
+      "id": "work-arrangements-en",
+      "url": "https://www.labour.gov.hk/eng/public/typhoon.htm",
+      "sha256": "2b31e657241469f47c81c04bc9f5cea796fe000799846d860b02a25abb7bce06",
+      "importedAt": "2026-10-15T05:54:20.588167+00:00",
+      "language": "en"
+    },
+    {
+      "id": "hko-lightning-nowcast",
+      "url": "https://www.hko.gov.hk/en/education/weather/meteorology-basics/00495-observe-the-observatory-to-prevent-lightning-strokes.html",
+      "sha256": "225c751f017d58ed05371c69711d9cb660e878d7ee4599cf83414631bc853599",
+      "importedAt": "2026-10-15T05:54:24.365760+00:00",
+      "language": "en"
+    },
+    {
+      "id": "hko-convection-en",
+      "url": "https://www.hko.gov.hk/en/education/weather/thunderstorm-and-lightning/00763-Squall-and-Lightning-Associated-with-Severe-Convective-Weather.html",
+      "sha256": "a6b1c41202f9073188cf6980958c549cec3f638a65fce734f37d172a479ddaaf",
+      "importedAt": "2026-10-15T05:54:24.366313+00:00",
+      "language": "en"
+    },
+    {
+      "id": "hko-rain-publication-en",
+      "url": "https://www.hko.gov.hk/en/publica/gen_pub/rain.htm",
+      "sha256": "459e12bf9ff92268ec9a8b0e66c78f357ea52b9c4f7b88fd0173c95ebc1f343b",
+      "importedAt": "2026-10-15T05:54:25.624049+00:00",
+      "language": "en"
+    }
+  ],
+  "failures": [
+    {
+      "id": "hko-uv-en",
+      "url": "https://www.hko.gov.hk/en/wxinfo/uvindex/wisuvindex.htm",
+      "error": "HTTPError"
+    },
+    {
+      "id": "hko-uv-zh",
+      "url": "https://www.hko.gov.hk/tc/wxinfo/uvindex/wisuvindex.htm",
+      "error": "HTTPError"
+    }
+  ]
+}

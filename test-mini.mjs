@@ -34,7 +34,7 @@ const kb = require("./wechat-miniprogram/miniprogram/data/knowledge.js");
 const {
   retrieve,
 } = require("./wechat-miniprogram/miniprogram/utils/retrieval.js");
-assert.equal(kb.documents.length, 22);
+assert(kb.documents.length >= 44);
 assert.ok(retrieve("暴雨", kb.documents, 6).length);
 let page;
 global.Page = (p) => {

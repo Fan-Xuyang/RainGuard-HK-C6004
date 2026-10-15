@@ -1,0 +1,122 @@
+{
+  "营运总览": {
+    "en": "Overview",
+    "yue-HK": "營運總覽"
+  },
+  "雨量与潮位": {
+    "en": "Rainfall & tides",
+    "yue-HK": "雨量同潮位"
+  },
+  "预报与警告": {
+    "en": "Forecasts & warnings",
+    "yue-HK": "預報同警告"
+  },
+  "历史与模型": {
+    "en": "History & models",
+    "yue-HK": "歷史同模型"
+  },
+  "设施与复核": {
+    "en": "Facilities & reviews",
+    "yue-HK": "設施同核對"
+  },
+  "资料来源中心": {
+    "en": "Source centre",
+    "yue-HK": "資料來源"
+  },
+  "智能助手": {
+    "en": "AI assistant",
+    "yue-HK": "智能助手"
+  },
+  "官方知识库": {
+    "en": "Knowledge library",
+    "yue-HK": "官方資料庫"
+  },
+  "区域洞察": {
+    "en": "District insights",
+    "yue-HK": "各區情況"
+  },
+  "作业与现场": {
+    "en": "Work & field checks",
+    "yue-HK": "作業同現場"
+  },
+  "交班报告": {
+    "en": "Handover reports",
+    "yue-HK": "交更報告"
+  },
+  "数据工作台": {
+    "en": "Data explorer",
+    "yue-HK": "數據工作台"
+  },
+  "掌握天气，从容安排每一步。": {
+    "en": "Understand the weather. Plan every step.",
+    "yue-HK": "睇清天氣，每一步都安排妥當。"
+  },
+  "整合香港官方观测与预报，让值守、核对与行动保持连接。": {
+    "en": "Official Hong Kong observations and forecasts, connected to your operations.",
+    "yue-HK": "香港官方觀測同預報，一齊幫你做好值守、核對同行動。"
+  },
+  "让每一个回答，都有依据。": {
+    "en": "Every answer, backed by evidence.",
+    "yue-HK": "每個答覆，都有根有據。"
+  },
+  "连接外部知识，保留原始出处。": {
+    "en": "Connect external knowledge. Keep the original sources.",
+    "yue-HK": "搵齊外部資料，保留返原本出處。"
+  },
+  "人工核对草稿": {
+    "en": "Draft for human review",
+    "yue-HK": "人手核對草稿"
+  },
+  "核对知识库覆盖": {
+    "en": "Check knowledge coverage",
+    "yue-HK": "核對資料庫涵蓋範圍"
+  },
+  "检查来源时效与缺测": {
+    "en": "Check source freshness and gaps",
+    "yue-HK": "核對來源時間同缺漏"
+  },
+  "导出当前系列 CSV": {
+    "en": "Export this series as CSV",
+    "yue-HK": "匯出呢個系列 CSV"
+  },
+  "你": {
+    "en": "You",
+    "yue-HK": "你"
+  },
+  "沙田": {
+    "en": "Sha Tin",
+    "yue-HK": "沙田"
+  },
+  "观塘": {
+    "en": "Kwun Tong",
+    "yue-HK": "觀塘"
+  },
+  "{{0}} 组新鲜在线资料 · 各来源时间见资料中心": {
+    "en": "{{0}} sources up to date · See Source centre for timestamps",
+    "yue-HK": "{{0}} 組資料已更新 · 各來源時間請睇資料中心"
+  },
+  "{{0}} 组新鲜在线资料 · {{1}} 组更新失败 · 各来源时间见资料中心": {
+    "en": "{{0}} sources up to date · {{1}} updates failed · See Source centre for timestamps",
+    "yue-HK": "{{0}} 組資料已更新 · {{1}} 組更新失敗 · 各來源時間請睇資料中心"
+  },
+  "官方来源": {
+    "en": "Official source",
+    "yue-HK": "官方來源"
+  },
+  "匹配": {
+    "en": "Match",
+    "yue-HK": "匹配"
+  },
+  "片段": {
+    "en": "excerpts",
+    "yue-HK": "片段"
+  },
+  "中文": {
+    "en": "Chinese",
+    "yue-HK": "中文"
+  },
+  "官方网页原文经过提取、分块，引用保留原始语言和文件校验值。个人导入仅保存在本机，不作为官方依据，也不上传给模型。": {
+    "en": "Official sources are extracted and chunked; quotations keep their original language and file checksums. Personal imports stay on this device, are not official evidence, and are not sent to the model.",
+    "yue-HK": "官方資料已提取同分段；引用保留返原本語言同檔案校驗值。自己匯入嘅資料只存喺本機，唔當作官方依據，亦唔會上傳模型。"
+  }
+}

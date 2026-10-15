@@ -8,11 +8,14 @@ export const AGENT_TOOLS=[
  agentFunction('historical_events','检索真实历史高雨量记录，不是物业水浸事件',{station:{type:'string',enum:['HKO','LFS','SHA']},from_year:{type:'integer'},minimum_mm:{type:'number'}},['station','from_year','minimum_mm']),
  agentFunction('model_results','读取已完成的五方法离线实验，不能当作当前预测',{station:{type:'string',enum:['HKO','LFS','SHA']},trace_policy:{type:'string',enum:['exclude','zero']}},['station','trace_policy']),
  agentFunction('weather_window','核验未来完整30或60分钟降雨窗口。过期/快照/警告阻止作业建议',{region:agentRegion,maximum_halfhour_mm:{type:'number'},duration_minutes:{type:'integer',enum:[30,60]}},['region','maximum_halfhour_mm','duration_minutes']),
+ agentFunction('knowledge_inventory','查看已验证知识库的来源、语言和主题覆盖，不生成来源内容',{},[]),
+ agentFunction('observation_health','检查多个真实天气接口的时效、缺测、来源和校验值',{keys:{type:'array',items:{type:'string',enum:['rain','weather','warnings','tides','nowcast','local']}}},['keys']),
  agentFunction('draft_review','生成人工复核草稿，不保存工单、不发布停工指令',{region:agentRegion,title:{type:'string'}},['region','title']),
 ];
-const agentCanonical=value=>REGIONS.find(r=>r.name===value||toSimple(r.name)===toSimple(value));
+const REGION_ENGLISH=['Central and Western','Eastern','Southern','Wan Chai','Kowloon City','Kwun Tong','Sham Shui Po','Wong Tai Sin','Yau Tsim Mong','Islands','Kwai Tsing','North','Sai Kung','Sha Tin','Tai Po','Tsuen Wan','Tuen Mun','Yuen Long'];
+const agentCanonical=value=>REGIONS.find((r,i)=>r.name===value||toSimple(r.name)===toSimple(value)||REGION_ENGLISH[i].toLowerCase()===String(value).toLowerCase());
 import {toSimple} from './hk-web/simplify.mjs';
-export function resolveQuestionRegion(question,fallback){const text=toSimple(question||'');return REGIONS.filter(r=>text.includes(toSimple(r.name))).sort((a,b)=>text.indexOf(toSimple(a.name))-text.indexOf(toSimple(b.name)))[0]||agentCanonical(fallback)}
+export function resolveQuestionRegion(question,fallback){const text=toSimple(question||'');const english=REGION_ENGLISH.map((name,index)=>{const alias=['North','Eastern','Southern','Islands'].includes(name)?name+' District':name;const found=new RegExp('\\b'+alias+'\\b','i').exec(text);return found?{index,position:found.index}:null}).filter(Boolean).sort((a,b)=>a.position-b.position)[0];if(english)return REGIONS[english.index];return REGIONS.filter(r=>text.includes(toSimple(r.name))).sort((a,b)=>text.indexOf(toSimple(a.name))-text.indexOf(toSimple(b.name)))[0]||agentCanonical(fallback)}
 const agentAsset=(assets,name)=>JSON.parse(assets['/data/'+name+'.json'].body);
 export async function readAgentJSON(request,maximum){
  const reader=request.body?.getReader();if(!reader)throw Object.assign(Error('请求无效'),{status:400});
@@ -25,6 +28,13 @@ export async function executeAgentTool(name,args,session){
  const spec=AGENT_TOOLS.find(t=>t.function.name===name)?.function.parameters;
  if(!spec||!args||typeof args!=='object'||Array.isArray(args)||Object.keys(args).some(k=>!Object.hasOwn(spec.properties,k))||spec.required.some(k=>!Object.hasOwn(args,k)))throw Error('工具名或参数无效');
  const station=()=>{if(!['HKO','LFS','SHA'].includes(args.station))throw Error('未知历史站点');return args.station};
+ if(name==='knowledge_inventory'){
+  const kb=agentAsset(session.assets,'knowledge');return {sources:kb.documents.length,chunks:kb.documents.reduce((n,d)=>n+d.chunks.length,0),updatedAt:kb.updatedAt||null,documents:kb.documents.map(({id,title,url,publisher,language,topics,sha256})=>({id,title,url,publisher,language,topics,sha256})),limitation:'资料抓取时间不是官方规则生效时间，现场决策仍需人工核对'};
+ }
+ if(name==='observation_health'){
+  if(!Array.isArray(args.keys)||args.keys.length<1||args.keys.length>6||args.keys.some(k=>!['rain','weather','warnings','tides','nowcast','local'].includes(k)))throw Error('数据源列表无效');
+  return {checkedAt:new Date().toISOString(),sources:await Promise.all([...new Set(args.keys)].map(async id=>{try{const p=await session.packet(id);return {id,url:SOURCES[id].url,origin:p.origin,receivedAt:p.receivedAt,observedAt:p.data?observationTime(id,p.data):null,stale:!p.data||isStale(id,p),sha256:p.sha256,error:p.error||null}}catch{return {id,url:SOURCES[id].url,error:'本次来源不可用',stale:true}}})),limitation:'接口可用或数据新鲜不代表现场安全'};
+ }
  if(name==='search_knowledge'){
   if(typeof args.query!=='string'||!args.query.trim()||args.query.length>500)throw Error('检索词须为1–500字符');
   return {citations:retrieve(args.query,agentAsset(session.assets,'knowledge').documents,6).map(h=>{
@@ -107,5 +117,5 @@ export async function inspectOfficialEvidence(request,assets,getPacket){
  const plan=[['search_knowledge',{query:input.question}],['compare_regions',{regions:[r.name]}],['weather_window',{region:r.name,maximum_halfhour_mm:1,duration_minutes:30}]];
  for(const [tool,args]of plan){const start=Date.now();let result;try{result=await executeAgentTool(tool,args,session)}catch(e){result={error:e.message}}trace.push({step:trace.length+1,tool,arguments:args,ok:!result.error,elapsedMs:Date.now()-start,summary:result.error||'官方来源核验',result})}
  const sources=Object.entries(packets).map(([k,p])=>({id:k,url:SOURCES[k].url,origin:p.origin,receivedAt:p.receivedAt,observationAt:p.data?observationTime(k,p.data):null,sha256:p.sha256,stale:!p.data||isStale(k,p)}));
- return Response.json({answer:'来源核验已完成，未调用语言模型。已检索官方知识并核对地区雨量与30分钟预报窗口；具体数值、缺失或停止筛选原因见工具轨迹。此结果不是现场安全判断。',model:'官方工具核验（非模型回答）',citations,drafts,toolTrace:trace,context:{region:toSimple(r.name),mode:input.mode==='snapshot'?'历史快照，不能表述为当前情况':'在线来源核验',sources},evidenceCheck:{scope:'确定性工具执行，无生成式推理；不代表事实评分',unknownReferences:[],staleOrSnapshotSources:sources.filter(s=>s.stale||s.origin!=='online').map(s=>s.id)},generatedAt:new Date().toISOString()},{headers});
+ return Response.json({answer:input.language==='en'?'Source checks completed without a language model. Official knowledge, district rainfall and the 30-minute forecast window were checked. See the tool trace for values, missing data and blocking reasons. This does not establish site safety.':input.language==='yue-HK'?'已完成來源核對，冇調用語言模型。已檢索官方資料，同時核對地區雨量同30分鐘預報時段；實際數值、缺失資料同停止篩選嘅原因，請睇工具紀錄。呢個結果唔代表現場安全。':'来源核验已完成，未调用语言模型。已检索官方知识并核对地区雨量与30分钟预报窗口；具体数值、缺失或停止筛选原因见工具轨迹。此结果不是现场安全判断。',model:'官方工具核验（非模型回答）',citations,drafts,toolTrace:trace,context:{region:toSimple(r.name),mode:input.mode==='snapshot'?'历史快照，不能表述为当前情况':'在线来源核验',sources},evidenceCheck:{scope:'确定性工具执行，无生成式推理；不代表事实评分',unknownReferences:[],staleOrSnapshotSources:sources.filter(s=>s.stale||s.origin!=='online').map(s=>s.id)},generatedAt:new Date().toISOString()},{headers});
 }

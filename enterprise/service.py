@@ -27,7 +27,17 @@ REGIONS = [
 
 
 def new_run(
-    s, *, title, region, facility, question, mode, engine, creator, trigger_key=None
+    s,
+    *,
+    title,
+    region,
+    facility,
+    question,
+    mode,
+    engine,
+    creator,
+    trigger_key=None,
+    locale="zh-CN"
 ):
     r = Run(
         id=uid(),
@@ -35,6 +45,7 @@ def new_run(
         region=region,
         facility=facility,
         question=question,
+        state={"locale": locale},
         mode=mode,
         engine=engine,
         creator=creator,

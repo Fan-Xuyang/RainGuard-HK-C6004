@@ -46,6 +46,12 @@ try {
     path: out + "/dashboard-desktop.png",
     fullPage: true,
   });
+  for(const language of ["en","yue-HK","zh-CN"]){
+    await page.locator('[data-language-picker]:visible').selectOption(language);
+    assert.equal(await page.locator('html').getAttribute('lang'),language);
+    if(language==='en')assert((await page.locator('nav button').allTextContents()).every(text=>!/[\u3400-\u9fff]/.test(text)));
+    if(language!=='zh-CN')await page.screenshot({path:`docs/screenshots/multilingual/enterprise-${language}.png`,fullPage:false});
+  }
   const tag = Date.now().toString(36),
     operatorName = "qa-field-" + tag,
     supervisorName = "qa-supervisor-" + tag,

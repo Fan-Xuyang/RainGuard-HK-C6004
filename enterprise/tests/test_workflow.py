@@ -123,6 +123,34 @@ def work(app, g):
     assert work_one(app.state.factory, g, app.state.factory.kw["bind"])
 
 
+def test_requested_language_survives_queue_and_checkpoint(env):
+    app, admin, clients, graph, _ = env
+    for language, phrase in [
+        ("en", "Official source checks"),
+        ("yue-HK", "冇調用語言模型"),
+    ]:
+        rid = create(clients["field"], locale=language)
+        assert current(admin, rid)["state"]["locale"] == language
+        work(app, graph)
+        row = current(admin, rid)
+        assert row["status"] == "waiting_approval"
+        assert row["state"]["locale"] == language
+        assert phrase in row["state"]["analysis"]
+    assert (
+        admin.post(
+            "/api/runs",
+            json={
+                "title": "test",
+                "region": "沙田",
+                "facility": "test",
+                "question": "test",
+                "locale": "invalid",
+            },
+        ).status_code
+        == 422
+    )
+
+
 def test_full_lifecycle_restart_and_permissions(env):
     app, admin, c, g, tmp = env
     rid = create(c["field"])
