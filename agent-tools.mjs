@@ -5,7 +5,7 @@ const agentRegion={type:'string',description:'香港18区名称，简体或繁�
 export const AGENT_TOOLS=[
  agentFunction('search_knowledge','检索官方天气与运营知识，返回可引用编号和PDF页号',{query:{type:'string'}},['query']),
  agentFunction('compare_regions','比较多个香港地区当前雨量，报告时效与来源',{regions:{type:'array',items:agentRegion}},['regions']),
- agentFunction('historical_events','检索真实历史高雨量记录，不是物业水浸事件',{station:{type:'string',enum:['HKO','LFS','SHA']},from_year:{type:'integer'},minimum_mm:{type:'number'}},['station','from_year','minimum_mm']),
+ agentFunction('historical_events','检索真实历史高雨量记录，不是物业水浸事件',{station:{type:'string',enum:['HKO','LFS','SHA']},from_year:{type:'integer'},minimum_mm:{type:'number'},offset:{type:'integer',minimum:0,description:'分页起点，默认0；按nextOffset继续'},limit:{type:'integer',minimum:1,maximum:50,description:'每页条数，默认10；分页截断不代表原始记录缺失'}},['station','from_year','minimum_mm']),
  agentFunction('model_results','读取已完成的五方法离线实验，不能当作当前预测',{station:{type:'string',enum:['HKO','LFS','SHA']},trace_policy:{type:'string',enum:['exclude','zero']}},['station','trace_policy']),
  agentFunction('weather_window','核验未来完整30或60分钟降雨窗口。过期/快照/警告阻止作业建议',{region:agentRegion,maximum_halfhour_mm:{type:'number'},duration_minutes:{type:'integer',enum:[30,60]}},['region','maximum_halfhour_mm','duration_minutes']),
  agentFunction('knowledge_inventory','查看已验证知识库的来源、语言和主题覆盖，不生成来源内容',{},[]),
@@ -53,7 +53,9 @@ export async function executeAgentTool(name,args,session){
   const code=station();if(!Number.isInteger(args.from_year)||args.from_year<2000||args.from_year>2026||!Number.isFinite(args.minimum_mm)||args.minimum_mm<0||args.minimum_mm>1000)throw Error('年份或雨量条件无效');
   const h=agentAsset(session.assets,'history')[code];
   const all=h.records.filter(r=>r.complete==='C'&&r.value!==null&&r.date>=args.from_year+'-01-01'&&r.value>=args.minimum_mm).sort((a,b)=>b.value-a.value);
-  return {station:code,total:all.length,events:all.slice(0,10),source:h.source,sha256:h.sha256,limitation:'这是站点高雨量日，没有实际物业水浸标签'};
+  const offset=args.offset??0,limit=args.limit??10;if(!Number.isInteger(offset)||offset<0||offset>100000||!Number.isInteger(limit)||limit<1||limit>50)throw Error('分页参数无效');
+  const events=all.slice(offset,offset+limit),hasMore=offset+events.length<all.length;
+  return {station:code,query:{fromDate:args.from_year+'-01-01',throughDate:h.records.reduce((last,r)=>r.date>last?r.date:last,''),minimum_mm:args.minimum_mm,rangeMeaning:'fromDate为包含边界的下限，不是仅限该年份；2025年起包括2026年，只要不超过throughDate'},total:all.length,returnedCount:events.length,offset,limit,hasMore,nextOffset:hasMore?offset+events.length:null,sort:'rainfall_mm_descending',selection:'paginated_complete_records_only',paginationNote:'返回条数小于total只是分页展示，不表示原始数据缺失；需要后续记录时以nextOffset查询。',events,source:h.source,sha256:h.sha256,limitation:'这是站点高雨量日，没有实际物业水浸标签；仅检索完整标记C的记录，未据此评估整个数据集的缺测率'};
  }
  if(name==='model_results'){
   const code=station();if(!['exclude','zero'].includes(args.trace_policy))throw Error('处理策略无效');

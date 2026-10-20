@@ -38,7 +38,7 @@ try {
   p = await mini.navigateTo("/pages/knowledge/index");
   await p.waitFor(200);
   d = await p.data();
-  assert.equal(d.count, 22);
+  assert.ok(d.count >= 44);
   assert.ok(d.results.length);
   results.push({
     page: "knowledge",

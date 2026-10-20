@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-10-20T04:16:54.066Z",
+  "timezone": "Asia/Shanghai",
+  "sources": [
+    {
+      "id": "rain",
+      "status": 200,
+      "available": true,
+      "stale": false,
+      "observedAt": "2026-10-20T12:00:00+08:00",
+      "receivedAt": "2026-10-20T04:16:33.716Z",
+      "source": "https://data.weather.gov.hk/weatherAPI/opendata/hourlyRainfall.php?lang=tc",
+      "sha256": "e8a0adcc225c79842f188e06f2b30dd6806e6d947fbbaeb7618721c8f74229bf",
+      "hashValid": true
+    },
+    {
+      "id": "weather",
+      "status": 200,
+      "available": true,
+      "stale": false,
+      "observedAt": "2026-10-20T11:45:00+08:00",
+      "receivedAt": "2026-10-20T04:16:41.717Z",
+      "source": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=tc",
+      "sha256": "faf6fc43a7d24e6df9819fae9582da748a8769aec3ed3af67174bcda9369b9ec",
+      "hashValid": true
+    },
+    {
+      "id": "warnings",
+      "status": 200,
+      "available": true,
+      "stale": false,
+      "observedAt": null,
+      "receivedAt": "2026-10-20T04:16:33.716Z",
+      "source": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=warnsum&lang=tc",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "hashValid": true
+    },
+    {
+      "id": "warningInfo",
+      "status": 200,
+      "available": true,
+      "stale": false,
+      "observedAt": null,
+      "receivedAt": "2026-10-20T04:16:36.002Z",
+      "source": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=warningInfo&lang=tc",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "hashValid": true
+    },
+    {
+      "id": "forecast",
+      "status": 200,
+      "available": true,
+      "stale": false,
+      "observedAt": "2026-10-20T11:30:00+08:00",
+      "receivedAt": "2026-10-20T04:16:33.715Z",
+      "source": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc",
+      "sha256": "9227b416a30fa662b30a1fbfa6ec465f5fb19e94946793f3319a8ddd4aff4873",
+      "hashValid": true
+    },
+    {
+      "id": "local",
+      "status": 200,
+      "available": true,
+      "stale": false,
+      "observedAt": "2026-10-20T11:45:00+08:00",
+      "receivedAt": "2026-10-20T04:16:34.735Z",
+      "source": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang=tc",
+      "sha256": "b7cba19e1ae44ee8125feb34488b2e82f77f178c838d502edec7ea7a7fc6611d",
+      "hashValid": true
+    },
+    {
+      "id": "tides",
+      "status": 200,
+      "available": true,
+      "stale": false,
+      "observedAt": "2026-10-20T12:10:00+08:00",
+      "receivedAt": "2026-10-20T04:16:34.749Z",
+      "source": "https://data.weather.gov.hk/weatherAPI/hko_data/tide/ALL_en.csv",
+      "sha256": "97c0b41c2989a78ca8e794d5e1d3e2981ef3b9c728b7c3b4c0cbd2db5ecc714d",
+      "hashValid": true
+    },
+    {
+      "id": "nowcast",
+      "status": 502,
+      "available": false,
+      "stale": true,
+      "observedAt": null,
+      "source": "https://data.weather.gov.hk/weatherAPI/hko_data/F3/Gridded_rainfall_nowcast.csv",
+      "hashValid": false,
+      "error": "The operation was aborted due to timeout"
+    }
+  ],
+  "recheckedAt": "2026-10-20T04:21:33.814Z",
+  "observedTransientFailure": {
+    "id": "nowcast",
+    "checkedAt": "2026-10-20T04:16:54.066Z",
+    "status": 502
+  }
+}
