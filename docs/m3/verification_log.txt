@@ -1,0 +1,4 @@
+PASS: 21161 predictions in 42 groups reconcile to saved metrics.
+PASS: 30 original experiments match rerun; max metric difference 1.39e-17.
+PASS: 15 main-policy test rows match the independent extension; thresholds remain fixed for 2026.
+PASS: all six saved model artifacts reproduce their test and 2026 probabilities.
